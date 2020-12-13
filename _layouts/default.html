@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Martin Takac - personal page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+
+        <link rel="shortcut icon" href="/favicon.ico">
+
+        <!--CSS styles-->
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/perfect-scrollbar-0.4.5.min.css">
+        <link rel="stylesheet" href="/css/magnific-popup.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link id="theme-style" rel="stylesheet" href="/css/styles/default.css">
+
+
+        <!--/CSS styles-->
+        <!--Javascript files-->
+        <script type="text/javascript" src="/js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="/js/TweenMax.min.js"></script>
+        <script type="text/javascript" src=".js/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript"
+        src="/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+        <script type="text/javascript" src="/js/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="/js/jquery.dropdownit.js"></script>
+
+        <script type="text/javascript" src="/js/jquery.stellar.min.js"></script>
+        <script type="text/javascript" src="/js/ScrollToPlugin.min.js"></script>
+
+        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="/js/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript" src="/js/masonry.min.js"></script>
+
+        <script type="text/javascript"
+        src="/js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+
+        <script type="text/javascript" src="/js/magnific-popup.js"></script>
+        <script type="text/javascript" src="/js/custom.js"></script>
+
+        <!--/Javascript files-->
+
+    </head>
+    <body>
+
+        <div id="wrapper"><a href="#sidebar" class="mobilemenu"><i
+                    class="icon-reorder"></i></a>
+
+            <div id="sidebar">
+                <div id="main-nav">
+                    <div id="nav-container">
+                        <div id="profile" class="clearfix">
+                            <div class="portrate hidden-xs"></div>
+
+                            <div class="title">
+                                <h2><font face="Arial">Martin Takáč</font></h2>
+                                <h3>Lehigh University</h3>
+                            </div>
+
+                        </div>
+
+
+					{% include navigation.html %}
+
+
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="#"><i class="icon-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="main">
+				
+				
+				{{ content }}
+<!--				
+				<?php
+                switch ($_SERVER["REQUEST_URI"]) {
+                    case "/Software":
+                        require_once 'myinclude/Software.php';
+                        break;
+                    case "/":
+                        require_once 'myinclude/News.php'; //
+                        break;
+                    case "/About_me":
+                        require_once 'myinclude/About_me.php';
+                        break;
+                    case "/Publications":
+                        require_once 'myinclude/Publications.php';
+                        break;
+                    case "/Talks":
+                        require_once 'myinclude/Talks.php';
+                        break;
+                    case "/Teaching":
+                        require_once 'myinclude/Teaching.php';
+                        break;
+                    case "/Team":
+                        require_once 'myinclude/Team.php';
+                        break;
+                        
+                    case "/Research":
+                        require_once 'myinclude/Research.php';
+                        break;
+                    case "/CV":
+                        require_once 'myinclude/CV.php';
+                        break;
+                    case "/Seminar":
+                        require_once 'myinclude/Seminar.php';
+                        break;
+                    
+                    case "/FALL2014_ISE316":
+                        require_once "myinclude/FALL2014_ISE316.php";
+                        break;
+                    default:
+                        ;
+                        break;
+                }
+                ?>
+                -->
+                </div>
+        </div>
+    </body>
+</html>
