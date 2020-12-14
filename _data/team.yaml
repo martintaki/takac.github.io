@@ -1,34 +1,308 @@
 - items:
-  - asdad
-  - adasdasa
-  - afassssssssssss
-  - cccccccc
-  - asdadsa
+  - col: {}
+    from: '2019'
+    image: ruben.jpeg
+    name: Ruben Solozabal
+    to: '2019'
+    type: PhD student
+  - col:
+      name: Martin Jaggi
+      url: https://scholar.google.com/citations?user=r1TJBr8AAAAJ
+    from: '2018'
+    image: sai.jpeg
+    name: Sai Praneeth Reddy Karimireddy
+    to: '2018'
+    type: PhD student
+  - col:
+      name: Peter Richtarik
+      url: https://scholar.google.com/citations?user=pGh242UAAAAJ
+    from: '2018'
+    image: nicolasloizou.png
+    name: Nicolas Loizou
+    to: '2018'
+    type: PhD student
+  - col: {}
+    from: '2017'
+    image: ion.jpeg
+    name: Ion Necoara
+    to: '2017'
+    type: Faculty
+  - col:
+      name: Peter Richtarik
+      url: https://scholar.google.com/citations?user=pGh242UAAAAJ
+    from: 2014/11
+    image: konecny.jpg
+    name: Jakub Konecny
+    to: 2014/11
+    type: PhD student
   label: Visiting Researchers / PhD students
 - items:
-  - asdad
-  - adasdasa
-  - asdadsa
-  - asdads
+  - from: 2018/09
+    image: AlbertBerahas.jpg
+    name: Albert S. Berahas
+    to: present
   label: Postdoc
 - items:
-  - dadadada
-  - asdad
-  - adasdasa
-  - asdadsa
+  - col: {}
+    from: '2019'
+    image: sergey.jpeg
+    name: Sergey Rusakov
+    to: present
+  - col: {}
+    from: '2019'
+    image: zhengShi.jpeg
+    name: Zheng Shi
+    to: present
+  - col: {}
+    from: 2016/09
+    image: majid.jpg
+    name: Majid Jahani
+    to: present
+  - col: {}
+    from: 2014/09
+    image: XiHe.jpeg
+    name: Xi He
+    to: 2018/12
+  - col: {}
+    from: 2014/09
+    image: JieLiu.jpeg
+    name: Jie Liu
+    to: 2018/09
+  - col: {}
+    from: 2014/09
+    image: ChenxinMa.jpeg
+    name: Chenxin Ma
+    to: 2018/05
+  - col:
+      name: Lawrence V. Snyder
+      url: https://coral.ise.lehigh.edu/larry/
+    from: 2014/09
+    image: nazari.jpg
+    name: MohammadReza Nazari
+    to: '2019'
+  - col:
+      name: Shamim Pakzad
+      url: https://www.lehigh.edu/~incee/people/faculty_pakzad_s.html
+    from: '2016'
+    image: soheil.jpeg
+    name: Soheil Sadeghi Eshkevari
+    to: present
+  - col:
+      name: Lawrence V. Snyder
+      url: https://coral.ise.lehigh.edu/larry/
+    from: 2016/09
+    image: tao.png
+    name: Tao Li
+    to: present
+  - col:
+      name: Shamim Pakzad
+      url: https://www.lehigh.edu/~incee/people/faculty_pakzad_s.html
+    from: '2014'
+    image: sila.jpeg
+    name: Nur Sila Gulgec
+    to: '2019'
+  - col:
+      name: Katya Scheinberg
+      url: https://coral.ise.lehigh.edu/katyas/
+    from: 2014/09
+    image: lam.jpg
+    name: Lam Minh Nguyen
+    to: 2018/09
+  - col:
+      name: Lawrence V. Snyder
+      url: https://coral.ise.lehigh.edu/larry/
+    from: 2014/09
+    image: afshin.jpeg
+    name: Afshin OroojlooyJadid
+    to: 2018/09
   label: PhD Students (supervised/co-supervised/close collaboration)
 - items:
-  - asdad
-  - adasdasa
-  - asdadsa
+  - from: '2020'
+    image: missing.jpg
+    name: Ved Patel
+    to: '2021'
+  - from: '2019'
+    image: missing.jpg
+    name: Yuqing Chen
+    to: '2020'
+  - from: '2019'
+    image: missing.jpg
+    name: Ran Ran
+    to: '2020'
+  - from: '2019'
+    image: SinerGokhanYilmaz.jpeg
+    name: Siner Gokhan Yilmaz
+    to: '2020'
+  - from: '2016'
+    image: YutongChang.jpeg
+    name: Yutong Chang
+    to: '2017'
+  - from: '2016'
+    image: SeanByrne.jpeg
+    name: Sean Byrne
+    to: '2017'
+  - from: '2014'
+    image: missing.jpg
+    name: Haoran Zhang
+    to: '2016'
+  - from: '2018'
+    image: ShihweiWang.jpeg
+    name: Shihwei Wang
+    to: '2019'
+  - from: '2016'
+    image: JingyuLiang.jpeg
+    name: Jingyu Liang
+    to: '2017'
+  - from: '2016'
+    image: missing.jpg
+    name: Bolun Xu
+    to: '2017'
+  - from: '2015'
+    image: missing.jpg
+    name: Zhou Cao
+    to: '2016'
+  - from: '2015'
+    image: missing.jpg
+    name: Jiawei Zhang
+    to: '2016'
+  - from: '2014'
+    image: missing.jpg
+    name: Yawei Yuan
+    to: '2015'
+  - from: '2018'
+    image: SitaoZhang.jpeg
+    name: Sitao Zhang
+    to: '2018'
+  - from: '2019'
+    image: missing.jpg
+    name: Sang Yun Kang
+    to: '2019'
+  - from: '2018'
+    image: TaoZhang.jpeg
+    name: Tao Zhang
+    to: '2018'
+  - from: '2017'
+    image: missing.jpg
+    name: Diwakar Prasad
+    to: '2018'
+  - from: '2017'
+    image: CreatrolXu.jpeg
+    name: Creatrol Xu
+    to: '2017'
+  - from: '2017'
+    image: missing.jpg
+    name: Arjun Chidambaram Subbiah
+    to: '2017'
+  - from: '2017'
+    image: missing.jpg
+    name: Kunal Salvi
+    to: '2017'
+  - from: '2017'
+    image: missing.jpg
+    name: Nitant Pandey
+    to: '2017'
   label: Master research/thesis supervision
 - items:
-  - asdad
-  - adasdasa
-  - asdadsa
+  - from: '2020'
+    image: jackHeller.jpeg
+    name: Jack Heller
+    to: '2021'
+  - from: '2020'
+    image: YanzheMa.jpeg
+    name: Yanzhe Ma
+    to: '2020'
+  - from: '2019'
+    image: Shengli_Zhu.jpeg
+    name: Shengli Zhu
+    to: '2019'
+  - from: '2019'
+    image: Xiaming_Garfield_Jin.jpeg
+    name: Xiaming (Garfield) Jin
+    to: '2019'
+  - from: '2019'
+    image: DanmengXue.jpeg
+    name: Danmeng Xue
+    to: '2019'
+  - from: '2019'
+    image: KevinTAspesi.jpeg
+    name: Kevin T. Aspesi
+    to: '2019'
+  - from: '2019'
+    image: missing.jpg
+    name: Cameron R. Shollenberger
+    to: '2019'
+  - from: '2019'
+    image: missing.jpg
+    name: Demetri J. Greco
+    to: '2019'
+  - from: '2019'
+    image: missing.jpg
+    name: Spencer M. Leuba
+    to: '2019'
+  - from: '2019'
+    image: missing.jpg
+    name: Hui Ye
+    to: '2019'
+  - from: '2019'
+    image: missing.jpg
+    name: Onur G. Ates
+    to: '2019'
+  - from: '2019'
+    image: missing.jpg
+    name: Vincent Albanese
+    to: '2019'
+  - from: '2019'
+    image: missing.jpg
+    name: Zachary Weinert
+    to: '2019'
+  - from: '2017'
+    image: ZhijianYang.jpeg
+    name: Zhijian Yang
+    to: '2019'
+  - from: '2017'
+    image: missing.jpg
+    name: Haiteng Wei
+    to: '2019'
+  - from: '2017'
+    image: Yuan.jpg
+    name: Yuan He
+    to: '2019'
+  - from: '2017'
+    image: JudyLu.jpeg
+    name: Judy Lu
+    to: '2019'
+  - from: '2017'
+    image: ZhenyuLi.jpeg
+    name: Zhenyu Li
+    to: '2018'
+  - from: '2017'
+    image: LoganHerr.jpeg
+    name: Logan Herr
+    to: '2018'
+  - from: '2017'
+    image: JackCircus.jpeg
+    name: Jack Circus
+    to: '2018'
+  - from: '2017'
+    image: SamPresti.jpeg
+    name: Sam Presti
+    to: '2018'
+  - from: '2017'
+    image: TaoZhang.jpeg
+    name: Tao Zhang
+    to: '2018'
+  - from: '2017'
+    image: missing.jpg
+    name: Purvesh Rana
+    to: '2017'
+  - from: '2015'
+    image: AdamSmiechowski.jpeg
+    name: Adam Smiechowski
+    to: '2016'
   label: Undergraduate research supervision
 - items:
-  - asdad
-  - adasdasa
-  - asdadsa
+  - from: '2017'
+    image: NeilDeshmukh.jpeg
+    name: Neil Deshmukh
+    to: '2019'
   label: Mentoring of High-school Students

@@ -16,7 +16,7 @@ title: Home
                 <h2 class="title">Research Team</h2>
 
 
-
+             
 
  
       
@@ -24,8 +24,7 @@ title: Home
 
 
 
-
-				<?php 
+ 
 				
 			{% for group in site.data.team %}
 				 
@@ -52,19 +51,22 @@ title: Home
 						   
 							<div class="col-md-4 col-md-offset-0" align="center">
 								
-								<?php
-								if ($person["image"]!="NONE"):
-								?>
-								<img height="100"  src="http://mtakac.com/img/students/<?php echo $person["image"]?>"/>
-								<?php
-								endif;
-								?>
+								 
+								<img height="100"  src="http://mtakac.com/img/students/{{person.image}}"/>
+								
 								<br/>
 								
-								<?php echo $person["from"]?> - <?php echo $person["to"]?>  <br/> <b><?php echo $person["name"]?></b> 
-							<?php if (count($person["collabs"])>0 ):?>
-							</br><it>Collaboration with </it> <b><a href="<?php echo $person["collabs"]["url"]?>"><?php echo $person["collabs"]["name"]?></a></b>
-							<?php endif;?>
+								{{person.from}} - {{ person.to }}  <br/> <b>{{ person.name }}</b> 
+								
+								  
+								
+							{% if person.col.size >0 %}  
+							</br><it>Collaboration with </it> 
+							  
+							      <b><a href="{{person.col.url}}">{{person.col.name}}</a></b>
+							   
+							      
+							{% endif %}    
 							
 							</div>
 							

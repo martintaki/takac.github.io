@@ -1,0 +1,194 @@
+---
+layout: default
+title: Home
+---
+
+
+
+<div id="publications" class="page">
+    <div class="page-container">
+        <div class="pageheader">
+            <div class="headercontent">
+                <div class="section-container">
+
+                    <h2 class="title">Selected Publications</h2>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="pagecontents">
+
+            <div class="section color-1" id="filters">
+                <div class="section-container">
+                    <div class="row">
+
+                        <div class="col-md-3">
+                            <h3>Filter by type:</h3>
+                        </div>
+                        <div class="col-md-6"><select id="cd-dropdown" name="cd-dropdown"
+                                                      class="cd-select">
+                                <option class="filter" value="all" selected>All types</option>
+                                <option class="filter" value="jpaper">Jounal Papers</option>
+                                <option class="filter" value="cpaper">Conference Papers</option>
+                                <option class="filter" value="tpaper">arXiv Preprints</option>
+                                <option class="filter" value="opaper">Other</option>
+                                <!-- <option class="filter" value="bookchapter">Book Chapters</option>
+                                 <option class="filter" value="book">Books</option>
+                                -->
+                                <!-- <option class="filter" value="report">Reports</option>
+                                -->
+                            </select></div>
+
+                        <div class="col-md-3" id="sort"><span>Sort by year:</span>
+                            <div class="btn-group pull-right">
+
+                                <button type="button" data-sort="data-year" data-order="desc"
+                                        class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
+                                <button type="button" data-sort="data-year" data-order="asc"
+                                        class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="pub-grid" class="section color-2">
+                <div class="section-container">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="pitems">
+
+
+
+
+
+
+
+{% assign total=site.data.papers.size %}
+
+ 
+{% for paper in site.data.papers %}
+ 
+
+
+                                    <!--   PAPER DELIMITER -->
+                                    <div data-year="{{paper.year}}" 
+                                    class="item mix {{paper.type}} mix_all" 
+                                         style="display: block;  opacity: 1;">
+                                        <div class="pubmain">
+                                            <div class="pubassets">
+
+
+    {% if paper.abstract.size > 0 %}
+                                                    <a class="pubcollapse" href="#">
+                                                        <i class="icon-expand-alt"></i>
+                                                    </a>
+    {% endif %}
+                                               {% if paper.link.size > 0 %}
+                                                    <a target="_blank" title="" class="tooltips" href="{{paper.link}}" data-original-title="External link">
+                                                        <i class="icon-external-link"></i>
+                                                    </a>
+     {% endif %}
+                                               {% if paper.pdf.size > 0 %}
+                                                    <a target="_blank" title="" class="tooltips" href="{{paper.pdf}}" data-original-title="Download">
+                                                        <i class="icon-cloud-download"></i>
+                                                    </a>
+    {% endif %}
+
+                                            </div>
+
+                                            <h4 class="pubtitle">[{{total}}] {{paper.title}}</h4>
+                                            {%  assign total = total | minus:1 %}
+                                            <div class="pubauthor">{{paper.authors}}</div>
+                                            <div class="pubcite">{{paper.year}}  
+
+ 
+    {% if paper.type == 'tpaper' %}
+        <span class="label label-info">arXiv Preprint</span>
+    {% endif %}
+    {% if paper.type == 'cpaper' %}
+        <span class="label label-warning">Conference Paper</span>
+    {% endif %}
+    {% if paper.type == 'jpaper' %}
+        <span class="label label-success">Journal Paper</span>
+    {% endif %}
+    {% if paper.type == 'opaper' %}
+       <span class="label label-danger">{{paper.ltype}}</span>
+    {% endif %}
+    
+     
+                                                {{paper.journal}}
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="pubdetails">
+                                            <h4>Abstract</h4>
+                                            <p>{{paper.abstract}}</p>
+                                        </div>
+                                    </div>
+
+
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+
+
+
+
+
+  
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
