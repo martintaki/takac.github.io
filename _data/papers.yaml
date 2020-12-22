@@ -1,3 +1,56 @@
+- abstract: In the multi-robot collaboration domain, training with Reinforcement Learning
+    (RL) can become intractable, and performance starts to deteriorate drastically
+    as the number of robots increases. In this work, we proposed a distributed multi-robot
+    learning architecture with a scalable communication structure capable of learning
+    a robust communication policy for time-varying communication topology. We construct
+    the communication structure with Long-Short Term Memory (LSTM) cells and star
+    graphs, in which the computational complexity of the proposed learning algorithm
+    scales linearly with the number of robots and suitable for application with a
+    large number of robots. The proposed methodology is validated with a map classification
+    problem in the simulated environment. It is shown that the proposed architecture
+    achieves a comparable classification accuracy with the centralized methods, maintains
+    high performance with various numbers of robots without additional training cost,
+    and robust to hacking and loss of the robots in the network.
+  authors: "Guangyi Liu, Arash Amini, <strong>Martin Tak\xE1\u010D</strong>, H\xE9\
+    ctor Mu\xF1oz-Avila, Nader Motee"
+  link: https://arxiv.org/abs/2012.10480
+  pdf: https://arxiv.org/pdf/2012.10480.pdf
+  title: Reinforcement Learning based Multi-Robot Classification via Scalable Communication
+    Structure
+  type: tpaper
+  year: '2020'
+- abstract: Data-driven models for predicting dynamic responses of linear and nonlinear
+    systems are of great importance due to their wide application from probabilistic
+    analysis to inverse problems such as system identification and damage diagnosis.
+    In this study, a physics-based recurrent neural network model is designed that
+    is able to learn the dynamics of linear and nonlinear multiple degrees of freedom
+    systems given a ground motion. The model is able to estimate a complete set of
+    responses, including displacement, velocity, acceleration, and internal forces.
+    Compared to the most advanced counterparts, this model requires a smaller number
+    of trainable variables while the accuracy of predictions is higher for long trajectories.
+    In addition, the architecture of the recurrent block is inspired by differential
+    equation solver algorithms and it is expected that this approach yields more generalized
+    solutions. In the training phase, we propose multiple novel techniques to dramatically
+    accelerate the learning process using smaller datasets, such as hardsampling,
+    utilization of trajectory loss function, and implementation of a trust-region
+    approach. Numerical case studies are conducted to examine the strength of the
+    network to learn different nonlinear behaviors. It is shown that the network is
+    able to capture different nonlinear behaviors of dynamic systems with very high
+    accuracy and with no need for prior information or very large datasets.
+  authors: "Soheil Sadeghi Eshkevari, <strong>Martin Tak\xE1\u010D</strong>, Shamim\
+    \ Pakzad, Majid Jahani, Krishnan Kumaran, Dimitri Papageorgiou, <strong>Martin\
+    \ Tak\xE1\u010D</strong>, Laurens Lueg, Nicolas Sahinidis, Peter Richt\xE1rik,\
+    \ Majid Jahani, Selin Damla Ahipasaoglu, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Lam Minh Nguyen, Katya Scheinberg, <strong>Martin Tak\xE1\u010D</strong>, Aryan\
+    \ Mokhtari, Alec Koppel, <strong>Martin Tak\xE1\u010D</strong>, Alejandro Ribeiro"
+  journal: Engineering Structures
+  link: https://www.sciencedirect.com/science/article/abs/pii/S0141029620341833?via%3Dihub
+  ltype: Engineering Structures
+  pdf: https://arxiv.org/pdf/2007.01814.pdf
+  title: 'DynNet: Physics-based neural architecture design for linear and nonlinear
+    structural response modeling and prediction'
+  type: jpaper
+  year: '2020'
 - abstract: "Clustering and classification critically rely on distance metrics that\
     \ provide meaningful comparisons between data points. To this end, learning optimal\
     \ distance functions from data, known as metric learning, aims to facilitate supervised\
@@ -133,34 +186,6 @@
   link: http://jmlr.org/papers/v21/16-311.html
   pdf: http://jmlr.org/papers/volume21/16-311/16-311.pdf
   title: A Class of Parallel Doubly Stochastic Algorithms for Large-Scale Learning
-  type: jpaper
-  year: '2020'
-- abstract: Data-driven models for predicting dynamic responses of linear and nonlinear
-    systems are of great importance due to their wide application from probabilistic
-    analysis to inverse problems such as system identification and damage diagnosis.
-    In this study, a physics-based recurrent neural network model is designed that
-    is able to learn the dynamics of linear and nonlinear multiple degrees of freedom
-    systems given a ground motion. The model is able to estimate a complete set of
-    responses, including displacement, velocity, acceleration, and internal forces.
-    Compared to the most advanced counterparts, this model requires a smaller number
-    of trainable variables while the accuracy of predictions is higher for long trajectories.
-    In addition, the architecture of the recurrent block is inspired by differential
-    equation solver algorithms and it is expected that this approach yields more generalized
-    solutions. In the training phase, we propose multiple novel techniques to dramatically
-    accelerate the learning process using smaller datasets, such as hardsampling,
-    utilization of trajectory loss function, and implementation of a trust-region
-    approach. Numerical case studies are conducted to examine the strength of the
-    network to learn different nonlinear behaviors. It is shown that the network is
-    able to capture different nonlinear behaviors of dynamic systems with very high
-    accuracy and with no need for prior information or very large datasets.
-  authors: "Soheil Sadeghi Eshkevari, <strong>Martin Tak\xE1\u010D</strong>, Shamim\
-    \ Pakzad, Majid Jahani"
-  journal: Engineering Structures
-  link: https://arxiv.org/abs/2007.01814
-  ltype: Engineering Structures
-  pdf: https://arxiv.org/pdf/2007.01814.pdf
-  title: 'DynNet: Physics-based neural architecture design for linear and nonlinear
-    structural response modeling and prediction'
   type: jpaper
   year: '2020'
 - authors: "Nur Sila Gulgec, <strong>Martin Tak\xE1\u010D</strong>, Shamim N. Pakzad"
