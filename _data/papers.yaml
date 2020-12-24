@@ -1,3 +1,59 @@
+- abstract: "Clustering and classification critically rely on distance metrics that\
+    \ provide meaningful comparisons between data points. To this end, learning optimal\
+    \ distance functions from data, known as metric learning, aims to facilitate supervised\
+    \ classification, particularly in high-dimensional spaces where visualization\
+    \ is challenging or infeasible. In particular, the Mahalanobis metric is the default\
+    \ choice due to simplicity and interpretability as a transformation of the simple\
+    \ Euclidean metric using a combination of rotation and scaling.\n\nIn this work,\
+    \ we present several novel contributions to metric learning, both by way of formulation\
+    \ as well as solution methods. Our approach is motivated by agglomerative clustering\
+    \ with certain novel modifications that enable natural interpretation of the user-defined\
+    \ classes as clusters with the optimal metric. Our approach generalizes and improves\
+    \ upon leading methods by removing reliance on pre-designated \u201Ctarget neighbors,\u201D\
+    \ \u201Ctriplets,\u201D and \u201Csimilarity pairs.\u201D Starting with the definition\
+    \ of a generalized metric that has the Mahalanobis metric as the second order\
+    \ term, we propose an objective function for metric selection that does not aim\
+    \ to isolate classes from each other like most previous work, but tries to distort\
+    \ the space minimally by aggregating co-class members into local clusters. Further,\
+    \ we formulate the problem as a mixed-integer optimization that can be solved\
+    \ efficiently for small/medium datasets and approximated for larger datasets.\n\
+    \nAnother salient feature of our method is that it facilitates active learning\
+    \ by recommending precise regions to sample using the optimal metric to improve\
+    \ classification performance. These regions are indicated by boundary and outlier\
+    \ points of the dataset as defined by the metric. This targeted acquisition can\
+    \ significantly reduce computation and data acquisition by ensuring training data\
+    \ completeness, representativeness, and economy, which could also provide advantages\
+    \ in training data selection for other established methods like Deep Learning\
+    \ and Random Forests. We demonstrate classification and computational performance\
+    \ of our approach through several simple and intuitive examples, followed by results\
+    \ on real image and benchmark datasets."
+  authors: "Krishnan Kumaran, Dimitri Papageorgiou, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Laurens Lueg, Nicolas Sahinidis"
+  journal: Computers and Chemical Engineering
+  link: https://authors.elsevier.com/sd/article/S0098-1354(19)31322-5
+  ltype: Computers and Chemical Engineering
+  title: Active Metric Learning for Supervised Classification
+  type: jpaper
+  year: '2021'
+- abstract: In this paper, we present a scalable distributed implementation of the
+    sampled LSR1 (S-LSR1) algorithm. First, we show that a naive distributed implementation
+    of S-LSR1 requires multiple rounds of expensive communications at every iteration
+    and thus is inefficient. We then propose DS-LSR1, a communication-efficient variant
+    of the S-LSR1 method, that drastically reduces the amount of data communicated
+    at every iteration, that has favorable work-load balancing across nodes and that
+    is matrix-free and inverse-free. The proposed method scales well in terms of both
+    the dimension of the problem and the number of data points. Finally, we illustrate
+    the performance of DS-LSR1 on standard neural network training tasks.
+  authors: "Majid Jahani, MohammadReza Nazari, Sergey Rusakov, Albert S. Berahas,\
+    \ <strong>Martin Tak\xE1\u010D</strong>"
+  journal: 6th Annual Conference on Machine Learning, Optimization and Data Science
+    (LOD), 2020
+  link: http://arxiv.org/abs/1905.13096
+  pdf: http://arxiv.org/pdf/1905.13096.pdf
+  title: 'Scaling Up Quasi-Newton Algorithms: Communication Efficient Distributed
+    SR1'
+  type: cpaper
+  year: '2020'
 - abstract: In the multi-robot collaboration domain, training with Reinforcement Learning
     (RL) can become intractable, and performance starts to deteriorate drastically
     as the number of robots increases. In this work, we proposed a distributed multi-robot
@@ -45,43 +101,6 @@
   pdf: https://arxiv.org/pdf/2007.01814.pdf
   title: 'DynNet: Physics-based neural architecture design for linear and nonlinear
     structural response modeling and prediction'
-  type: jpaper
-  year: '2020'
-- abstract: "Clustering and classification critically rely on distance metrics that\
-    \ provide meaningful comparisons between data points. To this end, learning optimal\
-    \ distance functions from data, known as metric learning, aims to facilitate supervised\
-    \ classification, particularly in high-dimensional spaces where visualization\
-    \ is challenging or infeasible. In particular, the Mahalanobis metric is the default\
-    \ choice due to simplicity and interpretability as a transformation of the simple\
-    \ Euclidean metric using a combination of rotation and scaling.\n\nIn this work,\
-    \ we present several novel contributions to metric learning, both by way of formulation\
-    \ as well as solution methods. Our approach is motivated by agglomerative clustering\
-    \ with certain novel modifications that enable natural interpretation of the user-defined\
-    \ classes as clusters with the optimal metric. Our approach generalizes and improves\
-    \ upon leading methods by removing reliance on pre-designated \u201Ctarget neighbors,\u201D\
-    \ \u201Ctriplets,\u201D and \u201Csimilarity pairs.\u201D Starting with the definition\
-    \ of a generalized metric that has the Mahalanobis metric as the second order\
-    \ term, we propose an objective function for metric selection that does not aim\
-    \ to isolate classes from each other like most previous work, but tries to distort\
-    \ the space minimally by aggregating co-class members into local clusters. Further,\
-    \ we formulate the problem as a mixed-integer optimization that can be solved\
-    \ efficiently for small/medium datasets and approximated for larger datasets.\n\
-    \nAnother salient feature of our method is that it facilitates active learning\
-    \ by recommending precise regions to sample using the optimal metric to improve\
-    \ classification performance. These regions are indicated by boundary and outlier\
-    \ points of the dataset as defined by the metric. This targeted acquisition can\
-    \ significantly reduce computation and data acquisition by ensuring training data\
-    \ completeness, representativeness, and economy, which could also provide advantages\
-    \ in training data selection for other established methods like Deep Learning\
-    \ and Random Forests. We demonstrate classification and computational performance\
-    \ of our approach through several simple and intuitive examples, followed by results\
-    \ on real image and benchmark datasets."
-  authors: "Krishnan Kumaran, Dimitri Papageorgiou, <strong>Martin Tak\xE1\u010D</strong>,\
-    \ Laurens Lueg, Nicolas Sahinidis"
-  journal: Computers and Chemical Engineering
-  link: https://authors.elsevier.com/sd/article/S0098-1354(19)31322-5
-  ltype: Computers and Chemical Engineering
-  title: Active Metric Learning for Supervised Classification
   type: jpaper
   year: '2020'
 - abstract: 'Given a multivariate data set, sparse principal component analysis (SPCA)
@@ -277,11 +296,12 @@
     network.
   authors: "Zheng Shi, Nur Sila Gulgec, Albert S. Berahas, Shamim N. Pakzad, <strong>Martin\
     \ Tak\xE1\u010D</strong>"
+  journal: 19th IEEE International Conference on Machine Learning and Applications
   link: https://arxiv.org/abs/2006.01892
   pdf: https://arxiv.org/pdf/2006.01892.pdf
   title: 'Finite Difference Neural Networks: Fast Prediction of Partial Differential
     Equations'
-  type: tpaper
+  type: cpaper
   year: '2020'
 - abstract: 'We develop a family of reformulations of an arbitrary consistent linear
     system into a stochastic problem. The reformulations are governed by two user-defined
@@ -735,25 +755,6 @@
   title: "Don\u2019t Forget Your Teacher: A Corrective Reinforcement Learning Framework"
   type: tpaper
   year: '2019'
-- abstract: In this paper, we present a scalable distributed implementation of the
-    sampled LSR1 (S-LSR1) algorithm. First, we show that a naive distributed implementation
-    of S-LSR1 requires multiple rounds of expensive communications at every iteration
-    and thus is inefficient. We then propose DS-LSR1, a communication-efficient variant
-    of the S-LSR1 method, that drastically reduces the amount of data communicated
-    at every iteration, that has favorable work-load balancing across nodes and that
-    is matrix-free and inverse-free. The proposed method scales well in terms of both
-    the dimension of the problem and the number of data points. Finally, we illustrate
-    the performance of DS-LSR1 on standard neural network training tasks.
-  authors: "Majid Jahani, MohammadReza Nazari, Sergey Rusakov, Albert S. Berahas,\
-    \ <strong>Martin Tak\xE1\u010D</strong>"
-  journal: arXiv
-  link: http://arxiv.org/abs/1905.13096
-  ltype: to be submitted to ICML 2020
-  pdf: http://arxiv.org/pdf/1905.13096.pdf
-  title: 'Scaling Up Quasi-Newton Algorithms: Communication Efficient Distributed
-    SR1'
-  type: tpaper
-  year: '2019'
 - abstract: Low-rank methods for semidefinite programming (SDP) have gained considerable
     popularity, especially in machine learning applications. Their analyses often
     assume the use of determinant-based regularisers, which are rarely implemented,
@@ -968,27 +969,6 @@
   ltype: In Dynamics of Civil Structures
   title: Innovative Sensing by Using Deep Learning Framework
   type: cpaper
-  year: '2018'
-- abstract: Clustering and classification critically rely on distance metrics that
-    provide meaningful comparisons between data points. We present mixed-integer optimization
-    approaches to find optimal distance metrics that generalize the Mahalanobis metric
-    extensively studied in the literature. Additionally, we generalize and improve
-    upon leading methods by removing reliance on pre-designated \"target neighbors,\"
-    \"triplets,\" and \"similarity pairs.\" Another salient feature of our method
-    is its ability to enable active learning by recommending precise regions to sample
-    after an optimal metric is computed to improve classification performance. This
-    targeted acquisition can significantly reduce computational burden by ensuring
-    training data completeness, representativeness, and economy. We demonstrate classification
-    and computational performance of the algorithms through several simple and intuitive
-    examples, followed by results on real image and medical datasets.
-  authors: "Krishnan Kumaran, Dimitri Papageorgiou, Yutong Chang, Minhan Li, <strong>Martin\
-    \ Tak\xE1\u010D</strong>"
-  link: http://arxiv.org/abs/1803.10647
-  ltype: submitted to An International Journal of Computer Applications in Chemical
-    Engineering
-  pdf: http://arxiv.org/pdf/1803.10647.pdf
-  title: Active Metric Learning for Supervised Classification
-  type: tpaper
   year: '2018'
 - abstract: We present an improved analysis of mini-batched stochastic dual coordinate
     ascent for regularized empirical loss minimization (i.e. SVM and SVM-type objectives).
