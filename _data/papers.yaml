@@ -428,9 +428,9 @@
   authors: "Majid Jahani, Xi He, Chenxin Ma, Aryan Mokhtari, Dheevatsa Mudigere, Alejandro\
     \ Ribeiro, <strong>Martin Tak\xE1\u010D</strong>"
   journal: AISTATS 2020
-  link: http://arxiv.org/abs/1810.11507
+  link: http://proceedings.mlr.press/v108/jahani20a.html
   ltype: AISTATS 2020 (accepted)
-  pdf: https://arxiv.org/pdf/1810.11507.pdf
+  pdf: http://proceedings.mlr.press/v108/jahani20a/jahani20a.pdf
   title: Efficient Distributed Hessian Free Algorithm for Large-scale Empirical Risk
     Minimization via Accumulating Sample Strategy
   type: cpaper
