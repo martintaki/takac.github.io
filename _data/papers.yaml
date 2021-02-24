@@ -1,3 +1,21 @@
+- abstract: We present an adaptive stochastic variance reduced method with an implicit
+    approach for adaptivity. As a variant of SARAH, our method employs the stochastic
+    recursive gradient yet adjusts step-size based on local geometry. We provide convergence
+    guarantees for finite-sum minimization problems and show a faster convergence
+    than SARAH can be achieved if local geometry permits. Furthermore, we propose
+    a practical, fully adaptive variant, which does not require any knowledge of local
+    geometry and any effort of tuning the hyper-parameters. This algorithm implicitly
+    computes step-size and efficiently estimates local Lipschitz smoothness of stochastic
+    functions. The numerical experiments demonstrate the algorithm's strong performance
+    compared to its classical counterparts and other state-of-the-art first-order
+    methods.
+  authors: "Zheng Shi, Nicolas Loizou, Peter Richt\xE1rik, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  link: https://arxiv.org/abs/2102.09700
+  pdf: https://arxiv.org/pdf/2102.09700.pdf
+  title: 'AI-SARAH: Adaptive and Implicit Stochastic Recursive Gradient Methods'
+  type: tpaper
+  year: '2021'
 - abstract: "Clustering and classification critically rely on distance metrics that\
     \ provide meaningful comparisons between data points. To this end, learning optimal\
     \ distance functions from data, known as metric learning, aims to facilitate supervised\
