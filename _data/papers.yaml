@@ -1,3 +1,37 @@
+- abstract: "Problem definition: The beer game is widely used in supply chain management\
+    \ classes to demonstrate the bullwhip effect and the importance of supply chain\
+    \ coordination. The game is a decentralized, multiagent, cooperative problem that\
+    \ can be modeled as a serial supply chain network in which agents choose order\
+    \ quantities while cooperatively attempting to minimize the network\u2019s total\
+    \ cost, although each agent only observes local information. Academic/practical\
+    \ relevance: Under some conditions, a base-stock replenishment policy is optimal.\
+    \ However, in a decentralized supply chain in which some agents act irrationally,\
+    \ there is no known optimal policy for an agent wishing to act optimally. Methodology:\
+    \ We propose a deep reinforcement learning (RL) algorithm to play the beer game.\
+    \ Our algorithm makes no assumptions about costs or other settings. As with any\
+    \ deep RL algorithm, training is computationally intensive, but once trained,\
+    \ the algorithm executes in real time. We propose a transfer-learning approach\
+    \ so that training performed for one agent can be adapted quickly for other agents\
+    \ and settings. Results: When playing with teammates who follow a base-stock policy,\
+    \ our algorithm obtains near-optimal order quantities. More important, it performs\
+    \ significantly better than a base-stock policy when other agents use a more realistic\
+    \ model of human ordering behavior. We observe similar results using a real-world\
+    \ data set. Sensitivity analysis shows that a trained model is robust to changes\
+    \ in the cost coefficients. Finally, applying transfer learning reduces the training\
+    \ time by one order of magnitude. Managerial implications: This paper shows how\
+    \ artificial intelligence can be applied to inventory optimization. Our approach\
+    \ can be extended to other supply chain optimization problems, especially those\
+    \ in which supply chain partners act in irrational or unpredictable ways. Our\
+    \ RL agent has been integrated into a new online beer game, which has been played\
+    \ more than 17,000 times by more than 4,000 people."
+  authors: "Afshin OroojlooyJadid, MohammadReza Nazari, Lawrence Snyder, <strong>Martin\
+    \ Tak\xE1\u010D</strong>"
+  journal: Manufacturing and Service Operations Management (accepted)
+  link: https://pubsonline.informs.org/doi/abs/10.1287/msom.2020.0939
+  title: 'A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory
+    Optimization'
+  type: jpaper
+  year: '2021'
 - abstract: We present an adaptive stochastic variance reduced method with an implicit
     approach for adaptivity. As a variant of SARAH, our method employs the stochastic
     recursive gradient yet adjusts step-size based on local geometry. We provide convergence
@@ -226,13 +260,6 @@
   link: https://www.tandfonline.com/doi/full/10.1080/15732479.2020.1815224
   title: Uncertainty quantification in digital image correlation for experimental
     evaluation of deep learning based damage diagnostic
-  type: jpaper
-  year: '2020'
-- authors: "Afshin OroojlooyJadid, MohammadReza Nazari, Lawrence Snyder, <strong>Martin\
-    \ Tak\xE1\u010D</strong>"
-  journal: Manufacturing and Service Operations Management (accepted)
-  title: 'A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory
-    Optimization'
   type: jpaper
   year: '2020'
 - abstract: 'This paper presents a framework to tackle constrained combinatorial optimization
