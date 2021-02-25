@@ -1,3 +1,35 @@
+- abstract: 'This work presents a new algorithm for empirical risk minimization. The
+
+    algorithm bridges the gap between first- and second-order methods by computing
+
+    a search direction that uses a second-order-type update in one subspace,
+
+    coupled with a scaled steepest descent step in the orthogonal complement. To
+
+    this end, partial curvature information is incorporated to help with
+
+    ill-conditioning, while simultaneously allowing the algorithm to scale to the
+
+    large problem dimensions often encountered in machine learning applications.
+
+    Theoretical results are presented to confirm that the algorithm converges to a
+
+    stationary point in both the strongly convex and nonconvex cases. A stochastic
+
+    variant of the algorithm is also presented, along with corresponding
+
+    theoretical guarantees. Numerical results confirm the strengths of the new
+
+    approach on standard machine learning problems.'
+  authors: "Majid Jahani, Mohammadreza Nazari, Rachael Tappenden, Albert S. Berahas,\
+    \ <strong>Martin Tak\xE1\u010D</strong>"
+  journal: AISTATS '21
+  link: https://arxiv.org/abs/2006.03949
+  ltype: AISTATS '21
+  pdf: https://arxiv.org/pdf/2006.03949.pdf
+  title: 'SONIA: A Symmetric Blockwise Truncated Optimization Algorithm'
+  type: cpaper
+  year: '2020'
 - abstract: "Problem definition: The beer game is widely used in supply chain management\
     \ classes to demonstrate the bullwhip effect and the importance of supply chain\
     \ coordination. The game is a decentralized, multiagent, cooperative problem that\
@@ -296,36 +328,6 @@
   link: https://arxiv.org/abs/2006.11984
   pdf: https://arxiv.org/pdf/2006.11984.pdf
   title: Constrained Combinatorial Optimization with Reinforcement Learning
-  type: tpaper
-  year: '2020'
-- abstract: 'This work presents a new algorithm for empirical risk minimization. The
-
-    algorithm bridges the gap between first- and second-order methods by computing
-
-    a search direction that uses a second-order-type update in one subspace,
-
-    coupled with a scaled steepest descent step in the orthogonal complement. To
-
-    this end, partial curvature information is incorporated to help with
-
-    ill-conditioning, while simultaneously allowing the algorithm to scale to the
-
-    large problem dimensions often encountered in machine learning applications.
-
-    Theoretical results are presented to confirm that the algorithm converges to a
-
-    stationary point in both the strongly convex and nonconvex cases. A stochastic
-
-    variant of the algorithm is also presented, along with corresponding
-
-    theoretical guarantees. Numerical results confirm the strengths of the new
-
-    approach on standard machine learning problems.'
-  authors: "Majid Jahani, Mohammadreza Nazari, Rachael Tappenden, Albert S. Berahas,\
-    \ <strong>Martin Tak\xE1\u010D</strong>"
-  link: https://arxiv.org/abs/2006.03949
-  pdf: https://arxiv.org/pdf/2006.03949.pdf
-  title: 'SONIA: A Symmetric Blockwise Truncated Optimization Algorithm'
   type: tpaper
   year: '2020'
 - abstract: Discovering the underlying behavior of complex systems is an important
