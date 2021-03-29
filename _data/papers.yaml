@@ -1,3 +1,10 @@
+- authors: "Guangyi Liu, Arash Amini, <strong>Martin Tak\xE1\u010D</strong>, Nader\
+    \ Motee"
+  journal: DARS 2021
+  ltype: 'DARS 2021 '
+  title: Classification-Aware Path Planning of Network of Robots
+  type: cpaper
+  year: '2021'
 - abstract: 'This work presents a new algorithm for empirical risk minimization. The
 
     algorithm bridges the gap between first- and second-order methods by computing
@@ -24,12 +31,12 @@
   authors: "Majid Jahani, Mohammadreza Nazari, Rachael Tappenden, Albert S. Berahas,\
     \ <strong>Martin Tak\xE1\u010D</strong>"
   journal: AISTATS '21
-  link: https://arxiv.org/abs/2006.03949
+  link: http://proceedings.mlr.press/v130/jahani21a.html
   ltype: AISTATS '21
-  pdf: https://arxiv.org/pdf/2006.03949.pdf
+  pdf: http://proceedings.mlr.press/v130/jahani21a/jahani21a.pdf
   title: 'SONIA: A Symmetric Blockwise Truncated Optimization Algorithm'
   type: cpaper
-  year: '2020'
+  year: '2021'
 - abstract: "Problem definition: The beer game is widely used in supply chain management\
     \ classes to demonstrate the bullwhip effect and the importance of supply chain\
     \ coordination. The game is a decentralized, multiagent, cooperative problem that\
@@ -909,12 +916,6 @@
   pdf: https://arxiv.org/pdf/1807.05328.pdf
   title: On the Acceleration of L-BFGS with Second-Order Information and Stochastic
     Batches
-  type: tpaper
-  year: '2018'
-- authors: "Aryan Mokhtari, Alec Koppel, <strong>Martin Tak\xE1\u010D</strong>, Alejandro\
-    \ Ribeiro"
-  ltype: JMLR - minor revision
-  title: A Class of Parallel Doubly Stochastic Algorithms for Large-Scale Learning
   type: tpaper
   year: '2018'
 - abstract: The scale of modern datasets necessitates the development of efficient
