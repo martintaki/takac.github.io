@@ -57,7 +57,7 @@
     from: 2016/09
     image: majid.jpg
     name: Majid Jahani
-    to: present
+    to: 2021/05
   - col: {}
     from: 2014/09
     image: XiHe.jpeg
@@ -86,7 +86,7 @@
     from: '2016'
     image: soheil.jpeg
     name: Soheil Sadeghi Eshkevari
-    to: present
+    to: '2020'
   - col:
       name: Lawrence V. Snyder
       url: https://coral.ise.lehigh.edu/larry/
