@@ -1,3 +1,29 @@
+- abstract: "The goal of text-to-image synthesis is to generate a visually realistic\
+    \ image that matches a given text description. In practice, the captions annotated\
+    \ by humans for the same image have large variance in terms of contents and the\
+    \ choice of words. The linguistic discrepancy between the captions of the identical\
+    \ image leads to the synthetic images deviating from the ground truth. To address\
+    \ this issue, we propose a contrastive learning approach to improve the quality\
+    \ and enhance the semantic consistency of synthetic images. In the pre-training\
+    \ stage, we utilize the contrastive learning approach to learn the consistent\
+    \ textual representations for the captions corresponding to the same image. Furthermore,\
+    \ in the following stage of GAN training, we employ the contrastive learning method\
+    \ to enhance the consistency between the generated images from the captions related\
+    \ to the same image. We evaluate our approach over two popular text-to-image synthesis\
+    \ models, AttnGAN and DM-GAN, on datasets CUB and COCO, respectively. Experimental\
+    \ results have shown that our approach can effectively improve the quality of\
+    \ synthetic images in terms of three metrics: IS, FID and R-precision. Especially,\
+    \ on the challenging COCO dataset, our approach boosts the FID significantly by\
+    \ 29.60% over AttnGAn and by 21.96% over DM-GAN.\n\t\t"
+  authors: "Hui Ye, Xiulong Yang, <strong>Martin Tak\xE1\u010D</strong>, Rajshekhar\
+    \ Sunderraman, Shihao Ji"
+  journal: arxiv
+  link: https://arxiv.org/abs/2107.02423
+  ltype: arxiv
+  pdf: https://arxiv.org/pdf/2107.02423.pdf
+  title: Improving Text-to-Image Synthesis Using Contrastive Learning
+  type: tpaper
+  year: '2021'
 - authors: "Guangyi Liu, Arash Amini, <strong>Martin Tak\xE1\u010D</strong>, Nader\
     \ Motee"
   journal: DARS 2021
