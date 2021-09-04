@@ -1,3 +1,26 @@
+- abstract: In this work we introduce the concept of an Underestimate Sequence (UES),
+    which is a natural extension of Nesterov's estimate sequence. Our definition of
+    a UES utilizes three sequences, one of which is a lower bound (or under-estimator)
+    of the objective function. The question of how to construct an appropriate sequence
+    of lower bounds is also addressed, and we present lower bounds for strongly convex
+    smooth functions and for strongly convex composite functions, which adhere to
+    the UES framework. Further, we propose several first order methods for minimizing
+    strongly convex functions in both the smooth and composite cases. The algorithms,
+    based on efficiently updating lower bounds on the objective functions, have natural
+    stopping conditions, which provides the user with a certificate of optimality.
+    Convergence of all algorithms is guaranteed through the UES framework, and we
+    show that all presented algorithms converge linearly, with the accelerated variants
+    enjoying the optimal linear rate of convergence.
+  authors: "Majid Jahani, Naga Venkata C. Gudapati, Chenxin Ma, Rachael Tappenden,\
+    \ <strong>Martin Tak\xE1\u010D</strong>"
+  journal: Computational Optimization and Applications
+  link: https://link.springer.com/article/10.1007/s10589-021-00269-4
+  ltype: Computational Optimization and Applications
+  pdf: https://arxiv.org/pdf/1710.03695.pdf
+  title: 'Fast and Safe: Accelerated gradient methods with optimality certificates
+    and underestimate sequences'
+  type: jpaper
+  year: '2021'
 - abstract: 'We present two sampled quasi-Newton methods for deep learning: sampled
     LBFGS
 
@@ -1271,27 +1294,6 @@
     Power Flows
   type: cpaper
   year: '2018'
-- abstract: In this work we introduce the concept of an Underestimate Sequence (UES),
-    which is a natural extension of Nesterov's estimate sequence. Our definition of
-    a UES utilizes three sequences, one of which is a lower bound (or under-estimator)
-    of the objective function. The question of how to construct an appropriate sequence
-    of lower bounds is also addressed, and we present lower bounds for strongly convex
-    smooth functions and for strongly convex composite functions, which adhere to
-    the UES framework. Further, we propose several first order methods for minimizing
-    strongly convex functions in both the smooth and composite cases. The algorithms,
-    based on efficiently updating lower bounds on the objective functions, have natural
-    stopping conditions, which provides the user with a certificate of optimality.
-    Convergence of all algorithms is guaranteed through the UES framework, and we
-    show that all presented algorithms converge linearly, with the accelerated variants
-    enjoying the optimal linear rate of convergence.
-  authors: "Chenxin Ma, Naga Venkata C. Gudapati, Majid Jahani, Rachael Tappenden,\
-    \ <strong>Martin Tak\xE1\u010D</strong>"
-  link: http://arxiv.org/abs/1710.03695
-  ltype: submitted to COAP
-  pdf: https://arxiv.org/pdf/1710.03695.pdf
-  title: Underestimate Sequences via Quadratic Averaging
-  type: tpaper
-  year: '2017'
 - abstract: "In this work we study the parallel coordinate descent method (PCDM) proposed\
     \ by Richt\xE1rik and Takac [26] for minimizing a regularized convex function.\
     \ We adopt elements from the work of Xiao and Lu [39], and combine them with several\
