@@ -1,3 +1,24 @@
+- abstract: We present a novel adaptive optimization algorithm for large-scale machine
+    learning problems. Equipped with a low-cost estimate of local curvature and Lipschitz
+    smoothness, our method dynamically adapts the search direction and step-size.
+    The search direction contains gradient information preconditioned by a well-scaled
+    diagonal preconditioning matrix that captures the local curvature information.
+    Our methodology does not require the tedious task of learning rate tuning, as
+    the learning rate is updated automatically without adding an extra hyperparameter.
+    We provide convergence guarantees on a comprehensive collection of optimization
+    problems, including convex, strongly convex, and nonconvex problems, in both deterministic
+    and stochastic regimes. We also conduct an extensive empirical evaluation on standard
+    machine learning problems, justifying our algorithm's versatility and demonstrating
+    its strong performance compared to other start-of-the-art first-order and second-order
+    methods.
+  authors: "Majid Jahani, Sergey Rusakov, Zheng Shi, Peter Richt\xE1rik, Michael W.\
+    \ Mahoney, <strong>Martin Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2109.05198
+  pdf: https://arxiv.org/pdf/2109.05198.pdf
+  title: Doubly Adaptive Scaled Algorithm for Machine Learning Using Second-Order
+    Information
+  type: tpaper
+  year: '2021'
 - abstract: In this work we introduce the concept of an Underestimate Sequence (UES),
     which is a natural extension of Nesterov's estimate sequence. Our definition of
     a UES utilizes three sequences, one of which is a lower bound (or under-estimator)
