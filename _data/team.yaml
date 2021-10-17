@@ -1,14 +1,20 @@
 - items:
   - col: {}
+    from: 2021/10
     image: Alexander_Beznosikov.png
     name: Alexander Beznosikov
+    to: 2021/12
   - col: {}
+    from: 2021/10
     image: missing.jpeg
     name: Abdurakhmon Sadiev
+    to: 2021/12
   - col: {}
+    from: 2021/10
     image: alexander_gasnikov.jpg
     name: Prof. Alexander Gasnikov
-  label: Visiting Researchers / PhD students [MBZUAI]
+    to: 2021/12
+  label: Visiting Researchers / Students [MBZUAI]
 - items:
   - col: {}
     from: '2019'
@@ -48,11 +54,95 @@
     type: PhD student
   label: Visiting Researchers / PhD students [Lehigh]
 - items:
+  - col: {}
+    from: 2021/09
+    image: Ruben_Solozabal.jpg
+    name: Ruben Solozabal
+    to: present
+  - col: {}
+    from: 2021/10
+    image: DmitryKamzolov.jpeg
+    name: Dmitry Kamzolov
+    to: present
+  label: Postdoc [MBZUAI]
+- items:
   - from: 2018/09
     image: AlbertBerahas.jpg
     name: Albert S. Berahas
     to: present
-  label: Postdoc
+  label: Postdoc [Lehigh]
+- items:
+  - col: {}
+    from: 2019
+    image: zheng_shi.jpeg
+    name: Zheng Shi
+    to: present
+  - col: {}
+    from: 2021/09
+    image: aliakbar_abdurahimov.jpg
+    name: Aliakbar Abdurahimov
+    to: present
+  - col: {}
+    from: 2021/09
+    image: Shahd_AlShamsi.jpg
+    name: Shahd Hamad Ghanem Alshamsi
+    to: present
+  - col: {}
+    from: 2021/09
+    image: Wong_Yu_Kang.JPG
+    name: Wong Yu Kang
+    to: present
+  - col: {}
+    from: 2021/09
+    image: NicolasCuadrado.jpeg
+    name: "Nicol\xE1s Cuadrado"
+    to: present
+  - col: {}
+    from: 2021/09
+    image: Steven_Phong_Hoang.jpg
+    name: Steven Phong Hoang
+    to: present
+  - col: {}
+    from: 2021/09
+    image: Talal_Abdullah_Fadhl_Algumaei.jpg
+    name: Talal Abdullah Fadhl Algumaei
+    to: present
+  - col: {}
+    from: 2021/09
+    image: klea_ziu.jpg
+    name: Klea Ziu
+    to: present
+  - col: {}
+    from: 2021/09
+    image: Alejandro_Gutierrez.jpg
+    name: "Roberto Alejandro Guti\xE9rrez Guill\xE9n"
+    to: present
+  - col: {}
+    from: 2021/09
+    image: Aigerim_Zhumabayeva.jpeg
+    name: Aigerim Zhumabayeva
+    to: present
+  - col: {}
+    from: 2021/09
+    image: khalid_al_nahyan.jpg
+    name: Khalid Al Nahyan
+    to: present
+  - col: {}
+    from: 2021/09
+    image: eman_al_suradi.jpg
+    name: Eman Al Suradi
+    to: present
+  - col: {}
+    from: 2021/09
+    image: khawla_alzaabi.png
+    name: Khawla Alzaabi
+    to: present
+  - col: {}
+    from: 2021/09
+    image: brahim_erraji.jpeg
+    name: Brahim Erraji
+    to: present
+  label: Research Students [MBZUAI]
 - items:
   - col: {}
     from: '2019'
@@ -126,7 +216,7 @@
     image: afshin.jpeg
     name: Afshin OroojlooyJadid
     to: 2018/09
-  label: PhD Students (supervised/co-supervised/close collaboration)
+  label: PhD Students (supervised/co-supervised/close collaboration) [Lehigh]
 - items:
   - from: '2020'
     image: Ved.jpeg
