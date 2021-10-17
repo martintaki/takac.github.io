@@ -1,3 +1,34 @@
+- abstract: 'We present two sampled quasi-Newton methods for deep learning: sampled
+    LBFGS
+
+    (S-LBFGS) and sampled LSR1 (S-LSR1). Contrary to the classical variants of these
+
+    methods that sequentially build Hessian or inverse Hessian approximations as the
+    optimization progresses, our proposed methods sample points randomly around the
+    current
+
+    iterate at every iteration to produce these approximations. As a result, the approximations
+    constructed make use of more reliable (recent and local) information, and do
+
+    not depend on past iterate information that could be significantly stale. Our
+    proposed
+
+    algorithms are efficient in terms of accessed data points (epochs) and have enough
+    concurrency to take advantage of parallel/distributed computing environments.
+    We provide
+
+    convergence guarantees for our proposed methods. Numerical tests on a toy classification
+    problem as well as on popular benchmarking neural network training tasks reveal
+
+    that the methods outperform their classical variants.'
+  authors: "Albert S. Berahas, Majid Jahani, Peter Richt\xE1rik, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  journal: Optimization Methods and Software (OMS)
+  link: https://www.tandfonline.com/doi/full/10.1080/10556788.2021.1977806
+  pdf: https://arxiv.org/pdf/1901.09997.pdf
+  title: 'Quasi-Newton Methods for Machine Learning: Forget the Past, Just Sample'
+  type: jpaper
+  year: '2021'
 - abstract: "The goal of text-to-image synthesis is to generate a visually realistic\
     \ image that matches a given text description. In practice, the captions annotated\
     \ by humans for the same image have large variance in terms of contents and the\
@@ -66,37 +97,6 @@
   pdf: https://arxiv.org/pdf/1710.03695.pdf
   title: 'Fast and Safe: Accelerated gradient methods with optimality certificates
     and underestimate sequences'
-  type: jpaper
-  year: '2021'
-- abstract: 'We present two sampled quasi-Newton methods for deep learning: sampled
-    LBFGS
-
-    (S-LBFGS) and sampled LSR1 (S-LSR1). Contrary to the classical variants of these
-
-    methods that sequentially build Hessian or inverse Hessian approximations as the
-    optimization progresses, our proposed methods sample points randomly around the
-    current
-
-    iterate at every iteration to produce these approximations. As a result, the approximations
-    constructed make use of more reliable (recent and local) information, and do
-
-    not depend on past iterate information that could be significantly stale. Our
-    proposed
-
-    algorithms are efficient in terms of accessed data points (epochs) and have enough
-    concurrency to take advantage of parallel/distributed computing environments.
-    We provide
-
-    convergence guarantees for our proposed methods. Numerical tests on a toy classification
-    problem as well as on popular benchmarking neural network training tasks reveal
-
-    that the methods outperform their classical variants.'
-  authors: "Albert S. Berahas, Majid Jahani, Peter Richt\xE1rik, <strong>Martin Tak\xE1\
-    \u010D</strong>"
-  journal: Optimization Methods and Software (OMS)
-  link: https://arxiv.org/pdf/1901.09997
-  pdf: https://arxiv.org/pdf/1901.09997.pdf
-  title: 'Quasi-Newton Methods for Deep Learning: Forget the Past, Just Sample'
   type: jpaper
   year: '2021'
 - authors: "Guangyi Liu, Arash Amini, <strong>Martin Tak\xE1\u010D</strong>, Nader\
