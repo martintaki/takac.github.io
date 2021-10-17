@@ -1,5 +1,16 @@
 - items:
   - col: {}
+    image: Alexander_Beznosikov.png
+    name: Alexander Beznosikov
+  - col: {}
+    image: missing.jpeg
+    name: Abdurakhmon Sadiev
+  - col: {}
+    image: alexander_gasnikov.jpg
+    name: Prof. Alexander Gasnikov
+  label: Visiting Researchers / PhD students [MBZUAI]
+- items:
+  - col: {}
     from: '2019'
     image: ruben.jpeg
     name: Ruben Solozabal
@@ -35,7 +46,7 @@
     name: Jakub Konecny
     to: 2014/11
     type: PhD student
-  label: Visiting Researchers / PhD students
+  label: Visiting Researchers / PhD students [Lehigh]
 - items:
   - from: 2018/09
     image: AlbertBerahas.jpg
