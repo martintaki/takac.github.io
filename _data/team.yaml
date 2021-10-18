@@ -134,11 +134,6 @@
     to: present
   - col: {}
     from: 2021/09
-    image: khawla_alzaabi.png
-    name: Khawla Alzaabi
-    to: present
-  - col: {}
-    from: 2021/09
     image: brahim_erraji.jpeg
     name: Brahim Erraji
     to: present
