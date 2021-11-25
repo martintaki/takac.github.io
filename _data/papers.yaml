@@ -1,3 +1,42 @@
+- abstract: The StochAstic Recursive grAdient algoritHm (SARAH) algorithm is a variance
+    reduced variant of the Stochastic Gradient Descent (SGD) algorithm that needs
+    a gradient of the objective function from time to time. In this paper, we remove
+    the necessity of a full gradient computation. This is achieved by using a randomized
+    reshuffling strategy and aggregating stochastic gradients obtained in each epoch.
+    The aggregated stochastic gradients serve as an estimate of a full gradient in
+    the SARAH algorithm. We provide a theoretical analysis of the proposed approach
+    and conclude the paper with numerical experiments that demonstrate the efficiency
+    of this approach.
+  authors: "Aleksandr Beznosikov, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: Optimization for Machine Learning Workshop @ NeurIPS 2021
+  ltype: Optimization for Machine Learning Workshop @ NeurIPS 2021
+  title: Random-reshuffled SARAH does not need a full gradient computations
+  type: cpaper
+  year: '2021'
+- abstract: Personalized Federated Learning (PFL) has recently seen tremendous progress,
+    allowing the design of novel machine learning applications to preserve the privacy
+    of the training data. Existing theoretical results in this field mainly focus
+    on distributed optimization for minimization problems. This paper is the first
+    to study PFL for saddle point problems (which cover a broader class of optimization
+    problems), allowing for a more rich class of applications requiring more than
+    just solving minimization problems. In this work, we consider a recently proposed
+    PFL setting with the mixing objective function, an approach combining the learning
+    of a global model together with locally distributed learners. Unlike most previous
+    work, which considered only the centralized setting, we work in a more general
+    and decentralized setup that allows us to design and analyze more practical and
+    federated ways to connect devices to the network. We proposed new algorithms to
+    address this problem and provide a theoretical analysis of the smooth (strongly-)convex-(strongly-)concave
+    saddle point problems in stochastic and deterministic cases. Numerical experiments
+    for bilinear problems and neural networks with adversarial noise demonstrate the
+    effectiveness of the proposed methods.
+  authors: "Ekaterina Borodich, Aleksandr Beznosikov, Abdurakhmon Sadiev, Vadim Sushko,\
+    \ Nikolay Savelyev, <strong>Martin Tak\xE1\u010D</strong>, Alexander Gasnik"
+  journal: arxiv
+  link: https://arxiv.org/abs/2106.07289
+  pdf: https://arxiv.org/pdf/2106.07289v2.pdf
+  title: Decentralized Personalized Federated Min-Max Problems
+  type: tpaper
+  year: '2021'
 - abstract: 'We present two sampled quasi-Newton methods for deep learning: sampled
     LBFGS
 
@@ -246,25 +285,24 @@
     SR1'
   type: cpaper
   year: '2020'
-- abstract: In the multi-robot collaboration domain, training with Reinforcement Learning
-    (RL) can become intractable, and performance starts to deteriorate drastically
-    as the number of robots increases. In this work, we proposed a distributed multi-robot
-    learning architecture with a scalable communication structure capable of learning
-    a robust communication policy for time-varying communication topology. We construct
-    the communication structure with Long-Short Term Memory (LSTM) cells and star
-    graphs, in which the computational complexity of the proposed learning algorithm
-    scales linearly with the number of robots and suitable for application with a
-    large number of robots. The proposed methodology is validated with a map classification
-    problem in the simulated environment. It is shown that the proposed architecture
-    achieves a comparable classification accuracy with the centralized methods, maintains
-    high performance with various numbers of robots without additional training cost,
-    and robust to hacking and loss of the robots in the network.
+- abstract: We consider the problem of classifying a map using a team of communicating
+    robots. It is assumed that all robots have localized visual sensing capabilities
+    and can exchange their information with neighboring robots. Using a graph decomposition
+    technique, we proposed an offline learning structure that makes every robot capable
+    of communicating with and fusing information from its neighbors to plan its next
+    move towards the most informative parts of the environment for map classification
+    purposes. The main idea is to decompose a given undirected graph into a union
+    of directed star graphs and train robots w.r.t a bounded number of star graphs.
+    This will significantly reduce the computational cost of offline training and
+    makes learning scalable (independent of the number of robots). Our approach is
+    particularly useful for fast map classification in large environments using a
+    large number of communicating robots. We validate the usefulness of our proposed
+    methodology through extensive simulations.
   authors: "Guangyi Liu, Arash Amini, <strong>Martin Tak\xE1\u010D</strong>, H\xE9\
     ctor Mu\xF1oz-Avila, Nader Motee"
   link: https://arxiv.org/abs/2012.10480
   pdf: https://arxiv.org/pdf/2012.10480.pdf
-  title: Reinforcement Learning based Multi-Robot Classification via Scalable Communication
-    Structure
+  title: Distributed Map Classification using Local Observations
   type: tpaper
   year: '2020'
 - abstract: Data-driven models for predicting dynamic responses of linear and nonlinear
