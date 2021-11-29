@@ -9,7 +9,9 @@
     of this approach.
   authors: "Aleksandr Beznosikov, <strong>Martin Tak\xE1\u010D</strong>"
   journal: Optimization for Machine Learning Workshop @ NeurIPS 2021
+  link: https://arxiv.org/abs/2111.13322
   ltype: Optimization for Machine Learning Workshop @ NeurIPS 2021
+  pdf: https://arxiv.org/pdf/2111.13322.pdf
   title: Random-reshuffled SARAH does not need a full gradient computations
   type: cpaper
   year: '2021'
