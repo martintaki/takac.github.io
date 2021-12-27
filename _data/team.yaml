@@ -79,11 +79,6 @@
     to: present
   - col: {}
     from: 2021/09
-    image: aliakbar_abdurahimov.jpg
-    name: Aliakbar Abdurahimov
-    to: present
-  - col: {}
-    from: 2021/09
     image: Shahd_AlShamsi.jpg
     name: Shahd Hamad Ghanem Alshamsi
     to: present
