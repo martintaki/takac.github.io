@@ -1,3 +1,25 @@
+- abstract: In this study, we develop a limited memory nonconvex Quasi-Newton (QN)
+    method, tailored to deep learning (DL) applications. Since the stochastic nature
+    of (sampled) function information in minibatch processing can affect the performance
+    of QN methods, three strategies are utilized to overcome this issue. These involve
+    a novel progressive trust-region radius update (suitable for stochastic models),
+    batched evaluation instead of the entire data set, for selecting gradient batch-size
+    and a restart strategy when quasi-Netwon approximation accuracy deteriorates.
+    We analyze the convergence properties of our proposed method and provide the required
+    theoretical analysis for different components of our algorithm. The numerical
+    results illustrate that our proposed methodology with the new adjustments outperforms
+    the previous similar methods, and is competitive with the best tuned stochastic
+    first-order methods, in cases where large batch-size is required. Finally, we
+    empirically show that our method is robust to the choices of hyper-parameters,
+    thus, requiring less tuning compared to Stochastic Gradient Descent (SGD) method.
+  authors: "Joshua Griffin, Majid Jahani, <strong>Martin Tak\xE1\u010D</strong>, Seyedalireza\
+    \ Yektamaram, Wenwen Zhou"
+  link: http://www.optimization-online.org/DB_HTML/2022/01/8760.html
+  pdf: http://www.optimization-online.org/DB_FILE/2022/01/8760.pdf
+  title: A minibatch stochastic Quasi-Newton method adapted for nonconvex deep learning
+    problems
+  type: tpaper
+  year: '2022'
 - abstract: The StochAstic Recursive grAdient algoritHm (SARAH) algorithm is a variance
     reduced variant of the Stochastic Gradient Descent (SGD) algorithm that needs
     a gradient of the objective function from time to time. In this paper, we remove
