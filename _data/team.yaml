@@ -14,6 +14,11 @@
     image: alexander_gasnikov.jpg
     name: Prof. Alexander Gasnikov
     to: 2021/12
+  - col: {}
+    from: 2021/10
+    image: dasha.jpeg
+    name: Dr. Darina Dvinskikh
+    to: 2021/12
   label: Visiting Researchers / Students [MBZUAI]
 - items:
   - col: {}
