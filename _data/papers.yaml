@@ -14,7 +14,7 @@
   link: https://arxiv.org/abs/2201.12289
   pdf: https://arxiv.org/pdf/2201.12289.pdf
   title: The Power of First-Order Smooth Optimization for Black-Box Non-Smooth Problems
-  type: jpaper
+  type: tpaper
   year: '2022'
 - abstract: We present a novel adaptive optimization algorithm for large-scale machine
     learning problems. Equipped with a low-cost estimate of local curvature and Lipschitz
