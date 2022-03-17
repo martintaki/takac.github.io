@@ -144,11 +144,6 @@
     to: present
   - col: {}
     from: 2021/09
-    image: eman_al_suradi.jpg
-    name: Eman Al Suradi
-    to: present
-  - col: {}
-    from: 2021/09
     image: brahim_erraji.jpeg
     name: Brahim Erraji
     to: present
