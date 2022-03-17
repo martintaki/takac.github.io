@@ -16,9 +16,14 @@
     to: 2021/12
   - col: {}
     from: 2021/10
-    image: dasha.jpeg
+    image: missing.jpeg
     name: Dr. Darina Dvinskikh
     to: 2021/12
+  - col: {}
+    from: 2022/01
+    image: Slavomir_Hanzely.jpg
+    name: "Slavom\xEDr Hanzely"
+    to: present
   label: Visiting Researchers / Students [MBZUAI]
 - items:
   - col: {}
@@ -81,6 +86,16 @@
     from: 2019
     image: zheng_shi.jpeg
     name: Zheng Shi
+    to: present
+  - col: {}
+    from: 2021
+    image: Zangir_Iklassov.jpg
+    name: Zangir Iklassov
+    to: present
+  - col: {}
+    from: 2021/01
+    image: Dmitrii Medvedev.jpeg
+    name: Dmitrii Medvedev
     to: present
   - col: {}
     from: 2021/09
