@@ -1,10 +1,3 @@
-- abstract: This is test.
-  authors: "<strong>Martin Tak\xE1\u010D</strong>, Phil"
-  link: https://arxiv.org/abs/2201.12289
-  pdf: https://arxiv.org/pdf/2201.12289.pdf
-  title: Test
-  type: tpaper
-  year: '2022'
 - abstract: Gradient-free/zeroth-order methods for black-box convex optimization have
     been extensively studied in the last decade with the main focus on oracle calls
     complexity. In this paper, besides the oracle complexity, we focus also on iteration
