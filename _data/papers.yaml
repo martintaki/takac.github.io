@@ -46,28 +46,6 @@
   title: The Power of First-Order Smooth Optimization for Black-Box Non-Smooth Problems
   type: tpaper
   year: '2022'
-- abstract: We present a novel adaptive optimization algorithm for large-scale machine
-    learning problems. Equipped with a low-cost estimate of local curvature and Lipschitz
-    smoothness, our method dynamically adapts the search direction and step-size.
-    The search direction contains gradient information preconditioned by a well-scaled
-    diagonal preconditioning matrix that captures the local curvature information.
-    Our methodology does not require the tedious task of learning rate tuning, as
-    the learning rate is updated automatically without adding an extra hyperparameter.
-    We provide convergence guarantees on a comprehensive collection of optimization
-    problems, including convex, strongly convex, and nonconvex problems, in both deterministic
-    and stochastic regimes. We also conduct an extensive empirical evaluation on standard
-    machine learning problems, justifying our algorithm's versatility and demonstrating
-    its strong performance compared to other start-of-the-art first-order and second-order
-    methods.
-  authors: "Majid Jahani, Sergey Rusakov, Zheng Shi, Peter Richt\xE1rik, Michael W.\
-    \ Mahoney, <strong>Martin Tak\xE1\u010D</strong>"
-  journal: International Conference on Learning Representations (ICLR)
-  link: https://arxiv.org/abs/2109.05198
-  pdf: https://arxiv.org/pdf/2109.05198.pdf
-  title: Doubly Adaptive Scaled Algorithm for Machine Learning Using Second-Order
-    Information
-  type: cpaper
-  year: '2021'
 - abstract: In this study, we develop a limited memory nonconvex Quasi-Newton (QN)
     method, tailored to deep learning (DL) applications. Since the stochastic nature
     of (sampled) function information in minibatch processing can affect the performance
@@ -90,6 +68,28 @@
     problems
   type: tpaper
   year: '2022'
+- abstract: We present a novel adaptive optimization algorithm for large-scale machine
+    learning problems. Equipped with a low-cost estimate of local curvature and Lipschitz
+    smoothness, our method dynamically adapts the search direction and step-size.
+    The search direction contains gradient information preconditioned by a well-scaled
+    diagonal preconditioning matrix that captures the local curvature information.
+    Our methodology does not require the tedious task of learning rate tuning, as
+    the learning rate is updated automatically without adding an extra hyperparameter.
+    We provide convergence guarantees on a comprehensive collection of optimization
+    problems, including convex, strongly convex, and nonconvex problems, in both deterministic
+    and stochastic regimes. We also conduct an extensive empirical evaluation on standard
+    machine learning problems, justifying our algorithm's versatility and demonstrating
+    its strong performance compared to other start-of-the-art first-order and second-order
+    methods.
+  authors: "Majid Jahani, Sergey Rusakov, Zheng Shi, Peter Richt\xE1rik, Michael W.\
+    \ Mahoney, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: International Conference on Learning Representations (ICLR)
+  link: https://arxiv.org/abs/2109.05198
+  pdf: https://arxiv.org/pdf/2109.05198.pdf
+  title: Doubly Adaptive Scaled Algorithm for Machine Learning Using Second-Order
+    Information
+  type: cpaper
+  year: '2021'
 - abstract: The StochAstic Recursive grAdient algoritHm (SARAH) algorithm is a variance
     reduced variant of the Stochastic Gradient Descent (SGD) algorithm that needs
     a gradient of the objective function from time to time. In this paper, we remove
