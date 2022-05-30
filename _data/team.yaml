@@ -1,5 +1,15 @@
 - items:
   - col: {}
+    from: 2022/03
+    image: Dmitry_Pasechnyuk.jpg
+    name: Dmitry Pasechnyuk
+    to: present
+  - col: {}
+    from: 2022/02
+    image: alexander_rogozin.jpg
+    name: Alexander Rogozin
+    to: 2022/04
+  - col: {}
     from: 2021/10
     image: Alexander_Beznosikov.png
     name: Alexander Beznosikov
@@ -16,7 +26,7 @@
     to: 2021/12
   - col: {}
     from: 2021/10
-    image: missing.jpeg
+    image: dasha.jpeg
     name: Dr. Darina Dvinskikh
     to: 2021/12
   - col: {}
@@ -101,11 +111,6 @@
     from: 2021/09
     image: Shahd_AlShamsi.jpg
     name: Shahd Hamad Ghanem Alshamsi
-    to: present
-  - col: {}
-    from: 2021/09
-    image: Wong_Yu_Kang.JPG
-    name: Wong Yu Kang
     to: present
   - col: {}
     from: 2021/09
