@@ -89,14 +89,14 @@
   - from: 2018/09
     image: AlbertBerahas.jpg
     name: Albert S. Berahas
-    to: present
+    to: '2020'
   label: Postdoc [Lehigh]
 - items:
   - col: {}
     from: 2019
     image: zheng_shi.jpeg
     name: Zheng Shi
-    to: present
+    to: 2022/04
   - col: {}
     from: 2021
     image: Zangir_Iklassov.jpg
@@ -158,12 +158,12 @@
     from: '2019'
     image: sergey.jpeg
     name: Sergey Rusakov
-    to: present
+    to: '2021'
   - col: {}
     from: '2019'
     image: zhengShi.jpeg
     name: Zheng Shi
-    to: present
+    to: 2022/04
   - col: {}
     from: 2016/09
     image: majid.jpg
@@ -204,7 +204,7 @@
     from: 2016/09
     image: tao.png
     name: Tao Li
-    to: present
+    to: '2021'
   - col:
       name: Shamim Pakzad
       url: https://www.lehigh.edu/~incee/people/faculty_pakzad_s.html
