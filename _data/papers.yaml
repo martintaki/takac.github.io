@@ -11,6 +11,8 @@
     \ the existing primal-dual approaches."
   authors: "Egor Gladin, Maksim Lavrik-Karmazin, Karina Eduardovna Zainullina, Varvara\
     \ Rudenko, Alexander Gasnikov, <strong>Martin Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2206.01666
+  pdf: https://arxiv.org/pdf/2206.01666.pdf
   title: Algorithm for Constrained Markov Decision Process with Linear Convergence
   type: tpaper
   year: '2022'
