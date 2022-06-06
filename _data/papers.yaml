@@ -1,3 +1,170 @@
+- abstract: "The problem of constrained Markov decision process is considered. An\
+    \ agent aims to maximize the expected accumulated discounted reward subject to\
+    \ multiple constraints on its costs (the number of constraints is relatively small).\
+    \ A new dual approach is proposed with the integration of two ingredients: entropy\
+    \ regularized policy optimizer and Vayda\u2019s dual optimizer, both of which\
+    \ are critical to achieve faster convergence. The finite-time error bound of the\
+    \ proposed approach is provided. Despite the challenge of the nonconcave objective\
+    \ subject to nonconcave constraints, the proposed approach is shown to converge\
+    \ (with linear rate) to the global optimum. The complexity expressed in terms\
+    \ of the optimality gap and the constraint violation significantly improves upon\
+    \ the existing primal-dual approaches."
+  authors: "Egor Gladin, Maksim Lavrik-Karmazin, Karina Eduardovna Zainullina, Varvara\
+    \ Rudenko, Alexander Gasnikov, <strong>Martin Tak\xE1\u010D</strong>"
+  title: Algorithm for Constrained Markov Decision Process with Linear Convergence
+  type: tpaper
+  year: '2022'
+- abstract: 'The assumption of bounded sharpness/smoothness, that is bounded maximum
+    eigenvalue of the Hessian of the objective function, plays an important role in
+    the analysis of optimization algorithms in the non-convex setting. However, recent
+    empirical findings have shown that neural networks have unbounded sharpness, even
+    worse the sharpness of the obtained solution seems to depend on the used learning
+    rate. This finding questions the value of this very commonly used assumption and
+    suggests that many theoretical analyses are based on false premises.
+
+    Here, focusing on the case of deep linear networks, i.e., no activation function,
+    we present a number of results to characterize the sharpness of global minima.
+    First, we lower bound the sharpness in the minima, showing that, while unbounded,
+    its minimal value is an increasing function of the number of layers. Then, we
+    analyze the effect of L2 regularization, proving that it constrains the weights
+    to be "balanced" at the minima, that in turn constraints the possible sharpness
+    to a unique value, completely independent of the learning rate used. Finally,
+    we show that GD with a specific stepsize converges to a critical point of a L2
+    regularized deep linear network from any initialization, because it will only
+    visit points in a set with bounded sharpness. We also empirically validate our
+    theoretical findings.'
+  authors: "Alexander Rogozin, Farshed Abdukhakimov, Dmitry Kamzolov, <strong>Martin\
+    \ Tak\xE1\u010D</strong>, Francesco Orabona"
+  title: On Sharpness in Deep Linear Networks
+  type: tpaper
+  year: '2022'
+- abstract: This paper introduces a Reinforcement Learning approach to better generalize
+    heuristic dispatching rules on the Job-shop Scheduling Problem (JSP). Current
+    models on the JSP do not focus on generalization, although, as we show in this
+    work, this is key to learning better heuristics on the problem. A well-known technique
+    to improve generalization is to learn on increasingly complex instances using
+    Curriculum Learning (CL). However, as many works in the literature indicate, this
+    technique might suffer from catastrophic forgetting when transferring the learned
+    skills between different problem sizes. To address this issue, we introduce a
+    novel Adversarial Curriculum Learning (ACL) strategy, which dynamically adjusts
+    the difficulty level during the learning process to revisit the worst-performing
+    instances. This work also presents a deep learning model to solve the JSP, which
+    is equivariant w.r.t. the job definition and size-agnostic. Conducted experiments
+    on Taillard's and Demirkol's instances show that the presented approach significantly
+    improves the current state-of-the-art models on the JSP. It reduces the average
+    optimality gap from 19.35% to 10.46% on Taillard's instances and from 38.43% to
+    18.85% on Demirkol's instances. Our implementation is available online.
+  authors: "Zangir Iklassov, Dmitrii Medvedev, Ruben Solozabal, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  title: Learning to generalize Dispatching rules on the Job Shop Scheduling
+  type: tpaper
+  year: '2022'
+- abstract: 'Inspired by the recent work FedNL (Safaryan et al, FedNL: Making Newton-Type
+    Methods Applicable to Federated Learning), we propose a new communication efficient
+    second-order framework for Federated learning, namely FLECS. The proposed method
+    reduces the high-memory requirements of FedNL by the usage of an L-SR1 type update
+    for the Hessian approximation which is stored on the central server. A low dimensional
+    `sketch'' of the Hessian is all that is needed by each device to generate an update,
+    so that memory costs as well as number of Hessian-vector products for the agent
+    are low. Biased and unbiased compressions are utilized to make communication costs
+    also low. Convergence guarantees for FLECS are provided in both the strongly convex,
+    and nonconvex cases, and local linear convergence is also established under strong
+    convexity. Numerical experiments confirm the practical benefits of this new FLECS
+    algorithm.'
+  authors: "Artem Agafonov, Dmitry Kamzolov, Rachael Tappenden, Alexander Gasnikov,\
+    \ <strong>Martin Tak\xE1\u010D</strong>"
+  title: 'FLECS: A Federated Learning Second-Order Framework via Compression and Sketching'
+  type: tpaper
+  year: '2022'
+- abstract: 'This paper investigates the problem of regret minimization in linear
+    time-varying (LTV) dynamical systems. Due to the simultaneous presence of uncertainty
+    and non-stationarity, designing online control algorithms for unknown LTV systems
+    remains a challenging task. At a cost of NP-hard offline planning, prior works
+    have introduced online convex optimization algorithms, although they suffer from
+    nonparametric rate of regret.
+
+    In this paper, we propose the first computationally tractable online algorithm
+    with regret guarantees that avoids offline planning over the state linear feedback
+    policies. Our algorithm is based on the optimism in the face of uncertainty (OFU)
+    principle in which we optimistically select the best model in a high confidence
+    region. Our algorithm is then more explorative when compared to previous approaches.
+    To overcome non-stationarity, we propose either a restarting strategy (R-OFU)
+    or a sliding window (SW-OFU) strategy. With proper configuration, our algorithm
+    is attains sublinear regret $O(T^{5/6})$. These algorithms utilize data from the
+    current phase for tracking variations on the system dynamics. We corroborate our
+    theoretical findings with numerical experiments, which highlight the effectiveness
+    of our methods. To the best of our knowledge, our study establishes the first
+    model-based online algorithm with regret guarantees under LTV dynamical systems.'
+  authors: "Yuzhen Han, Ruben Solozabal, Jing Dong, Xingyu Zhou, <strong>Martin Tak\xE1\
+    \u010D</strong>, Bin Gu"
+  title: Learning to Control under Time-Varying Environment
+  type: tpaper
+  year: '2022'
+- abstract: In this paper, we present the first stepsize schedule for Newton method
+    resulting in fast global and local convergence guarantees. In particular, we a)
+    prove an $\mathcal O \left( 1/{k^2} \right)$ global rate, which matches the state-of-the-art
+    global rate of cubically regularized Newton method of Polyak and Nesterov (2006)
+    and of regularized Newton method of Mishchenko (2021), and the later variant of
+    Doikov and Nesterov (2021), b) prove a local quadratic rate, which matches the
+    best-known local rate of second-order methods, and c) our stepsize formula is
+    simple, explicit, and does not require solving any subproblem. Our convergence
+    proofs hold under affine-invariant assumptions closely related to the notion of
+    self-concordance. Finally, our method has competitive performance when compared
+    to existing baselines which share the same fast global convergence guarantees.
+  authors: "Slavomir Hanzely, Dmitry Kamzolov, Dmitry Pasechnyuk, Alexander Gasnikov,,\
+    \ Peter Richt\xE1rik, <strong>Martin Tak\xE1\u010D</strong>"
+  title: A Damped Newton Method Achieves Global $\mathcal O \left(\frac{1}{k^2}\right)$
+    and Local Quadratic Convergence Rate
+  type: tpaper
+  year: '2022'
+- abstract: "Recently the SP (Stochastic Polyak step size) method has emerged as a\
+    \ competitive adaptive method for setting the step sizes of SGD.  SP can be interpreted\
+    \ as a method specialized to interpolated models, since it solves the interpolation\
+    \ equations. SP solves these equation by using local linearizations of the model.\
+    \  We take a step further and develop a method for solving the interpolation equations\
+    \ that uses the local second-order approximation of the model. Our resulting method\
+    \ SP2 uses Hessian-vector products to speed-up the convergence of SP. Furthermore,\
+    \ and rather uniquely among second-order methods, the design of SP2 in no way\
+    \ relies on positive definite Hessian matrices or convexity of the objective function.\
+    \ We show SP2 is competitive both in experiments and in theory. \nWe show SP2\
+    \ is very competitive on matrix completion, non-convex test problems and logistic\
+    \ regression. We also provide a convergence theory on sums-of-quadratics."
+  authors: "Shuang Li, William Joseph Swartworth, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Deanna Needell, Robert M. Gower"
+  title: 'SP2: A Second Order Stochastic Polyak Method'
+  type: tpaper
+  year: '2022'
+- abstract: 'Methods with scaling play a key role in solving saddle point problems,
+    primarily due to Adam''s popularity for solving adversarial machine learning problems,
+    including GANS training. In this paper, we carry out a theoretical analysis of
+    the following scaling techniques for solving SPPs: the well-known Adam and RmsProp
+    and the newer AdaHessian and OASIS based on Hutchison approximation. We use the
+    Extra Gradient and its improved version with negative momentum as the basic method.
+    Experimental studies on GANs show good applicability not only for Adam, but also
+    for other less popular methods.'
+  authors: "Aleksandr Beznosikov, Aibek Alanov, Dmitry Kovalev, <strong>Martin Tak\xE1\
+    \u010D</strong>, Alexander Gasnikov"
+  title: On Scaled Methods for Saddle Point Problems
+  type: tpaper
+  year: '2022'
+- abstract: 'This work considers non-convex finite sum minimization. There are a number
+    of algorithms for such problems, but existing methods often work poorly when the
+    problem is badly scaled and/or ill-conditioned, and a primary goal of this work
+    is to introduce methods that alleviate this issue. Thus, here we include a preconditioner
+    that is based upon Hutchinson''s approach to approximating the diagonal of the
+    Hessian, and couple it with several gradient based methods to give new `scaled''
+    algorithms: Scaled  SARAH and Scaled L-SVRG. Theoretical complexity guarantees
+    under smoothness assumptions are presented, and we prove linear convergence when
+    both smoothness and the PL-condition is assumed. Because our adaptively scaled
+    methods use approximate partial second order curvature information, they are better
+    able to mitigate the impact of badly scaled problems, and this improved practical
+    performance is demonstrated in the numerical experiments that are also presented
+    in this work.'
+  authors: "Abdurakhmon Sadiev, Aleksandr Beznosikov, Abdulla Jasem Almansoori, Dmitry\
+    \ Kamzolov, Rachael Tappenden, <strong>Martin Tak\xE1\u010D</strong>"
+  title: Stochastic Gradient Methods with Preconditioned Updates
+  type: tpaper
+  year: '2022'
 - abstract: Collaboration among multiple data-owning entities (e.g., hospitals) can
     accelerate the training process and yield better machine learning models due to
     the availability and diversity of data. However, privacy concerns make it challenging
