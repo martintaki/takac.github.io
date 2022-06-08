@@ -75,6 +75,8 @@
     algorithm.'
   authors: "Artem Agafonov, Dmitry Kamzolov, Rachael Tappenden, Alexander Gasnikov,\
     \ <strong>Martin Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2206.02009
+  pdf: https://arxiv.org/pdf/2206.02009.pdf
   title: 'FLECS: A Federated Learning Second-Order Framework via Compression and Sketching'
   type: tpaper
   year: '2022'
