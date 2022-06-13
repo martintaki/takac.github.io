@@ -166,6 +166,8 @@
     in this work.'
   authors: "Abdurakhmon Sadiev, Aleksandr Beznosikov, Abdulla Jasem Almansoori, Dmitry\
     \ Kamzolov, Rachael Tappenden, <strong>Martin Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2206.00285
+  pdf: https://arxiv.org/pdf/2206.00285.pdf
   title: Stochastic Gradient Methods with Preconditioned Updates
   type: tpaper
   year: '2022'
