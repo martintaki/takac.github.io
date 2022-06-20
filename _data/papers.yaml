@@ -58,6 +58,8 @@
     18.85% on Demirkol's instances. Our implementation is available online.
   authors: "Zangir Iklassov, Dmitrii Medvedev, Ruben Solozabal, <strong>Martin Tak\xE1\
     \u010D</strong>"
+  link: https://arxiv.org/abs/2206.04423
+  pdf: https://arxiv.org/pdf/2206.04423
   title: Learning to generalize Dispatching rules on the Job Shop Scheduling
   type: tpaper
   year: '2022'
@@ -138,16 +140,20 @@
   title: 'SP2: A Second Order Stochastic Polyak Method'
   type: tpaper
   year: '2022'
-- abstract: 'Methods with scaling play a key role in solving saddle point problems,
-    primarily due to Adam''s popularity for solving adversarial machine learning problems,
-    including GANS training. In this paper, we carry out a theoretical analysis of
-    the following scaling techniques for solving SPPs: the well-known Adam and RmsProp
-    and the newer AdaHessian and OASIS based on Hutchison approximation. We use the
-    Extra Gradient and its improved version with negative momentum as the basic method.
-    Experimental studies on GANs show good applicability not only for Adam, but also
-    for other less popular methods.'
+- abstract: 'Methods with adaptive scaling of different features play a key role in
+    solving saddle point problems, primarily due to Adam''s popularity for solving
+    adversarial machine learning problems, including GANS training. This paper carries
+    out a theoretical analysis of the following scaling techniques for solving SPPs:
+    the well-known Adam and RmsProp scaling and the newer AdaHessian and OASIS based
+    on Hutchison approximation. We use the Extra Gradient and its improved version
+    with negative momentum as the basic method. Experimental studies on GANs show
+    good applicability not only for Adam, but also for other less popular methods.
+
+    '
   authors: "Aleksandr Beznosikov, Aibek Alanov, Dmitry Kovalev, <strong>Martin Tak\xE1\
     \u010D</strong>, Alexander Gasnikov"
+  link: https://arxiv.org/abs/2206.08303
+  pdf: https://arxiv.org/pdf/2206.08303
   title: On Scaled Methods for Saddle Point Problems
   type: tpaper
   year: '2022'
