@@ -1,3 +1,28 @@
+- abstract: This paper considers the problem of decentralized, personalized federated
+    learning. For centralized personalized federated learning, a penalty that measures
+    the deviation from the local model and its average, is often added to the objective
+    function. However, in a decentralized setting this penalty is expensive in terms
+    of communication costs, so here, a different penalty -- one that is built to respect
+    the structure of the underlying computational network -- is used instead. We present
+    lower bounds on the communication and local computation costs for this problem
+    formulation and we also present provably optimal methods for decentralized personalized
+    federated learning. Numerical experiments are presented to demonstrate the practical
+    performance of our methods.
+  authors: "Abdurakhmon Sadiev, Ekaterina Borodich, Aleksandr Beznosikov, Darina Dvinskikh,\
+    \ Saveliy Chezhegov, Rachael Tappenden, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Alexander Gasnikov"
+  link: https://arxiv.org/abs/2107.07190
+  pdf: https://arxiv.org/pdf/2107.07190
+  title: 'Decentralized Personalized Federated Learning: Lower Bounds and Optimal
+    Algorithm for All Personalization Modes'
+  type: tpaper
+  year: '2022'
+- authors: "Klea Ziu, Ruben Solozabal, Srinivas Rangarajan, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  title: A deep neural network for oxidative coupling of methane trained on high throughput
+    experimental data
+  type: tpaper
+  year: '2022'
 - abstract: "The problem of constrained Markov decision process is considered. An\
     \ agent aims to maximize the expected accumulated discounted reward subject to\
     \ multiple constraints on its costs (the number of constraints is relatively small).\
@@ -137,6 +162,8 @@
     \ regression. We also provide a convergence theory on sums-of-quadratics."
   authors: "Shuang Li, William Joseph Swartworth, <strong>Martin Tak\xE1\u010D</strong>,\
     \ Deanna Needell, Robert M. Gower"
+  link: http://arxiv.org/abs/2207.08171
+  pdf: https://arxiv.org/pdf/2207.08171.pdf
   title: 'SP2: A Second Order Stochastic Polyak Method'
   type: tpaper
   year: '2022'
