@@ -96,16 +96,61 @@
     from: 2019
     image: zheng_shi.jpeg
     name: Zheng Shi
-    to: 2022/04
+    to: present
+  - col: {}
+    from: 2022/06
+    image: Gongxu_Luo.png
+    name: Gongxu Luo
+    to: present
+  - col: {}
+    from: 2022
+    image: Hanshuo_Zhai.jpg
+    name: Hanshuo Zhai
+    to: present
+  - col: {}
+    from: 2021
+    image: Abdulla_Almansoori.jpg
+    name: Abdulla Almansoori
+    to: 2025 (expected)
   - col: {}
     from: 2021
     image: Zangir_Iklassov.jpg
     name: Zangir Iklassov
     to: present
   - col: {}
+    from: 2019
+    image: Artem_Agafonov.jpg
+    name: Artem Agafonov
+    to: present
+  - col: {}
+    from: 2022/07
+    image: Yanlin_Wu.jpg
+    name: Yanlin Wu
+    to: present
+  - col: {}
+    from: 2022/07
+    image: Yuhan_Chen.jpeg
+    name: Yuhan Chen
+    to: present
+  - col: {}
+    from: 2022/06
+    image: Chulu_Xiang.jpeg
+    name: Chulu Xiang
+    to: present
+  - col: {}
+    from: 2022/07
+    image: Li_Yunxiang.jpg
+    name: Li Yunxiang
+    to: present
+  - col: {}
     from: 2021/01
     image: Dmitrii Medvedev.jpeg
     name: Dmitrii Medvedev
+    to: present
+  - col: {}
+    from: 2021/08
+    image: missing.jpeg
+    name: Farshed Abdukhakimov
     to: present
   - col: {}
     from: 2021/09
