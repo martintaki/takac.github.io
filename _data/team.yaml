@@ -93,11 +93,6 @@
   label: Postdoc [Lehigh]
 - items:
   - col: {}
-    from: 2019
-    image: zheng_shi.jpeg
-    name: Zheng Shi
-    to: present
-  - col: {}
     from: 2022/06
     image: Gongxu_Luo.png
     name: Gongxu Luo
