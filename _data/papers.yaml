@@ -1,3 +1,23 @@
+- abstract: Exploiting higher-order derivatives in convex optimization is known at
+    least since 1970's. In each iteration higher-order (also called tensor) methods
+    minimize a regularized Taylor expansion of the objective function, which leads
+    to faster convergence rates if the corresponding higher-order derivative is Lipschitz-continuous.
+    Recently a series of lower iteration complexity bounds for such methods were proved,
+    and a gap between upper an lower complexity bounds was revealed. Moreover, it
+    was shown that such methods can be implementable since the appropriately regularized
+    Taylor expansion of a convex function is also convex and, thus, can be minimized
+    in polynomial time. Only very recently an algorithm with optimal convergence rate
+    1/k(3p+1)/2 was proposed for minimizing convex functions with Lipschitz p-th derivative.
+    For convex functions with Lipschitz third derivative, these developments allowed
+    to propose a second-order method with convergence rate 1/k5, which is faster than
+    the rate 1/k3.5 of existing second-order methods.
+  authors: "Dmitry Kamzolov, Alexander Gasnikov, Pavel Dvurechensky, Artem Agafonov,\
+    \ <strong>Martin Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2208.13190
+  pdf: https://arxiv.org/pdf/2208.13190.pdf
+  title: Exploiting higher-order derivatives in convex optimization methods
+  type: tpaper
+  year: '2022'
 - abstract: This paper considers the problem of decentralized, personalized federated
     learning. For centralized personalized federated learning, a penalty that measures
     the deviation from the local model and its average, is often added to the objective
