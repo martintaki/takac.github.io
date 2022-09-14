@@ -1,3 +1,23 @@
+- abstract: This paper considers the problem of decentralized, personalized federated
+    learning. For centralized personalized federated learning, a penalty that measures
+    the deviation from the local model and its average, is often added to the objective
+    function. However, in a decentralized setting this penalty is expensive in terms
+    of communication costs, so here, a different penalty -- one that is built to respect
+    the structure of the underlying computational network -- is used instead. We present
+    lower bounds on the communication and local computation costs for this problem
+    formulation and we also present provably optimal methods for decentralized personalized
+    federated learning. Numerical experiments are presented to demonstrate the practical
+    performance of our methods.
+  authors: "Abdurakhmon Sadiev, Ekaterina Borodich, Aleksandr Beznosikov, Darina Dvinskikh,\
+    \ Saveliy Chezhegov, Rachael Tappenden, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Alexander Gasnikov"
+  journal: EURO Journal on Computational Optimization
+  link: https://www.sciencedirect.com/science/article/pii/S219244062200017X?via%3Dihub
+  pdf: https://arxiv.org/pdf/2107.07190
+  title: 'Decentralized Personalized Federated Learning: Lower Bounds and Optimal
+    Algorithm for All Personalization Modes'
+  type: jpaper
+  year: '2022'
 - abstract: Exploiting higher-order derivatives in convex optimization is known at
     least since 1970's. In each iteration higher-order (also called tensor) methods
     minimize a regularized Taylor expansion of the objective function, which leads
@@ -16,25 +36,6 @@
   link: https://arxiv.org/abs/2208.13190
   pdf: https://arxiv.org/pdf/2208.13190.pdf
   title: Exploiting higher-order derivatives in convex optimization methods
-  type: tpaper
-  year: '2022'
-- abstract: This paper considers the problem of decentralized, personalized federated
-    learning. For centralized personalized federated learning, a penalty that measures
-    the deviation from the local model and its average, is often added to the objective
-    function. However, in a decentralized setting this penalty is expensive in terms
-    of communication costs, so here, a different penalty -- one that is built to respect
-    the structure of the underlying computational network -- is used instead. We present
-    lower bounds on the communication and local computation costs for this problem
-    formulation and we also present provably optimal methods for decentralized personalized
-    federated learning. Numerical experiments are presented to demonstrate the practical
-    performance of our methods.
-  authors: "Abdurakhmon Sadiev, Ekaterina Borodich, Aleksandr Beznosikov, Darina Dvinskikh,\
-    \ Saveliy Chezhegov, Rachael Tappenden, <strong>Martin Tak\xE1\u010D</strong>,\
-    \ Alexander Gasnikov"
-  link: https://arxiv.org/abs/2107.07190
-  pdf: https://arxiv.org/pdf/2107.07190
-  title: 'Decentralized Personalized Federated Learning: Lower Bounds and Optimal
-    Algorithm for All Personalization Modes'
   type: tpaper
   year: '2022'
 - authors: "Klea Ziu, Ruben Solozabal, Srinivas Rangarajan, <strong>Martin Tak\xE1\
