@@ -1,3 +1,10 @@
+- authors: "Zhengqing Gao, Huimin Wu, <strong>Martin Tak\xE1\u010D</strong>, Bin Gu"
+  journal: 31st ACM International Conference on Information and Knowledge Management,
+    CIKM2022
+  title: Towards Practical Large Scale Non-Linear Semi-Supervised Learning with Balanced
+    Constraints
+  type: cpaper
+  year: '2022'
 - abstract: This paper considers the problem of decentralized, personalized federated
     learning. For centralized personalized federated learning, a penalty that measures
     the deviation from the local model and its average, is often added to the objective
