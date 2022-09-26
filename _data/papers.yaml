@@ -40,10 +40,11 @@
     the rate 1/k3.5 of existing second-order methods.
   authors: "Dmitry Kamzolov, Alexander Gasnikov, Pavel Dvurechensky, Artem Agafonov,\
     \ <strong>Martin Tak\xE1\u010D</strong>"
+  journal: NeurIPS
   link: https://arxiv.org/abs/2208.13190
   pdf: https://arxiv.org/pdf/2208.13190.pdf
   title: Exploiting higher-order derivatives in convex optimization methods
-  type: tpaper
+  type: cpaper
   year: '2022'
 - authors: "Klea Ziu, Ruben Solozabal, Srinivas Rangarajan, <strong>Martin Tak\xE1\
     \u010D</strong>"
