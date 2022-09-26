@@ -1,3 +1,21 @@
+- abstract: In this paper, we present the first stepsize schedule for Newton method
+    resulting in fast global and local convergence guarantees. In particular, we a)
+    prove an $\mathcal O \left( 1/{k^2} \right)$ global rate, which matches the state-of-the-art
+    global rate of cubically regularized Newton method of Polyak and Nesterov (2006)
+    and of regularized Newton method of Mishchenko (2021), and the later variant of
+    Doikov and Nesterov (2021), b) prove a local quadratic rate, which matches the
+    best-known local rate of second-order methods, and c) our stepsize formula is
+    simple, explicit, and does not require solving any subproblem. Our convergence
+    proofs hold under affine-invariant assumptions closely related to the notion of
+    self-concordance. Finally, our method has competitive performance when compared
+    to existing baselines which share the same fast global convergence guarantees.
+  authors: "Slavomir Hanzely, Dmitry Kamzolov, Dmitry Pasechnyuk, Alexander Gasnikov,,\
+    \ Peter Richt\xE1rik, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: NeurIPS
+  title: A Damped Newton Method Achieves Global $\mathcal O \left(\frac{1}{k^2}\right)$
+    and Local Quadratic Convergence Rate
+  type: cpaper
+  year: '2022'
 - authors: "Zhengqing Gao, Huimin Wu, <strong>Martin Tak\xE1\u010D</strong>, Bin Gu"
   journal: 31st ACM International Conference on Information and Knowledge Management,
     CIKM2022
@@ -40,11 +58,10 @@
     the rate 1/k3.5 of existing second-order methods.
   authors: "Dmitry Kamzolov, Alexander Gasnikov, Pavel Dvurechensky, Artem Agafonov,\
     \ <strong>Martin Tak\xE1\u010D</strong>"
-  journal: NeurIPS
   link: https://arxiv.org/abs/2208.13190
   pdf: https://arxiv.org/pdf/2208.13190.pdf
   title: Exploiting higher-order derivatives in convex optimization methods
-  type: cpaper
+  type: tpaper
   year: '2022'
 - authors: "Klea Ziu, Ruben Solozabal, Srinivas Rangarajan, <strong>Martin Tak\xE1\
     \u010D</strong>"
@@ -158,23 +175,6 @@
   authors: "Yuzhen Han, Ruben Solozabal, Jing Dong, Xingyu Zhou, <strong>Martin Tak\xE1\
     \u010D</strong>, Bin Gu"
   title: Learning to Control under Time-Varying Environment
-  type: tpaper
-  year: '2022'
-- abstract: In this paper, we present the first stepsize schedule for Newton method
-    resulting in fast global and local convergence guarantees. In particular, we a)
-    prove an $\mathcal O \left( 1/{k^2} \right)$ global rate, which matches the state-of-the-art
-    global rate of cubically regularized Newton method of Polyak and Nesterov (2006)
-    and of regularized Newton method of Mishchenko (2021), and the later variant of
-    Doikov and Nesterov (2021), b) prove a local quadratic rate, which matches the
-    best-known local rate of second-order methods, and c) our stepsize formula is
-    simple, explicit, and does not require solving any subproblem. Our convergence
-    proofs hold under affine-invariant assumptions closely related to the notion of
-    self-concordance. Finally, our method has competitive performance when compared
-    to existing baselines which share the same fast global convergence guarantees.
-  authors: "Slavomir Hanzely, Dmitry Kamzolov, Dmitry Pasechnyuk, Alexander Gasnikov,,\
-    \ Peter Richt\xE1rik, <strong>Martin Tak\xE1\u010D</strong>"
-  title: A Damped Newton Method Achieves Global $\mathcal O \left(\frac{1}{k^2}\right)$
-    and Local Quadratic Convergence Rate
   type: tpaper
   year: '2022'
 - abstract: "Recently the SP (Stochastic Polyak step size) method has emerged as a\
