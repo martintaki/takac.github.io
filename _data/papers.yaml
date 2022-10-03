@@ -1,3 +1,58 @@
+- abstract: In this paper, we propose a Cubic Regularized L-BFGS. Cubic Regularized
+    Newton outperforms the classical Newton method in terms of global performance.
+    In classics, L-BFGS approximation is applied for the Newton method. We propose
+    a new variant of inexact Cubic Regularized Newton. Then, we use L-BFGS approximation
+    as an inexact Hessian for Cubic Regularized Newton. It allows us to get better
+    theoretical convergence rates and good practical performance, especially from
+    the points where classical Newton is diverging.
+  authors: "Dmitry Kamzolov, Klea Ziu, Artem Agafonov, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  title: Cubic Regularized Quasi-Newton Methods
+  type: tpaper
+  year: '2022'
+- abstract: 'In the recent paper FLECS (Agafonov et al, FLECS: A Federated Learning
+    Second-Order Framework via Compression and Sketching), the second-order framework
+    FLECS was proposed for the Federated Learning problem. This method utilize compression
+    of sketched Hessians to make communication costs low. However, the main bottleneck
+    of FLECS is gradient communication without compression. In this paper, we propose
+    the modification of FLECS with compressed gradient differences, which we call
+    FLECS-CGD (FLECS with Compressed Gradient Differences) and make it applicable
+    for stochastic optimization. Convergence guarantees are provided in strongly convex
+    and nonconvex cases. Experiments show the practical benefit of proposed approach.'
+  authors: "Artem Agafonov, Brahim Erraji, <strong>Martin Tak\xE1\u010D</strong>"
+  title: 'FLECS-CGD: A Federated Learning Second-Order Framework via Compression and
+    Sketching with Compressed Gradient Differences'
+  type: tpaper
+  year: '2022'
+- abstract: The paper studies the properties of stochastic gradient methods with preconditioning.
+    We focus on momentum updated preconditioners with momentum coefficient $\beta$.
+    Seeking to explain practical efficiency of scaled methods, we provide convergence
+    analysis in a norm associated with preconditioner, and demonstrate that scaling
+    allows one to get rid of gradients Lipschitz constant in convergence rates. Along
+    the way, we emphasize important role of $\beta$, undeservedly set to constant
+    $0.99...9$ at the arbitrariness of various authors. Finally, we propose the explicit
+    constructive formulas for adaptive $\beta$ and step size values.
+  authors: "Dmitry Pasechnyuk, Alexander Gasnikov, <strong>Martin Tak\xE1\u010D</strong>"
+  title: Effects of momentum scaling for SGD
+  type: tpaper
+  year: '2022'
+- abstract: "Recently the SP (Stochastic Polyak step size) method has emerged as a\
+    \ competitive adaptive method for setting the step sizes of SGD.  SP can be interpreted\
+    \ as a method specialized to interpolated models, since it solves the interpolation\
+    \ equations. SP solves these equation by using local linearizations of the model.\
+    \  We take a step further and develop a method for solving the interpolation equations\
+    \ that uses the local second-order approximation of the model. Our resulting method\
+    \ SP2 uses Hessian-vector products to speed-up the convergence of SP. Furthermore,\
+    \ and rather uniquely among second-order methods, the design of SP2 in no way\
+    \ relies on positive definite Hessian matrices or convexity of the objective function.\
+    \ We show SP2 is competitive both in experiments and in theory. \nWe show SP2\
+    \ is very competitive on matrix completion, non-convex test problems and logistic\
+    \ regression. We also provide a convergence theory on sums-of-quadratics."
+  authors: "Shuang Li, William Joseph Swartworth, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Deanna Needell, Robert M. Gower"
+  title: Using quadratic equations for overparametrized models
+  type: tpaper
+  year: '2022'
 - abstract: In this paper, we present the first stepsize schedule for Newton method
     resulting in fast global and local convergence guarantees. In particular, we a)
     prove an $\mathcal O \left( 1/{k^2} \right)$ global rate, which matches the state-of-the-art
