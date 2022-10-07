@@ -1,3 +1,18 @@
+- abstract: 'The family of Stochastic Gradient Methods with Polyak Step-size offers
+    an update rule that alleviates the need of fine-tuning the learning rate of an
+    optimizer. Recent work (Robert M Gower, Mathieu Blondel, Nidham Gazagnadou, and
+    Fabian Pedregosa: Cutting some slack for SGD with adaptive polyak stepsizes) has
+    been proposed to introduce a slack variable, which makes these methods applicable
+    outside of the interpolation regime. In this paper, we combine preconditioning
+    and slack in an updated optimization algorithm to show its performance on badly
+    scaled and/or ill-conditioned datasets. We use Hutchinson''s method to obtain
+    an estimate of a Hessian which is used as the preconditioner.'
+  authors: "Farshed Abdukhakimov, Chulu Xiang, Dmitry Kamzolov, Robert Gower, <strong>Martin\
+    \ Tak\xE1\u010D</strong>"
+  title: 'PSPS: Preconditioned Stochastic Polyak Step-size method for badly scaled
+    data'
+  type: tpaper
+  year: '2022'
 - abstract: In this paper, we propose a Cubic Regularized L-BFGS. Cubic Regularized
     Newton outperforms the classical Newton method in terms of global performance.
     In classics, L-BFGS approximation is applied for the Newton method. We propose
