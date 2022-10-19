@@ -35,6 +35,8 @@
     for stochastic optimization. Convergence guarantees are provided in strongly convex
     and nonconvex cases. Experiments show the practical benefit of proposed approach.'
   authors: "Artem Agafonov, Brahim Erraji, <strong>Martin Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2210.09626
+  pdf: https://arxiv.org/pdf/2210.09626
   title: 'FLECS-CGD: A Federated Learning Second-Order Framework via Compression and
     Sketching with Compressed Gradient Differences'
   type: tpaper
