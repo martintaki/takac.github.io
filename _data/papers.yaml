@@ -58,9 +58,11 @@
     an estimate of a Hessian which is used as the preconditioner.'
   authors: "Farshed Abdukhakimov, Chulu Xiang, Dmitry Kamzolov, Robert Gower, <strong>Martin\
     \ Tak\xE1\u010D</strong>"
+  journal: Order up! The Benefits of Higher-Order Optimization in Machine Learning
+    Workshop @ NeurIPS 2022
   title: 'PSPS: Preconditioned Stochastic Polyak Step-size method for badly scaled
     data'
-  type: tpaper
+  type: cpaper
   year: '2022'
 - abstract: In this paper, we propose a Cubic Regularized L-BFGS. Cubic Regularized
     Newton outperforms the classical Newton method in terms of global performance.
@@ -71,8 +73,10 @@
     the points where classical Newton is diverging.
   authors: "Dmitry Kamzolov, Klea Ziu, Artem Agafonov, <strong>Martin Tak\xE1\u010D\
     </strong>"
+  journal: Order up! The Benefits of Higher-Order Optimization in Machine Learning
+    Workshop @ NeurIPS 2022
   title: Cubic Regularized Quasi-Newton Methods
-  type: tpaper
+  type: cpaper
   year: '2022'
 - abstract: 'In the recent paper FLECS (Agafonov et al, FLECS: A Federated Learning
     Second-Order Framework via Compression and Sketching), the second-order framework
@@ -84,11 +88,13 @@
     for stochastic optimization. Convergence guarantees are provided in strongly convex
     and nonconvex cases. Experiments show the practical benefit of proposed approach.'
   authors: "Artem Agafonov, Brahim Erraji, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: Order up! The Benefits of Higher-Order Optimization in Machine Learning
+    Workshop @ NeurIPS 2022
   link: https://arxiv.org/abs/2210.09626
   pdf: https://arxiv.org/pdf/2210.09626
   title: 'FLECS-CGD: A Federated Learning Second-Order Framework via Compression and
     Sketching with Compressed Gradient Differences'
-  type: tpaper
+  type: cpaper
   year: '2022'
 - abstract: The paper studies the properties of stochastic gradient methods with preconditioning.
     We focus on momentum updated preconditioners with momentum coefficient $\beta$.
@@ -99,10 +105,12 @@
     $0.99...9$ at the arbitrariness of various authors. Finally, we propose the explicit
     constructive formulas for adaptive $\beta$ and step size values.
   authors: "Dmitry Pasechnyuk, Alexander Gasnikov, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: Order up! The Benefits of Higher-Order Optimization in Machine Learning
+    Workshop @ NeurIPS 2022
   link: https://arxiv.org/abs/2210.11869
   pdf: https://arxiv.org/pdf/2210.11869
   title: Effects of momentum scaling for SGD
-  type: tpaper
+  type: cpaper
   year: '2022'
 - abstract: "Recently the SP (Stochastic Polyak step size) method has emerged as a\
     \ competitive adaptive method for setting the step sizes of SGD.  SP can be interpreted\
@@ -118,8 +126,10 @@
     \ regression. We also provide a convergence theory on sums-of-quadratics."
   authors: "Shuang Li, William Joseph Swartworth, <strong>Martin Tak\xE1\u010D</strong>,\
     \ Deanna Needell, Robert M. Gower"
+  journal: Order up! The Benefits of Higher-Order Optimization in Machine Learning
+    Workshop @ NeurIPS 2022
   title: Using quadratic equations for overparametrized models
-  type: tpaper
+  type: cpaper
   year: '2022'
 - abstract: In this paper, we present the first stepsize schedule for Newton method
     resulting in fast global and local convergence guarantees. In particular, we a)
