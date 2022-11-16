@@ -1,5 +1,10 @@
 - items:
   - col: {}
+    from: 2022/010
+    image: PetrOstroukhov.jpeg
+    name: Petr Ostroukhov
+    to: present
+  - col: {}
     from: 2022/03
     image: Dmitry_Pasechnyuk.jpg
     name: Dmitry Pasechnyuk
@@ -121,11 +126,6 @@
     from: 2022/07
     image: Yanlin_Wu.jpg
     name: Yanlin Wu
-    to: present
-  - col: {}
-    from: 2022/07
-    image: Yuhan_Chen.jpeg
-    name: Yuhan Chen
     to: present
   - col: {}
     from: 2022/06
