@@ -98,11 +98,6 @@
   label: Postdoc [Lehigh]
 - items:
   - col: {}
-    from: 2022/06
-    image: Gongxu_Luo.png
-    name: Gongxu Luo
-    to: present
-  - col: {}
     from: 2022
     image: Hanshuo_Zhai.jpg
     name: Hanshuo Zhai
@@ -156,11 +151,6 @@
     from: 2021/09
     image: NicolasCuadrado.jpeg
     name: "Nicol\xE1s Cuadrado"
-    to: present
-  - col: {}
-    from: 2021/09
-    image: Steven_Phong_Hoang.jpg
-    name: Steven Phong Hoang
     to: present
   - col: {}
     from: 2021/09
