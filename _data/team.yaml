@@ -118,6 +118,11 @@
     name: Artem Agafonov
     to: present
   - col: {}
+    from: 2022/09
+    image: Salma_Alrashdi.jpg
+    name: Salma Alrashdi
+    to: present
+  - col: {}
     from: 2022/07
     image: Yanlin_Wu.jpg
     name: Yanlin Wu
