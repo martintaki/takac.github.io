@@ -1,5 +1,10 @@
 - items:
   - col: {}
+    from: 2022/12
+    image: Konstantin_Mishchenko.jpg
+    name: Konstantin Mishchenko
+    to: 2022/12
+  - col: {}
     from: 2022/010
     image: PetrOstroukhov.jpeg
     name: Petr Ostroukhov
@@ -89,6 +94,11 @@
     image: DmitryKamzolov.jpeg
     name: Dmitry Kamzolov
     to: present
+  - col: {}
+    from: 2022/
+    image: Eduard_Gorbunov.jpg
+    name: Eduard Gorbunov
+    to: present
   label: Postdoc [MBZUAI]
 - items:
   - from: 2018/09
@@ -116,6 +126,11 @@
     from: 2019
     image: Artem_Agafonov.jpg
     name: Artem Agafonov
+    to: present
+  - col: {}
+    from: 2022/09
+    image: missing.jpeg
+    name: Baketah Alrashdi
     to: present
   - col: {}
     from: 2022/09
