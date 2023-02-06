@@ -47,6 +47,8 @@
   authors: "Klea Ziu, Ruben Solozabal, Srinivas Rangarajan, <strong>Martin Tak\xE1\
     \u010D</strong>"
   journal: 'Journal of Physics: Energy'
+  link: https://iopscience.iop.org/article/10.1088/2515-7655/aca797
+  pdf: https://iopscience.iop.org/article/10.1088/2515-7655/aca797/pdf
   title: A deep neural network for oxidative coupling of methane trained on high throughput
     experimental data
   type: jpaper
