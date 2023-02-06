@@ -23,6 +23,34 @@
     in the Presence of Annotator Noise'
   type: tpaper
   year: '2023'
+- abstract: "In this work, we develop a deep neural network model for the reaction\
+    \ rate of oxidative coupling of methane from \n\t\tpublished high-throughput experimental\
+    \ \n\t\tcatalysis data. A neural network is formulated so that the rate model\
+    \ satisfies the plug flow reactor design equation. \n\t\tThe model is then employed\
+    \ to understand the variation of reactant and product composition within the reactor\
+    \ for the reference \n\t\tcatalyst Mn\u2013Na2WO4/SiO2 at different temperatures\
+    \ and to identify new catalysts and combinations of\n\t\t known catalysts that\
+    \ would increase yield and selectivity relative to the reference catalyst.\n\t\
+    \t  The model revealed that methane is converted in the first half of the catalyst\
+    \ bed, while the second part largely \n\t\t  consolidates the products (i.e. increases\
+    \ ethylene to ethane ratio). A screening study of >=3400 combinations of pairs\
+    \ of previously studied catalysts of the form M1(M2)$_{1-2}$M3Ox/support (where\
+    \ M1, M2 and M3 are metals) revealed that a reactor configuration comprising two\
+    \ sequential catalyst beds leads to synergistic effects resulting in increased\
+    \ yield of C2 compared to the reference catalyst at identical conditions and contact\
+    \ time. Finally, an expanded screening study of 7400 combinations (comprising\
+    \ previously studied metals but with several new permutations) revealed multiple\
+    \ catalyst choices with enhanced yields of C2 products. This study demonstrates\
+    \ the value of learning a deep neural network model for the instantaneous reaction\
+    \ rate directly from high-throughput data and represents a first step in constraining\
+    \ a data-driven reaction model to satisfy domain information."
+  authors: "Klea Ziu, Ruben Solozabal, Srinivas Rangarajan, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  journal: 'Journal of Physics: Energy'
+  title: A deep neural network for oxidative coupling of methane trained on high throughput
+    experimental data
+  type: jpaper
+  year: '2022'
 - abstract: "\nFederated learning has become a popular machine learning paradigm with\
     \ many potential real-life applications, including recommendation systems, the\
     \ Internet of Things (IoT), healthcare, and self-driving cars. Though most current\
@@ -245,12 +273,6 @@
   link: https://arxiv.org/abs/2208.13190
   pdf: https://arxiv.org/pdf/2208.13190.pdf
   title: Exploiting higher-order derivatives in convex optimization methods
-  type: tpaper
-  year: '2022'
-- authors: "Klea Ziu, Ruben Solozabal, Srinivas Rangarajan, <strong>Martin Tak\xE1\
-    \u010D</strong>"
-  title: A deep neural network for oxidative coupling of methane trained on high throughput
-    experimental data
   type: tpaper
   year: '2022'
 - abstract: "The problem of constrained Markov decision process is considered. An\
