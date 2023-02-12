@@ -77,6 +77,28 @@
   title: Partial Disentanglement with Partially-Federated GANs (PaDPaF)
   type: tpaper
   year: '2022'
+- abstract: "We propose a classification-aware path planning architecture for a\n\
+    team of robots in order to traverse along the most informative paths with the\n\
+    objective of completing map classification tasks using localized (partial) observations\
+    \ from the environment. In this method, the neural network layers with parallel\
+    \ structure utilize each agent\u2019s memorized history and solve the path planning\n\
+    problem to achieve classification. The objective is to avoid visiting less informative\
+    \ regions and significantly reduce the total energy cost (e.g., battery life)\
+    \ when\nsolving the classification problem. Moreover, the parallel design of the\
+    \ path planning structure reduces the training complexity drastically. The efficacy\
+    \ of our\napproach has been validated by a map classification problem in the simulation\n\
+    environment of satellite campus maps using quadcopters with onboard cameras."
+  authors: "Guangyi Liu, Arash Amini, <strong>Martin Tak\xE1\u010D</strong>, Nader\
+    \ Motee"
+  journal: 'Distributed Autonomous Robotic Systems,
+
+    15th International Symposium'
+  link: https://link.springer.com/book/10.1007/978-3-030-92790-5?page=2#toc
+  ltype: 'DARS 2021 '
+  pdf: https://link.springer.com/content/pdf/10.1007/978-3-030-92790-5_23?pdf=chapter%20toc
+  title: Classification-Aware Path Planning of Network of Robots
+  type: cpaper
+  year: '2022'
 - abstract: "\n\t\tTransmission-constrained problems in power systems can be cast\
     \ as polynomial optimization problems whose coefficients vary over time. We consider\
     \ the complications therein and suggest several approaches. On the example of\
@@ -696,28 +718,6 @@
     and underestimate sequences'
   type: jpaper
   year: '2021'
-- abstract: "We propose a classification-aware path planning architecture for a\n\
-    team of robots in order to traverse along the most informative paths with the\n\
-    objective of completing map classification tasks using localized (partial) observations\
-    \ from the environment. In this method, the neural network layers with parallel\
-    \ structure utilize each agent\u2019s memorized history and solve the path planning\n\
-    problem to achieve classification. The objective is to avoid visiting less informative\
-    \ regions and significantly reduce the total energy cost (e.g., battery life)\
-    \ when\nsolving the classification problem. Moreover, the parallel design of the\
-    \ path planning structure reduces the training complexity drastically. The efficacy\
-    \ of our\napproach has been validated by a map classification problem in the simulation\n\
-    environment of satellite campus maps using quadcopters with onboard cameras."
-  authors: "Guangyi Liu, Arash Amini, <strong>Martin Tak\xE1\u010D</strong>, Nader\
-    \ Motee"
-  journal: 'Distributed Autonomous Robotic Systems,
-
-    15th International Symposium'
-  link: https://link.springer.com/book/10.1007/978-3-030-92790-5?page=2#toc
-  ltype: 'DARS 2021 '
-  pdf: https://link.springer.com/content/pdf/10.1007/978-3-030-92790-5_23?pdf=chapter%20toc
-  title: Classification-Aware Path Planning of Network of Robots
-  type: cpaper
-  year: '2022'
 - abstract: 'This work presents a new algorithm for empirical risk minimization. The
 
     algorithm bridges the gap between first- and second-order methods by computing
