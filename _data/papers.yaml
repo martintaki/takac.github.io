@@ -1,3 +1,82 @@
+- abstract: We present an adaptive stochastic variance reduced method with an implicit
+    approach for adaptivity. As a variant of SARAH, our method employs the stochastic
+    recursive gradient yet adjusts step-size based on local geometry. We provide convergence
+    guarantees for finite-sum minimization problems and show a faster convergence
+    than SARAH can be achieved if local geometry permits. Furthermore, we propose
+    a practical, fully adaptive variant, which does not require any knowledge of local
+    geometry and any effort of tuning the hyper-parameters. This algorithm implicitly
+    computes step-size and efficiently estimates local Lipschitz smoothness of stochastic
+    functions. The numerical experiments demonstrate the algorithm's strong performance
+    compared to its classical counterparts and other state-of-the-art first-order
+    methods.
+  authors: "Zheng Shi, Abdurakhmon Sadiev, Nicolas Loizou, Peter Richt\xE1rik, <strong>Martin\
+    \ Tak\xE1\u010D</strong>"
+  journal: Transactions on Machine Learning Research (TMLR)
+  link: https://arxiv.org/abs/2102.09700
+  pdf: https://arxiv.org/pdf/2102.09700.pdf
+  title: 'AI-SARAH: Adaptive and Implicit Stochastic Recursive Gradient Methods'
+  type: jpaper
+  year: '2023'
+- abstract: "\n\t\tThis work studies non-cooperative Multi-Agent Reinforce-\nment\
+    \ Learning (MARL) where multiple agents interact in the same\nenvironment and\
+    \ whose goal is to maximize the individual returns. Chal-\nlenges arise when scaling\
+    \ up the number of agents due to the resultant\nnon-stationary that the many agents\
+    \ introduce. In order to address this\nissue, Mean Field Games (MFG) rely on the\
+    \ symmetry and homogeneity\nassumptions to approximate games with very large populations.\
+    \ Recently,\ndeep Reinforcement Learning has been used to scale MFG to games\n\
+    with larger number of states. Current methods rely on smoothing tech-\nniques\
+    \ such as averaging the q-values or the updates on the mean-field\ndistribution.\
+    \ This work presents a different approach to stabilize the\nlearning based on\
+    \ proximal updates on the mean-field policy. We name\nour algorithm Mean Field\
+    \ Proximal Policy Optimization (MF-PPO), and\nwe empirically show the effectiveness\
+    \ of our method in the OpenSpiel\nframework.\n"
+  authors: "Talal Algumaei, Ruben Solozabal Ochoa de Retana, Reda Alami, Hakim Hacid,\
+    \ Merouane Debbah, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD
+    2023)
+  title: Regularization of the policy updates for stabilizing Mean Field Games
+  type: cpaper
+  year: '2023'
+- abstract: "\n\t\tIn this paper, we propose Cubic Regularized Quasi-Newton Methods\
+    \ for (strongly) star-convex and Accelerated Cubic Regularized Quasi-Newton for\
+    \ convex optimization. The proposed class of algorithms combines the global convergence\
+    \ of the Cubic Newton with the affordability of constructing the Hessian approximation\
+    \ via a Quasi-Newton update. To construct these methods we introduce two novel\
+    \ concepts of Hessian inexactness and propose the Adaptive Inexact Cubic Regularized\
+    \ Newton algorithm and its accelerated version, which adjust to the approximation\
+    \ error. We show that different Quasi-Newton updates satisfy these approximation\
+    \ conditions and provide a complexity-efficient way to solve the cubic subproblem.\
+    \ We provide global convergence rates with explicit dependence on Hessian approximation\
+    \ error. By combining cubic regularization, acceleration technique, and adaptivity,\
+    \ our algorithms show good practical performance, especially from the points where\
+    \ classical Newton diverges.\n\t\t"
+  authors: "Dmitry Kamzolov, Klea Ziu, Artem Agafonov, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  link: http://arxiv.org/abs/2302.04987
+  pdf: https://arxiv.org/pdf/2302.04987.pdf
+  title: Accelerated Adaptive Cubic Regularized Quasi-Newton Methods
+  type: tpaper
+  year: '2023'
+- abstract: "Recently the SP (Stochastic Polyak step size) method has emerged as a\
+    \ competitive adaptive method for setting the step sizes of SGD.  SP can be interpreted\
+    \ as a method specialized to interpolated models, since it solves the interpolation\
+    \ equations. SP solves these equation by using local linearizations of the model.\
+    \  We take a step further and develop a method for solving the interpolation equations\
+    \ that uses the local second-order approximation of the model. Our resulting method\
+    \ SP2 uses Hessian-vector products to speed-up the convergence of SP. Furthermore,\
+    \ and rather uniquely among second-order methods, the design of SP2 in no way\
+    \ relies on positive definite Hessian matrices or convexity of the objective function.\
+    \ We show SP2 is competitive both in experiments and in theory. \nWe show SP2\
+    \ is very competitive on matrix completion, non-convex test problems and logistic\
+    \ regression. We also provide a convergence theory on sums-of-quadratics."
+  authors: "Shuang Li, William Joseph Swartworth, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Deanna Needell, Robert M. Gower"
+  journal: ICLR
+  link: http://arxiv.org/abs/2207.08171
+  pdf: https://arxiv.org/pdf/2207.08171.pdf
+  title: 'SP2: A Second Order Stochastic Polyak Method'
+  type: cpaper
+  year: '2023'
 - abstract: "\nThe performance of the Deep Learning (DL) models depends on the quality\
     \ of labels. \nIn some areas, the involvement of human annotators may lead to\
     \ noise in the data. When these corrupted labels are blindly regarded as the ground\
@@ -408,26 +487,6 @@
   title: Learning to Control under Time-Varying Environment
   type: tpaper
   year: '2022'
-- abstract: "Recently the SP (Stochastic Polyak step size) method has emerged as a\
-    \ competitive adaptive method for setting the step sizes of SGD.  SP can be interpreted\
-    \ as a method specialized to interpolated models, since it solves the interpolation\
-    \ equations. SP solves these equation by using local linearizations of the model.\
-    \  We take a step further and develop a method for solving the interpolation equations\
-    \ that uses the local second-order approximation of the model. Our resulting method\
-    \ SP2 uses Hessian-vector products to speed-up the convergence of SP. Furthermore,\
-    \ and rather uniquely among second-order methods, the design of SP2 in no way\
-    \ relies on positive definite Hessian matrices or convexity of the objective function.\
-    \ We show SP2 is competitive both in experiments and in theory. \nWe show SP2\
-    \ is very competitive on matrix completion, non-convex test problems and logistic\
-    \ regression. We also provide a convergence theory on sums-of-quadratics."
-  authors: "Shuang Li, William Joseph Swartworth, <strong>Martin Tak\xE1\u010D</strong>,\
-    \ Deanna Needell, Robert M. Gower"
-  journal: ICLR
-  link: http://arxiv.org/abs/2207.08171
-  pdf: https://arxiv.org/pdf/2207.08171.pdf
-  title: 'SP2: A Second Order Stochastic Polyak Method'
-  type: cpaper
-  year: '2022'
 - abstract: 'Methods with adaptive scaling of different features play a key role in
     solving saddle point problems, primarily due to Adam''s popularity for solving
     adversarial machine learning problems, including GANS training. This paper carries
@@ -783,24 +842,6 @@
   title: 'A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory
     Optimization'
   type: jpaper
-  year: '2021'
-- abstract: We present an adaptive stochastic variance reduced method with an implicit
-    approach for adaptivity. As a variant of SARAH, our method employs the stochastic
-    recursive gradient yet adjusts step-size based on local geometry. We provide convergence
-    guarantees for finite-sum minimization problems and show a faster convergence
-    than SARAH can be achieved if local geometry permits. Furthermore, we propose
-    a practical, fully adaptive variant, which does not require any knowledge of local
-    geometry and any effort of tuning the hyper-parameters. This algorithm implicitly
-    computes step-size and efficiently estimates local Lipschitz smoothness of stochastic
-    functions. The numerical experiments demonstrate the algorithm's strong performance
-    compared to its classical counterparts and other state-of-the-art first-order
-    methods.
-  authors: "Zheng Shi, Nicolas Loizou, Peter Richt\xE1rik, <strong>Martin Tak\xE1\u010D\
-    </strong>"
-  link: https://arxiv.org/abs/2102.09700
-  pdf: https://arxiv.org/pdf/2102.09700.pdf
-  title: 'AI-SARAH: Adaptive and Implicit Stochastic Recursive Gradient Methods'
-  type: tpaper
   year: '2021'
 - abstract: "Clustering and classification critically rely on distance metrics that\
     \ provide meaningful comparisons between data points. To this end, learning optimal\
