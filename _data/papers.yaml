@@ -1,4 +1,4 @@
-- abstract: 'Integration of variable renewable energy into the grid has posed challenges
+- abstract: 'Integrating variable renewable energy into the grid has posed challenges
     to system operators in achieving optimal trade-offs among energy availability,
     cost affordability, and pollution controllability. This paper proposes a multi-agent
     reinforcement learning framework for managing energy transactions in microgrids.
@@ -13,6 +13,8 @@
   authors: "Nicolas Cuadrado, Roberto Alejandro Gutierrez Guillen, Yongli Zhu, <strong>Martin\
     \ Tak\xE1\u010D</strong>"
   journal: 'ICLR 2023 Workshop: Tackling Climate Change with Machine Learning'
+  link: https://arxiv.org/abs/2303.08447
+  pdf: https://arxiv.org/pdf/2303.08447
   title: 'MAHTM: A Multi-Agent Framework for Hierarchical Transactive Microgrids'
   type: cpaper
   year: '2023'
