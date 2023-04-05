@@ -54,6 +54,8 @@
     \ Merouane Debbah, <strong>Martin Tak\xE1\u010D</strong>"
   journal: 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD
     2023)
+  link: https://arxiv.org/abs/2304.01547
+  pdf: https://arxiv.org/pdf/2304.01547.pdf
   title: Regularization of the policy updates for stabilizing Mean Field Games
   type: cpaper
   year: '2023'
