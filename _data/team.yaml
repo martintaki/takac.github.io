@@ -47,6 +47,12 @@
   label: Visiting Researchers / Students [MBZUAI]
 - items:
   - col: {}
+    from: Fall 2023 - Spring 2024
+    image: Huseyin.jpeg
+    name: Huseyin Ucar
+    to: Fall 2023 - Spring 2024
+    type: 'Fulbright '
+  - col: {}
     from: '2019'
     image: ruben.jpeg
     name: Ruben Solozabal
