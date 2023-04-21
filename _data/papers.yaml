@@ -1,3 +1,28 @@
+- abstract: This paper introduces a Reinforcement Learning approach to better generalize
+    heuristic dispatching rules on the Job-shop Scheduling Problem (JSP). Current
+    models on the JSP do not focus on generalization, although, as we show in this
+    work, this is key to learning better heuristics on the problem. A well-known technique
+    to improve generalization is to learn on increasingly complex instances using
+    Curriculum Learning (CL). However, as many works in the literature indicate, this
+    technique might suffer from catastrophic forgetting when transferring the learned
+    skills between different problem sizes. To address this issue, we introduce a
+    novel Adversarial Curriculum Learning (ACL) strategy, which dynamically adjusts
+    the difficulty level during the learning process to revisit the worst-performing
+    instances. This work also presents a deep learning model to solve the JSP, which
+    is equivariant w.r.t. the job definition and size-agnostic. Conducted experiments
+    on Taillard's and Demirkol's instances show that the presented approach significantly
+    improves the current state-of-the-art models on the JSP. It reduces the average
+    optimality gap from 19.35% to 10.46% on Taillard's instances and from 38.43% to
+    18.85% on Demirkol's instances. Our implementation is available online.
+  authors: "Zangir Iklassov, Dmitrii Medvedev, Ruben Solozabal, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  journal: IJCAI 2023
+  link: https://arxiv.org/abs/2206.04423
+  pdf: https://arxiv.org/pdf/2206.04423
+  title: On the study of Curriculum Learning for inferring dispatching policies on
+    the Job Shop Scheduling
+  type: cpaper
+  year: '2023'
 - abstract: 'Integrating variable renewable energy into the grid has posed challenges
     to system operators in achieving optimal trade-offs among energy availability,
     cost affordability, and pollution controllability. This paper proposes a multi-agent
@@ -441,29 +466,6 @@
   authors: "Alexander Rogozin, Farshed Abdukhakimov, Dmitry Kamzolov, <strong>Martin\
     \ Tak\xE1\u010D</strong>, Francesco Orabona"
   title: On Sharpness in Deep Linear Networks
-  type: tpaper
-  year: '2022'
-- abstract: This paper introduces a Reinforcement Learning approach to better generalize
-    heuristic dispatching rules on the Job-shop Scheduling Problem (JSP). Current
-    models on the JSP do not focus on generalization, although, as we show in this
-    work, this is key to learning better heuristics on the problem. A well-known technique
-    to improve generalization is to learn on increasingly complex instances using
-    Curriculum Learning (CL). However, as many works in the literature indicate, this
-    technique might suffer from catastrophic forgetting when transferring the learned
-    skills between different problem sizes. To address this issue, we introduce a
-    novel Adversarial Curriculum Learning (ACL) strategy, which dynamically adjusts
-    the difficulty level during the learning process to revisit the worst-performing
-    instances. This work also presents a deep learning model to solve the JSP, which
-    is equivariant w.r.t. the job definition and size-agnostic. Conducted experiments
-    on Taillard's and Demirkol's instances show that the presented approach significantly
-    improves the current state-of-the-art models on the JSP. It reduces the average
-    optimality gap from 19.35% to 10.46% on Taillard's instances and from 38.43% to
-    18.85% on Demirkol's instances. Our implementation is available online.
-  authors: "Zangir Iklassov, Dmitrii Medvedev, Ruben Solozabal, <strong>Martin Tak\xE1\
-    \u010D</strong>"
-  link: https://arxiv.org/abs/2206.04423
-  pdf: https://arxiv.org/pdf/2206.04423
-  title: Learning to generalize Dispatching rules on the Job Shop Scheduling
   type: tpaper
   year: '2022'
 - abstract: 'Inspired by the recent work FedNL (Safaryan et al, FedNL: Making Newton-Type
