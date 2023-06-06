@@ -1,3 +1,28 @@
+- abstract: "\nFederated learning has become a popular machine learning paradigm with\
+    \ many potential real-life applications, including recommendation systems, the\
+    \ Internet of Things (IoT), healthcare, and self-driving cars. Though most current\
+    \ applications focus on classification-based tasks, learning personalized generative\
+    \ models remains largely unexplored, and their benefits in the heterogeneous setting\
+    \ still need to be better understood. This work proposes a novel architecture\
+    \ combining global client-agnostic and local client-specific generative models.\
+    \ We show that using standard techniques for training federated models, our proposed\
+    \ model achieves privacy and personalization that is achieved by implicitly disentangling\
+    \ the globally-consistent representation (i.e. content) from the client-dependent\
+    \ variations (i.e. style). Using such decomposition, personalized models can generate\
+    \ locally unseen labels while preserving the given style of the client and can\
+    \ predict the labels for all clients with high accuracy by training a simple linear\
+    \ classifier on the global content features. Furthermore, disentanglement enables\
+    \ other essential applications, such as data anonymization, by sharing only content.\
+    \ Extensive experimental evaluation corroborates our findings, and we also provide\
+    \ partial theoretical justifications for the proposed approach.\n\t\t"
+  authors: "Abdulla Jasem Almansoori, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  journal: Federated Learning Systems (FLSys) Workshop @ MLSys 2023 (oral)
+  link: https://arxiv.org/abs/2212.03836
+  pdf: https://arxiv.org/pdf/2212.03836
+  title: Partial Disentanglement with Partially-Federated GANs (PaDPaF)
+  type: cpaper
+  year: '2023'
 - abstract: This paper introduces a Reinforcement Learning approach to better generalize
     heuristic dispatching rules on the Job-shop Scheduling Problem (JSP). Current
     models on the JSP do not focus on generalization, although, as we show in this
@@ -178,30 +203,6 @@
   title: A deep neural network for oxidative coupling of methane trained on high throughput
     experimental data
   type: jpaper
-  year: '2022'
-- abstract: "\nFederated learning has become a popular machine learning paradigm with\
-    \ many potential real-life applications, including recommendation systems, the\
-    \ Internet of Things (IoT), healthcare, and self-driving cars. Though most current\
-    \ applications focus on classification-based tasks, learning personalized generative\
-    \ models remains largely unexplored, and their benefits in the heterogeneous setting\
-    \ still need to be better understood. This work proposes a novel architecture\
-    \ combining global client-agnostic and local client-specific generative models.\
-    \ We show that using standard techniques for training federated models, our proposed\
-    \ model achieves privacy and personalization that is achieved by implicitly disentangling\
-    \ the globally-consistent representation (i.e. content) from the client-dependent\
-    \ variations (i.e. style). Using such decomposition, personalized models can generate\
-    \ locally unseen labels while preserving the given style of the client and can\
-    \ predict the labels for all clients with high accuracy by training a simple linear\
-    \ classifier on the global content features. Furthermore, disentanglement enables\
-    \ other essential applications, such as data anonymization, by sharing only content.\
-    \ Extensive experimental evaluation corroborates our findings, and we also provide\
-    \ partial theoretical justifications for the proposed approach.\n\t\t"
-  authors: "Abdulla Jasem Almansoori, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D\
-    </strong>"
-  link: https://arxiv.org/abs/2212.03836
-  pdf: https://arxiv.org/pdf/2212.03836
-  title: Partial Disentanglement with Partially-Federated GANs (PaDPaF)
-  type: tpaper
   year: '2022'
 - abstract: "We propose a classification-aware path planning architecture for a\n\
     team of robots in order to traverse along the most informative paths with the\n\
