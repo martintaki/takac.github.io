@@ -1,3 +1,22 @@
+- abstract: "\n\t\t\tThe rise in renewable energy is creating new dynamics in the\
+    \ energy grid that promise to create a cleaner and more participative energy grid,\
+    \ where technology plays a crucial part in creating the required flexibility to\
+    \ achieve the vision of the next-generation grid. This work presents FRESCO, a\
+    \ framework that aims to ease the implementation of energy markets using a hierarchical\
+    \ control architecture of reinforcement learning agents trained using federated\
+    \ learning. The core concept we are proving is that having greedy agents subject\
+    \ to changing conditions from a higher level agent creates a cooperative setup\
+    \ that will allow for fulfilling all the individual objectives. This paper presents\
+    \ a general overview of the framework, the current progress, and some insights\
+    \ we obtained from the recent results.\n\t\t"
+  authors: "Nicolas Mauricio Cuadrado, Roberto Alejandro Gutierrez Guillen, <strong>Martin\
+    \ Tak\xE1\u010D</strong>"
+  journal: Tiny Papers @ ICLR 2023
+  link: https://openreview.net/forum?id=75mWq5j4iso
+  pdf: https://openreview.net/pdf?id=75mWq5j4iso
+  title: 'FRESCO: Federated Reinforcement Energy System for Cooperative Optimization'
+  type: cpaper
+  year: '2023'
 - abstract: "\nFederated learning has become a popular machine learning paradigm with\
     \ many potential real-life applications, including recommendation systems, the\
     \ Internet of Things (IoT), healthcare, and self-driving cars. Though most current\
