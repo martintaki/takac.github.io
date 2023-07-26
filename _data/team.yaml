@@ -1,5 +1,10 @@
 - items:
   - col: {}
+    from: 2023/04
+    image: NikitaYudin.png
+    name: Nikita Yudin
+    to: 2023/07
+  - col: {}
     from: 2022/12
     image: Konstantin_Mishchenko.jpg
     name: Konstantin Mishchenko
