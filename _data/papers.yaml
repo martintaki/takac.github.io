@@ -1,3 +1,26 @@
+- abstract: We present a novel end-to-end framework for solving the Vehicle Routing
+    Problem with stochastic demands (VRPSD) using Reinforcement Learning (RL). Our
+    formulation incorporates the correlation between stochastic demands through other
+    observable stochastic variables, thereby offering an experimental demonstration
+    of the theoretical premise that non-i.i.d. stochastic demands provide opportunities
+    for improved routing solutions. Our approach bridges the gap in the application
+    of RL to VRPSD and consists of a parameterized stochastic policy optimized using
+    a policy gradient algorithm to generate a sequence of actions that form the solution.
+    Our model outperforms previous state-of-the-art metaheuristics and demonstrates
+    robustness to changes in the environment, such as the supply type, vehicle capacity,
+    correlation, and noise levels of demand. Moreover, the model can be easily retrained
+    for different VRPSD scenarios by observing the reward signals and following feasibility
+    constraints, making it highly flexible and scalable. These findings highlight
+    the potential of RL to enhance the transportation efficiency and mitigate its
+    environmental impact in stochastic routing problems. Our implementation is available
+    online at https://github.com/Zangir/SVRP
+  authors: "Zangir Iklassov, Ikboljon Sobirov, Ruben Solozabal, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  journal: IEEE Access
+  title: Reinforcement Learning Approach to Stochastic Vehicle Routing Problem with
+    Correlated Demands
+  type: jpaper
+  year: '2023'
 - abstract: Exploiting higher-order derivatives in convex optimization is known at
     least since 1970's. In each iteration higher-order (also called tensor) methods
     minimize a regularized Taylor expansion of the objective function, which leads
