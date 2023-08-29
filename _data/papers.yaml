@@ -44,6 +44,25 @@
   title: Exploiting higher-order derivatives in convex optimization methods
   type: opaper
   year: '2023'
+- abstract: "The problem of constrained Markov decision process is considered. An\
+    \ agent aims to maximize the expected accumulated discounted reward subject to\
+    \ multiple constraints on its costs (the number of constraints is relatively small).\
+    \ A new dual approach is proposed with the integration of two ingredients: entropy\
+    \ regularized policy optimizer and Vayda\u2019s dual optimizer, both of which\
+    \ are critical to achieve faster convergence. The finite-time error bound of the\
+    \ proposed approach is provided. Despite the challenge of the nonconcave objective\
+    \ subject to nonconcave constraints, the proposed approach is shown to converge\
+    \ (with linear rate) to the global optimum. The complexity expressed in terms\
+    \ of the optimality gap and the constraint violation significantly improves upon\
+    \ the existing primal-dual approaches."
+  authors: "Egor Gladin, Maksim Lavrik-Karmazin, Karina Eduardovna Zainullina, Varvara\
+    \ Rudenko, Alexander Gasnikov, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: AISTATS
+  link: https://proceedings.mlr.press/v206/gladin23a
+  pdf: https://proceedings.mlr.press/v206/gladin23a/gladin23a.pdf
+  title: Algorithm for Constrained Markov Decision Process with Linear Convergence
+  type: cpaper
+  year: '2023'
 - abstract: "\n\t\t\tThe rise in renewable energy is creating new dynamics in the\
     \ energy grid that promise to create a cleaner and more participative energy grid,\
     \ where technology plays a crucial part in creating the required flexibility to\
@@ -470,25 +489,6 @@
   title: 'Decentralized Personalized Federated Learning: Lower Bounds and Optimal
     Algorithm for All Personalization Modes'
   type: jpaper
-  year: '2022'
-- abstract: "The problem of constrained Markov decision process is considered. An\
-    \ agent aims to maximize the expected accumulated discounted reward subject to\
-    \ multiple constraints on its costs (the number of constraints is relatively small).\
-    \ A new dual approach is proposed with the integration of two ingredients: entropy\
-    \ regularized policy optimizer and Vayda\u2019s dual optimizer, both of which\
-    \ are critical to achieve faster convergence. The finite-time error bound of the\
-    \ proposed approach is provided. Despite the challenge of the nonconcave objective\
-    \ subject to nonconcave constraints, the proposed approach is shown to converge\
-    \ (with linear rate) to the global optimum. The complexity expressed in terms\
-    \ of the optimality gap and the constraint violation significantly improves upon\
-    \ the existing primal-dual approaches."
-  authors: "Egor Gladin, Maksim Lavrik-Karmazin, Karina Eduardovna Zainullina, Varvara\
-    \ Rudenko, Alexander Gasnikov, <strong>Martin Tak\xE1\u010D</strong>"
-  journal: AISTATS
-  link: https://arxiv.org/abs/2206.01666
-  pdf: https://arxiv.org/pdf/2206.01666.pdf
-  title: Algorithm for Constrained Markov Decision Process with Linear Convergence
-  type: cpaper
   year: '2022'
 - abstract: 'The assumption of bounded sharpness/smoothness, that is bounded maximum
     eigenvalue of the Hessian of the objective function, plays an important role in
