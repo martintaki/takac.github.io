@@ -617,6 +617,8 @@
   authors: "Naif Alkhunaizi, Dmitry Kamzolov, <strong>Martin Tak\xE1\u010D</strong>,\
     \ Karthik Nandakumar"
   journal: MICCAI2022
+  link: https://link.springer.com/chapter/10.1007/978-3-031-16452-1_64
+  pdf: https://link.springer.com/content/pdf/10.1007/978-3-031-16452-1.pdf?pdf=button
   title: Suppressing Poisoning Attacks on Federated Learning for Medical Imaging
   type: cpaper
   year: '2022'
