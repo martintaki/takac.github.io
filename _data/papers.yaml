@@ -1,3 +1,20 @@
+- abstract: "\nWe present a new accelerated stochastic second-order method that is\
+    \ robust to both gradient and Hessian inexactness, which occurs typically in machine\
+    \ learning. We establish theoretical lower bounds and prove that our algorithm\
+    \ achieves optimal convergence in both gradient and Hessian inexactness in this\
+    \ key setting. We further introduce a tensor generalization for stochastic higher-order\
+    \ derivatives. When the oracles are non-stochastic, the proposed tensor algorithm\
+    \ matches the global convergence of Nesterov Accelerated Tensor method. Both algorithms\
+    \ allow for approximate solutions of their auxiliary subproblems with verifiable\
+    \ conditions on the accuracy of the solution.\n\t\t"
+  authors: "Artem Agafonov, Dmitry Kamzolov, Alexander Gasnikov, Kimon Antonakopoulos,\
+    \ Volkan Cevher, <strong>Martin Tak\xE1\u010D</strong>"
+  link: http://arxiv.org/abs/2309.01570
+  pdf: https://arxiv.org/pdf/2309.01570.pdf
+  title: 'Advancing the lower bounds: An accelerated, stochastic, second-order method
+    with optimal adaptation to inexactness'
+  type: tpaper
+  year: '2023'
 - abstract: We present a novel end-to-end framework for solving the Vehicle Routing
     Problem with stochastic demands (VRPSD) using Reinforcement Learning (RL). Our
     formulation incorporates the correlation between stochastic demands through other
