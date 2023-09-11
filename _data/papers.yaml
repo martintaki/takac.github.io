@@ -502,6 +502,7 @@
 - authors: "Zhengqing Gao, Huimin Wu, <strong>Martin Tak\xE1\u010D</strong>, Bin Gu"
   journal: 31st ACM International Conference on Information and Knowledge Management,
     CIKM2022
+  link: https://dl.acm.org/doi/10.1145/3511808.3557150
   title: Towards Practical Large Scale Non-Linear Semi-Supervised Learning with Balanced
     Constraints
   type: cpaper
