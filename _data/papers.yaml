@@ -1,3 +1,22 @@
+- abstract: "\nThis study addresses a gap in the utilization of Reinforcement Learning\
+    \ (RL) and Machine Learning (ML) techniques in solving the Stochastic Vehicle\
+    \ Routing Problem (SVRP) that involves the challenging task of optimizing vehicle\
+    \ routes under uncertain conditions. We propose a novel end-to-end framework that\
+    \ comprehensively addresses the key sources of stochasticity in SVRP and utilizes\
+    \ an RL agent with a simple yet effective architecture and a tailored training\
+    \ method. Through comparative analysis, our proposed model demonstrates superior\
+    \ performance compared to a widely adopted state-of-the-art metaheuristic, achieving\
+    \ a significant 3.43% reduction in travel costs. Furthermore, the model exhibits\
+    \ robustness across diverse SVRP settings, highlighting its adaptability and ability\
+    \ to learn optimal routing strategies in varying environments. The publicly available\
+    \ implementation of our framework serves as a valuable resource for future research\
+    \ endeavors aimed at advancing RL-based solutions for SVRP.\n\t\t"
+  authors: "Zangir Iklassov, Ikboljon Sobirov, Ruben Solozabal, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  journal: 'Asian Conference on Machine Learning (ACML 2023) '
+  title: Reinforcement Learning for Solving Stochastic Vehicle Routing Problem
+  type: cpaper
+  year: '2023'
 - abstract: "\nWe present a new accelerated stochastic second-order method that is\
     \ robust to both gradient and Hessian inexactness, which occurs typically in machine\
     \ learning. We establish theoretical lower bounds and prove that our algorithm\
