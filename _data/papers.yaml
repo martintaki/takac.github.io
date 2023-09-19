@@ -1,3 +1,17 @@
+- abstract: We propose general non-accelerated and accelerated tensor methods under
+    inexact information on the derivatives of the objective, analyze their convergence
+    rate. Further, we provide conditions for the inexactness in each derivative that
+    is sufficient for each algorithm to achieve the desired accuracy. As a corollary,
+    we propose stochastic tensor methods for convex optimization and obtain sufficient
+    mini-batch sizes for each derivative.
+  authors: "Artem Agafonov, Dmitry Kamzolov, Pavel Dvurechensky, Alexander Gasnikov,\
+    \ <strong>Martin Tak\xE1\u010D</strong>"
+  journal: Optimization Methods and Software (GOMS)
+  link: https://doi.org/10.1080/10556788.2023.2261604
+  pdf: https://arxiv.org/pdf/2012.15636.pdf
+  title: Inexact Tensor Methods and Their Application to Stochastic Convex Optimization
+  type: jpaper
+  year: '2023'
 - abstract: "\nThis study addresses a gap in the utilization of Reinforcement Learning\
     \ (RL) and Machine Learning (ML) techniques in solving the Stochastic Vehicle\
     \ Routing Problem (SVRP) that involves the challenging task of optimizing vehicle\
@@ -658,19 +672,6 @@
   pdf: https://link.springer.com/content/pdf/10.1007/978-3-031-16452-1.pdf?pdf=button
   title: Suppressing Poisoning Attacks on Federated Learning for Medical Imaging
   type: cpaper
-  year: '2022'
-- abstract: We propose general non-accelerated and accelerated tensor methods under
-    inexact information on the derivatives of the objective, analyze their convergence
-    rate. Further, we provide conditions for the inexactness in each derivative that
-    is sufficient for each algorithm to achieve the desired accuracy. As a corollary,
-    we propose stochastic tensor methods for convex optimization and obtain sufficient
-    mini-batch sizes for each derivative.
-  authors: "Artem Agafonov, Dmitry Kamzolov, Pavel Dvurechensky, Alexander Gasnikov,\
-    \ <strong>Martin Tak\xE1\u010D</strong>"
-  link: https://arxiv.org/abs/2012.15636
-  pdf: https://arxiv.org/pdf/2012.15636.pdf
-  title: Inexact Tensor Methods and Their Application to Stochastic Convex Optimization
-  type: tpaper
   year: '2022'
 - abstract: A very large number of communications are typically required to solve
     distributed learning tasks, and this critically limits scalability and convergence
