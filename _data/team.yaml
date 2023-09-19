@@ -119,9 +119,19 @@
   label: Postdoc [Lehigh]
 - items:
   - col: {}
-    from: 2022
-    image: Hanshuo_Zhai.jpg
-    name: Hanshuo Zhai
+    from: 2023/09
+    image: klea_ziu.jpg
+    name: Klea Ziu
+    to: present
+  - col: {}
+    from: 2023/09
+    image: NicolasCuadrado.jpeg
+    name: "Nicol\xE1s Cuadrado"
+    to: present
+  - col: {}
+    from: 2023/09
+    image: khalid_al_nahyan.jpg
+    name: Khalid Al Nahyan
     to: present
   - col: {}
     from: 2021
@@ -138,6 +148,8 @@
     image: Artem_Agafonov.jpg
     name: Artem Agafonov
     to: present
+  label: PhD Students [MBZUAI]
+- items:
   - col: {}
     from: 2022/09
     image: missing.jpeg
@@ -167,53 +179,53 @@
     from: 2021/01
     image: Dmitrii Medvedev.jpeg
     name: Dmitrii Medvedev
-    to: present
+    to: 2022/12
   - col: {}
     from: 2021/08
     image: missing.jpeg
     name: Farshed Abdukhakimov
-    to: present
+    to: 2023/05
   - col: {}
     from: 2021/09
     image: Shahd_AlShamsi.jpg
     name: Shahd Hamad Ghanem Alshamsi
-    to: present
+    to: 2022/12
   - col: {}
     from: 2021/09
     image: NicolasCuadrado.jpeg
     name: "Nicol\xE1s Cuadrado"
-    to: present
+    to: 2023/05
   - col: {}
     from: 2021/09
     image: Talal_Abdullah_Fadhl_Algumaei.jpg
     name: Talal Abdullah Fadhl Algumaei
-    to: present
+    to: 2023/05
   - col: {}
     from: 2021/09
     image: klea_ziu.jpg
     name: Klea Ziu
-    to: present
+    to: 2023/05
   - col: {}
     from: 2021/09
     image: Alejandro_Gutierrez.jpg
     name: "Roberto Alejandro Guti\xE9rrez Guill\xE9n"
-    to: present
+    to: 2023/05
   - col: {}
     from: 2021/09
     image: Aigerim_Zhumabayeva.jpeg
     name: Aigerim Zhumabayeva
-    to: present
+    to: 2023/05
   - col: {}
     from: 2021/09
     image: khalid_al_nahyan.jpg
     name: Khalid Al Nahyan
-    to: present
+    to: 2023/05
   - col: {}
     from: 2021/09
     image: brahim_erraji.jpeg
     name: Brahim Erraji
-    to: present
-  label: Research Students [MBZUAI]
+    to: 2023/05
+  label: Master Students [MBZUAI]
 - items:
   - col: {}
     from: '2019'
