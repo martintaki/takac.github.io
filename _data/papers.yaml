@@ -1,3 +1,62 @@
+- abstract: Variational inequalities are a broad and flexible class of problems that
+    includes minimization, saddle point, and fixed point problems as special cases.
+    Therefore, variational inequalities are used in various applications ranging from
+    equilibrium search to adversarial learning. With the increasing size of data and
+    models, today's instances demand parallel and distributed computing for real-world
+    machine learning problems, most of which can be represented as variational inequalities.
+    Meanwhile, most distributed approaches have a significant bottleneck -- the cost
+    of communications. The three main techniques to reduce the total number of communication
+    rounds and the cost of one such round are the similarity of local functions, compression
+    of transmitted information, and local updates. In this paper, we combine all these
+    approaches. Such a triple synergy did not exist before for variational inequalities
+    and saddle problems, nor even for minimization problems. The methods presented
+    in this paper have the best theoretical guarantees of communication complexity
+    and are significantly ahead of other methods for distributed variational inequalities.
+    The theoretical results are confirmed by adversarial learning experiments on synthetic
+    and real datasets.
+  authors: "Aleksandr Beznosikov, <strong>Martin Tak\xE1\u010D</strong>, Alexander\
+    \ Gasnikov"
+  journal: NeurIPS 2023
+  title: 'Similarity, Compression and Local Steps: Three Pillars of Efficient Communications
+    for Distributed Variational Inequalities'
+  type: cpaper
+  year: '2023'
+- abstract: Robustness to Byzantine attacks is a necessity for various distributed
+    training scenarios. When the training reduces to the process of solving a minimization
+    problem, Byzantine robustness is relatively well-understood. However, other problem
+    formulations, such as min-max problems or, more generally, variational inequalities,
+    arise in many modern machine learning and, in particular, distributed learning
+    tasks. These problems significantly differ from the standard minimization ones
+    and, therefore, require separate consideration. Nevertheless, only one work [Abidi
+    et al., 2022] addresses this important question in the context of Byzantine robustness.
+    Our work makes a further step in this direction by providing several (provably)
+    Byzantine-robust methods for distributed variational inequality, thoroughly studying
+    their theoretical convergence, removing the limitations of the previous work,
+    and providing numerical comparisons supporting the theoretical findings.
+  authors: "Nazarii Tupitsa, Eduard Gorbunov, Abdulla Jasem Almansoori, Yanlin Wu,\
+    \ <strong>Martin Tak\xE1\u010D</strong>, Karthik Nandakumar, Samuel Horv\xE1th"
+  journal: NeurIPS 2023
+  title: Byzantine-Tolerant Methods for Distributed Variational Inequalities
+  type: cpaper
+  year: '2023'
+- abstract: Robustness to Byzantine attacks is a necessity for various distributed
+    training scenarios. When the training reduces to the process of solving a minimization
+    problem, Byzantine robustness is relatively well-understood. However, other problem
+    formulations, such as min-max problems or, more generally, variational inequalities,
+    arise in many modern machine learning and, in particular, distributed learning
+    tasks. These problems significantly differ from the standard minimization ones
+    and, therefore, require separate consideration. Nevertheless, only one work [Abidi
+    et al., 2022] addresses this important question in the context of Byzantine robustness.
+    Our work makes a further step in this direction by providing several (provably)
+    Byzantine-robust methods for distributed variational inequality, thoroughly studying
+    their theoretical convergence, removing the limitations of the previous work,
+    and providing numerical comparisons supporting the theoretical findings.
+  authors: "Nazarii Tupitsa, Eduard Gorbunov, Abdulla Jasem Almansoori, Yanlin Wu,\
+    \ <strong>Martin Tak\xE1\u010D</strong>, Karthik Nandakumar, Samuel Horv\xE1th"
+  journal: NeurIPS 2023
+  title: Byzantine-Tolerant Methods for Distributed Variational Inequalities
+  type: cpaper
+  year: '2023'
 - abstract: We propose general non-accelerated and accelerated tensor methods under
     inexact information on the derivatives of the objective, analyze their convergence
     rate. Further, we provide conditions for the inexactness in each derivative that
