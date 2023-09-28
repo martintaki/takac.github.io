@@ -130,6 +130,11 @@
     to: present
   - col: {}
     from: 2023/09
+    image: MohannadTakrouri.jpeg
+    name: Mohannad Takrouri
+    to: present
+  - col: {}
+    from: 2023/09
     image: khalid_al_nahyan.jpg
     name: Khalid Al Nahyan
     to: present
