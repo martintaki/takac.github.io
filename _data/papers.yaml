@@ -1,3 +1,22 @@
+- abstract: "\nScanning probe spectroscopy generates high-dimensional data that is\
+    \ difficult to analyze in real time, hindering researcher creativity. Machine\
+    \ learning techniques like PCA accelerate analysis but are inefficient, sensitive\
+    \ to noise, and lack interpretability. We developed an unsupervised deep neural\
+    \ network constrained by a known empirical equation to enable real-time, robust\
+    \ fitting. Demonstrated on band-excitation piezoresponse force microscopy, our\
+    \ model fits cantilever response to a simple harmonic oscillators more than 4\
+    \ orders of magnitude faster than least squares while enhancing robustness. It\
+    \ performs well on noisy data where conventional methods fail. Quantization-aware\
+    \ training enables sub-millisecond streaming inference on an FPGA, orders of magnitude\
+    \ faster than data acquisition. This methodology broadly applies to spectroscopic\
+    \ fitting and provides a pathway for real-time control and interpretation.\n\n\
+    \t\t"
+  authors: "Alibek Kaliyev, Shuyu Qin, Yichen Guo, Seda Memik, Michael Mahoney, Amir\
+    \ Gholami, Nhan Tran, <strong>Martin Tak\xE1\u010D</strong>, Joshua Agar"
+  title: Rapid Fitting of Band-Excitation Piezoresponse Force Microscopy Using Physics
+    Constrained Unsupervised Neural Networks
+  type: tpaper
+  year: '2023'
 - abstract: "\nThe Moment/Sum-of-squares hierarchy provides a way to compute the global\
     \ minimizers of polynomial optimization problems (POP), at the cost of solving\
     \ a sequence of increasingly large semidefinite programs (SDPs). We consider large-scale\
