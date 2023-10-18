@@ -1,3 +1,21 @@
+- abstract: "\nTranscription Factors (TFs) bind to regulatory DNA regions, modulating\
+    \ gene expression. Although various high-throughput techniques have been used\
+    \ to characterize protein binding preferences, this work is the first to extend\
+    \ these studies to non-canonical mismatched bases. The mutagenesis study here\
+    \ presented allows us to determine the binding profile in the double-stranded\
+    \ DNA sequence. Additionally, we leverage deep learning to complete the pairwise\
+    \ interactions map. In this context, we introduce ShapPWM, a motif strategy that\
+    \ marginalizes individual nucleotide contribution by computing the Shapley values.\
+    \ Our model reveals that high synergistic interactions appear between nucleotides\
+    \ in the flanking regions of the contacts. This information offers valuable insights\
+    \ into the binding mechanism and reaction energy, without the necessity of solving\
+    \ intricate crystal structures.\n\n\t\t"
+  authors: "Ruben Solozabal, Tamir Avioz, Yunxiang Li, Le Song, <strong>Martin Tak\xE1\
+    \u010D</strong>, Ariel Afek"
+  journal: NeurIPS 2023 Workshop on Machine Learning in Structural Biology
+  title: Investigating Protein-DNA Binding Energetic of Mismatched DNA
+  type: tpaper
+  year: '2023'
 - abstract: "\nScanning probe spectroscopy generates high-dimensional data that is\
     \ difficult to analyze in real time, hindering researcher creativity. Machine\
     \ learning techniques like PCA accelerate analysis but are inefficient, sensitive\
