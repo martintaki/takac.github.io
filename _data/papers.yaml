@@ -1,3 +1,22 @@
+- abstract: "\nThe Moment/Sum-of-squares hierarchy provides a way to compute the global\
+    \ minimizers of polynomial optimization problems (POP), at the cost of solving\
+    \ a sequence of increasingly large semidefinite programs (SDPs). We consider large-scale\
+    \ POPs, for which interior-point methods are no longer able to solve the resulting\
+    \ SDPs. We propose an algorithm that combines a first-order method for solving\
+    \ the SDP relaxation, and a second-order method on a non-convex problem obtained\
+    \ from the POP. The switch from the first to the second-order method is based\
+    \ on a quantitative criterion, whose satisfaction ensures that Newton's method\
+    \ converges quadratically from its first iteration. This criterion leverages the\
+    \ point-estimation theory of Smale and the active-set identification. We illustrate\
+    \ the methodology to obtain global minimizers of large-scale optimal power flow\
+    \ problems.\n\t\t"
+  authors: "Johannes Aspman, Gilles Bareilles, Vyacheslav Kungurtsev, Jakub Marecek,\
+    \ <strong>Martin Tak\xE1\u010D</strong>"
+  link: http://arxiv.org/abs/2305.16122
+  pdf: https://arxiv.org/pdf/2305.16122.pdf
+  title: Hybrid Methods in Polynomial Optimisation
+  type: tpaper
+  year: '2023'
 - abstract: "\nStochastic Gradient Descent (SGD) is one of the many iterative optimization\
     \ methods that are widely used in solving machine learning problems. These methods\
     \ display valuable properties and attract researchers and industrial machine learning\
