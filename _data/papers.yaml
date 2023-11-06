@@ -65,9 +65,10 @@
     \t\t"
   authors: "Alibek Kaliyev, Shuyu Qin, Yichen Guo, Seda Memik, Michael Mahoney, Amir\
     \ Gholami, Nhan Tran, <strong>Martin Tak\xE1\u010D</strong>, Joshua Agar"
+  journal: AI for Accelerated Materials Design - NeurIPS 2023 Workshop
   title: Rapid Fitting of Band-Excitation Piezoresponse Force Microscopy Using Physics
     Constrained Unsupervised Neural Networks
-  type: tpaper
+  type: cpaper
   year: '2023'
 - abstract: "\nThe Moment/Sum-of-squares hierarchy provides a way to compute the global\
     \ minimizers of polynomial optimization problems (POP), at the cost of solving\
@@ -128,24 +129,6 @@
   journal: NeurIPS 2023
   title: 'Similarity, Compression and Local Steps: Three Pillars of Efficient Communications
     for Distributed Variational Inequalities'
-  type: cpaper
-  year: '2023'
-- abstract: Robustness to Byzantine attacks is a necessity for various distributed
-    training scenarios. When the training reduces to the process of solving a minimization
-    problem, Byzantine robustness is relatively well-understood. However, other problem
-    formulations, such as min-max problems or, more generally, variational inequalities,
-    arise in many modern machine learning and, in particular, distributed learning
-    tasks. These problems significantly differ from the standard minimization ones
-    and, therefore, require separate consideration. Nevertheless, only one work [Abidi
-    et al., 2022] addresses this important question in the context of Byzantine robustness.
-    Our work makes a further step in this direction by providing several (provably)
-    Byzantine-robust methods for distributed variational inequality, thoroughly studying
-    their theoretical convergence, removing the limitations of the previous work,
-    and providing numerical comparisons supporting the theoretical findings.
-  authors: "Nazarii Tupitsa, Eduard Gorbunov, Abdulla Jasem Almansoori, Yanlin Wu,\
-    \ <strong>Martin Tak\xE1\u010D</strong>, Karthik Nandakumar, Samuel Horv\xE1th"
-  journal: NeurIPS 2023
-  title: Byzantine-Tolerant Methods for Distributed Variational Inequalities
   type: cpaper
   year: '2023'
 - abstract: Robustness to Byzantine attacks is a necessity for various distributed
