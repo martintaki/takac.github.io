@@ -1,3 +1,9 @@
+- abstract: "\n\t\t\t\n\t\t\t"
+  authors: "Aleksandr Beznosikov, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: Optimization Letters
+  title: Random-reshuffled SARAH does not need a full gradient computations
+  type: jpaper
+  year: '2023'
 - abstract: "\nTranscription Factors (TFs) bind to regulatory DNA regions, modulating\
     \ gene expression. Although various high-throughput techniques have been used\
     \ to characterize protein binding preferences, this work is the first to extend\
