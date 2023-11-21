@@ -187,6 +187,8 @@
   authors: "Zangir Iklassov, Ikboljon Sobirov, Ruben Solozabal, <strong>Martin Tak\xE1\
     \u010D</strong>"
   journal: 'Asian Conference on Machine Learning (ACML 2023) '
+  link: https://arxiv.org/abs/2311.07708
+  pdf: https://arxiv.org/pdf/2311.07708.pdf
   title: Reinforcement Learning for Solving Stochastic Vehicle Routing Problem
   type: cpaper
   year: '2023'
