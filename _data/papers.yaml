@@ -13,7 +13,7 @@
     \ the one without the regularization.\n\t\t\t"
   authors: "Kun Song, Ruben Solozabal Ochoa de Retana, Hao Li, <strong>Martin Tak\xE1\
     \u010D</strong>, Lu Ren, Fakhri Karray"
-  journal: AAAI-24
+  journal: 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)
   title: Robustly train Normalizing Flows via KL Divergence Regularization
   type: cpaper
   year: '2024'
