@@ -17,9 +17,18 @@
   title: Robustly train Normalizing Flows via KL Divergence Regularization
   type: cpaper
   year: '2024'
-- abstract: "\n\t\t\t\n\t\t\t"
+- abstract: "\n\t\t\tThe StochAstic Recursive grAdient algoritHm (SARAH) algorithm\
+    \ is a variance reduced variant of the Stochastic Gradient Descent algorithm that\
+    \ needs a gradient of the objective function from time to time. In this paper,\
+    \ we remove the necessity of a full gradient computation. This is achieved by\
+    \ using a randomized reshuffling strategy and aggregating stochastic gradients\
+    \ obtained in each epoch. The aggregated stochastic gradients serve as an estimate\
+    \ of a full gradient in the SARAH algorithm. We provide a theoretical analysis\
+    \ of the proposed approach and conclude the paper with numerical experiments that\
+    \ demonstrate the efficiency of this approach.\n\t\t\t"
   authors: "Aleksandr Beznosikov, <strong>Martin Tak\xE1\u010D</strong>"
   journal: Optimization Letters
+  link: https://link.springer.com/article/10.1007/s11590-023-02081-x
   title: Random-reshuffled SARAH does not need a full gradient computations
   type: jpaper
   year: '2023'
