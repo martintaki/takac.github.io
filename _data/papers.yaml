@@ -97,6 +97,8 @@
     \ tasks, covering both convex and non-convex contexts.\n\t\t"
   authors: "Farshed Abdukhakimov, Chulu Xiang, Dmitry Kamzolov, Robert Gower, <strong>Martin\
     \ Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2312.17369
+  pdf: https://arxiv.org/pdf/2312.17369.pdf
   title: 'SANIA: Polyak-type Optimization Framework Leads to Scaling or Affine Invariant
     Stochastic Algorithms'
   type: tpaper
