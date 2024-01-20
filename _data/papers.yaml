@@ -1,3 +1,10 @@
+- abstract: "\n\t\t"
+  authors: "Fatima A. AlKhoori, Latif U. Khan, Mohsen Guizani, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  journal: Simulation Modelling Practice and Theory
+  title: Latency-Aware Placement of Vehicular Metaverses using Virtual Network Functions
+  type: jpaper
+  year: '2024'
 - abstract: "\nMethods with preconditioned updates show up well in badly scaled and/or\
     \ ill-conditioned convex optimization problems. However, theoretical analysis\
     \ of these methods in distributed setting is not yet provided. We close this issue\
