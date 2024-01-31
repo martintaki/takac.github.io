@@ -1,3 +1,41 @@
+- abstract: "\nConformal prediction stands out as a robust framework for uncertainty\
+    \ quantification that is crucial for ensuring the reliability of predictions.\
+    \ However, the commonly used Conformal Prediction approaches rely on the exchangeability\
+    \ of the data, which is often violated in practice. Existing approaches for tackling\
+    \ non-exchangeability lead to methods that are not computable beyond the simplest\
+    \ examples. In this work, we introduce a new efficient approach to Conformal Prediction\
+    \ that allows for fairly general non-exchangeable data distributions and produces\
+    \ provably valid confidence sets.\n\nWe illustrate the general theory with application\
+    \ to the challenging setting of federated learning under data heterogeneity between\
+    \ agents. Our method allows constructing provably valid personalized prediction\
+    \ sets for agents in a fully federated way. The effectiveness of the proposed\
+    \ method is demonstrated in a series of experiments on real-world datasets.\n\t\
+    \t"
+  authors: "Vincent Plassier, Nikita Kotelevskii, Aleksandr Rubashevskii, Fedor Noskov,\
+    \ Maksim Velikanov, Alexander Fishkov, Samuel Horvath, , , <strong>Martin Tak\xE1\
+    \u010D</strong>, Eric Moulines, Maxim Panov"
+  journal: AISTATS 2024
+  title: Efficient Conformal Prediction under Data Heterogeneity
+  type: cpaper
+  year: '2023'
+- abstract: "\nWe present a new accelerated stochastic second-order method that is\
+    \ robust to both gradient and Hessian inexactness, which occurs typically in machine\
+    \ learning. We establish theoretical lower bounds and prove that our algorithm\
+    \ achieves optimal convergence in both gradient and Hessian inexactness in this\
+    \ key setting. We further introduce a tensor generalization for stochastic higher-order\
+    \ derivatives. When the oracles are non-stochastic, the proposed tensor algorithm\
+    \ matches the global convergence of Nesterov Accelerated Tensor method. Both algorithms\
+    \ allow for approximate solutions of their auxiliary subproblems with verifiable\
+    \ conditions on the accuracy of the solution.\n\t\t"
+  authors: "Artem Agafonov, Dmitry Kamzolov, Alexander Gasnikov, Kimon Antonakopoulos,\
+    \ Volkan Cevher, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: ICLR 2024
+  link: http://arxiv.org/abs/2309.01570
+  pdf: https://arxiv.org/pdf/2309.01570.pdf
+  title: 'Advancing the lower bounds: An accelerated, stochastic, second-order method
+    with optimal adaptation to inexactness'
+  type: cpaper
+  year: '2024'
 - abstract: "\n\t\t"
   authors: "Fatima A. AlKhoori, Latif U. Khan, Mohsen Guizani, <strong>Martin Tak\xE1\
     \u010D</strong>"
@@ -243,23 +281,6 @@
   pdf: https://arxiv.org/pdf/2311.07708.pdf
   title: Reinforcement Learning for Solving Stochastic Vehicle Routing Problem
   type: cpaper
-  year: '2023'
-- abstract: "\nWe present a new accelerated stochastic second-order method that is\
-    \ robust to both gradient and Hessian inexactness, which occurs typically in machine\
-    \ learning. We establish theoretical lower bounds and prove that our algorithm\
-    \ achieves optimal convergence in both gradient and Hessian inexactness in this\
-    \ key setting. We further introduce a tensor generalization for stochastic higher-order\
-    \ derivatives. When the oracles are non-stochastic, the proposed tensor algorithm\
-    \ matches the global convergence of Nesterov Accelerated Tensor method. Both algorithms\
-    \ allow for approximate solutions of their auxiliary subproblems with verifiable\
-    \ conditions on the accuracy of the solution.\n\t\t"
-  authors: "Artem Agafonov, Dmitry Kamzolov, Alexander Gasnikov, Kimon Antonakopoulos,\
-    \ Volkan Cevher, <strong>Martin Tak\xE1\u010D</strong>"
-  link: http://arxiv.org/abs/2309.01570
-  pdf: https://arxiv.org/pdf/2309.01570.pdf
-  title: 'Advancing the lower bounds: An accelerated, stochastic, second-order method
-    with optimal adaptation to inexactness'
-  type: tpaper
   year: '2023'
 - abstract: We present a novel end-to-end framework for solving the Vehicle Routing
     Problem with stochastic demands (VRPSD) using Reinforcement Learning (RL). Our
