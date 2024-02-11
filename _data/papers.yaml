@@ -1,3 +1,29 @@
+- abstract: "\nThis paper presents a novel adaptation of the Stochastic Gradient Descent\
+    \ (SGD), termed AdaBatchGrad. This modification seamlessly integrates an adaptive\
+    \ step size with an adjustable batch size. An increase in batch size and a decrease\
+    \ in step size are well-known techniques to tighten the area of convergence of\
+    \ SGD and decrease its variance. A range of studies by R. Byrd and J. Nocedal\
+    \ introduced various testing techniques to assess the quality of mini-batch gradient\
+    \ approximations and choose the appropriate batch sizes at every step. Methods\
+    \ that utilized exact tests were observed to converge within O(LR2/\u03B5) iterations.\
+    \ Conversely, inexact test implementations sometimes resulted in non-convergence\
+    \ and erratic performance. To address these challenges, AdaBatchGrad incorporates\
+    \ both adaptive batch and step sizes, enhancing the method's robustness and stability.\
+    \ For exact tests, our approach converges in O(LR2/\u03B5) iterations, analogous\
+    \ to standard gradient descent. For inexact tests, it achieves convergence in\
+    \ O(max{LR2/\u03B5,\u03C32R2/\u03B52}) iterations. This makes AdaBatchGrad markedly\
+    \ more robust and computationally efficient relative to prevailing methods. To\
+    \ substantiate the efficacy of our method, we experimentally show, how the introduction\
+    \ of adaptive step size and adaptive batch size gradually improves the performance\
+    \ of regular SGD. The results imply that AdaBatchGrad surpasses alternative methods,\
+    \ especially when applied to inexact tests.\n\t\t"
+  authors: "Petr Ostroukhov, Aigerim Zhumabayeva, Chulu Xiang, Alexander Gasnikov,\
+    \ <strong>Martin Tak\xE1\u010D</strong>, Dmitry Kamzolov"
+  link: https://arxiv.org/abs/2402.05264
+  pdf: https://arxiv.org/pdf/2402.05264.pdf
+  title: 'AdaBatchGrad: Combining Adaptive Batch Size and Adaptive Step Size'
+  type: tpaper
+  year: '2024'
 - abstract: "\nConformal prediction stands out as a robust framework for uncertainty\
     \ quantification that is crucial for ensuring the reliability of predictions.\
     \ However, the commonly used Conformal Prediction approaches rely on the exchangeability\
@@ -12,12 +38,12 @@
     \ method is demonstrated in a series of experiments on real-world datasets.\n\t\
     \t"
   authors: "Vincent Plassier, Nikita Kotelevskii, Aleksandr Rubashevskii, Fedor Noskov,\
-    \ Maksim Velikanov, Alexander Fishkov, Samuel Horvath, , , <strong>Martin Tak\xE1\
-    \u010D</strong>, Eric Moulines, Maxim Panov"
+    \ Maksim Velikanov, Alexander Fishkov, Samuel Horvath, <strong>Martin Tak\xE1\u010D\
+    </strong>, Eric Moulines, Maxim Panov"
   journal: AISTATS 2024
   title: Efficient Conformal Prediction under Data Heterogeneity
   type: cpaper
-  year: '2023'
+  year: '2024'
 - abstract: "\nWe present a new accelerated stochastic second-order method that is\
     \ robust to both gradient and Hessian inexactness, which occurs typically in machine\
     \ learning. We establish theoretical lower bounds and prove that our algorithm\
