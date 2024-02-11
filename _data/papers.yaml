@@ -1,3 +1,23 @@
+- abstract: "\nIn Federated Learning (FL), the distributed nature and heterogeneity\
+    \ of client data present both opportunities and challenges. While collaboration\
+    \ among clients can significantly enhance the learning process, not all collaborations\
+    \ are beneficial; some may even be detrimental. In this study, we introduce a\
+    \ novel algorithm that assigns adaptive aggregation weights to clients participating\
+    \ in FL training, identifying those with data distributions most conducive to\
+    \ a specific learning objective. We demonstrate that our aggregation method converges\
+    \ no worse than the method that aggregates only the updates received from clients\
+    \ with the same data distribution. Furthermore, empirical evaluations consistently\
+    \ reveal that collaborations guided by our algorithm outperform traditional FL\
+    \ approaches. This underscores the critical role of judicious client selection\
+    \ and lays the foundation for more streamlined and effective FL implementations\
+    \ in the coming years.\n\t\t"
+  authors: "Nazarii Tupitsa, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Eduard Gorbunov"
+  link: https://arxiv.org/abs/2402.05050
+  pdf: https://arxiv.org/pdf/2402.05050.pdf
+  title: Federated Learning Can Find Friends That Are Beneficial
+  type: tpaper
+  year: '2023'
 - abstract: "\nThis paper presents a novel adaptation of the Stochastic Gradient Descent\
     \ (SGD), termed AdaBatchGrad. This modification seamlessly integrates an adaptive\
     \ step size with an adjustable batch size. An increase in batch size and a decrease\
