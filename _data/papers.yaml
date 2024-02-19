@@ -1,3 +1,60 @@
+- abstract: "\nThis paper introduces a reinforcement learning approach to optimize\
+    \ the Stochastic Vehicle Routing Problem with Time Windows (SVRP), focusing on\
+    \ reducing travel costs in goods delivery. We develop a novel SVRP formulation\
+    \ that accounts for uncertain travel costs and demands, alongside specific customer\
+    \ time windows. An attention-based neural network trained through reinforcement\
+    \ learning is employed to minimize routing costs. Our approach addresses a gap\
+    \ in SVRP research, which traditionally relies on heuristic methods, by leveraging\
+    \ machine learning. The model outperforms the Ant-Colony Optimization algorithm,\
+    \ achieving a 1.73% reduction in travel costs. It uniquely integrates external\
+    \ information, demonstrating robustness in diverse environments, making it a valuable\
+    \ benchmark for future SVRP studies and industry application.\n\t\t"
+  authors: "Zangir Iklassov, Ikboljon Sobirov, IRuben Solozabal, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  title: Reinforcement Learning for Solving Stochastic Vehicle Routing Problem with
+    Time Windows
+  type: tpaper
+  year: '2024'
+- abstract: "\nAdaptive methods are extremely popular in machine learning as they\
+    \ make learning rate tuning less expensive. This paper introduces a novel optimization\
+    \ algorithm named KATE, which presents a scale-invariant adaptation of the well-known\
+    \ AdaGrad algorithm. We prove the scale-invariance of KATE for the case of Generalized\
+    \ Linear Models. Moreover, for general smooth non-convex problems, we establish\
+    \ a convergence rate of \n for KATE, matching the best-known ones for AdaGrad\
+    \ and Adam. We also compare KATE to other state-of-the-art adaptive algorithms\
+    \ Adam and AdaGrad in numerical experiments with different problems, including\
+    \ complex machine learning tasks like image classification and text classification\
+    \ on real data. The results indicate that KATE consistently outperforms AdaGrad\
+    \ and matches/surpasses the performance of Adam in all considered scenarios.\n\
+    \t\t"
+  authors: "Sayantan Choudhury, Nazarii Tupitsa, Nicolas Loizou, Samuel Horv\xE1th,\
+    \ <strong>Martin Tak\xE1\u010D</strong>, Eduard Gorbunov"
+  title: 'Remove that Square Root: a New Efficient Scale-Invariant Version of AdaGrad'
+  type: tpaper
+  year: '2024'
+- abstract: "\nDistributed learning problems have gained significant popularity due\
+    \ to the increasing need for cluster training and the emergence of novel paradigms\
+    \ like Federated Learning (FL). One variant of FL, called Vertical Federated Learning\
+    \ (VFL), partitions data based on features across devices. The objective is to\
+    \ collectively train a model using the information available on each user's device.\
+    \ This paper focuses on solving the VFL problem using deterministic methods and\
+    \ the classical Lagrangian function without augmentation. It also explores various\
+    \ modifications to adapt to practical scenarios, such as employing compression\
+    \ techniques for efficient information transmission, enabling partial participation\
+    \ for asynchronous communication, introducing additive noise or homomorphic encryption\
+    \ for privacy-preserving purposes, and utilizing coordinate selection for faster\
+    \ local computation. Convergence estimates are provided for each algorithm, demonstrating\
+    \ their effectiveness in addressing the VFL problem. Additionally, alternative\
+    \ reformulations of the VFL problem are investigated, and numerical experiments\
+    \ are conducted to validate the proposed methods' performance and effectiveness.\n\
+    \t\t"
+  authors: "Aleksandr Beznosikov, Georgiy Kormakov, Alexander Grigorievskiy, Mikhail\
+    \ Rudakov, Ruslan Nazykov, Alexander Rogozin, Anton Vakhrushev, Andrey Savchenko,\
+    \ , <strong>Martin Tak\xE1\u010D</strong>, Alexander Gasnikov"
+  title: 'Exploring New Frontiers in Vertical Federated Learning: the Role of Saddle
+    Point Reformulation'
+  type: tpaper
+  year: '2024'
 - abstract: "\nIn Federated Learning (FL), the distributed nature and heterogeneity\
     \ of client data present both opportunities and challenges. While collaboration\
     \ among clients can significantly enhance the learning process, not all collaborations\
@@ -17,7 +74,7 @@
   pdf: https://arxiv.org/pdf/2402.05050.pdf
   title: Federated Learning Can Find Friends That Are Beneficial
   type: tpaper
-  year: '2023'
+  year: '2024'
 - abstract: "\nThis paper presents a novel adaptation of the Stochastic Gradient Descent\
     \ (SGD), termed AdaBatchGrad. This modification seamlessly integrates an adaptive\
     \ step size with an adjustable batch size. An increase in batch size and a decrease\
