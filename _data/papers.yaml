@@ -214,21 +214,6 @@
   title: Investigating Protein-DNA Binding Energetic of Mismatched DNA
   type: cpaper
   year: '2023'
-- abstract: "\nIn Federated Learning (FL), the distributed nature and heterogeneity\
-    \ of client data pose both opportunities and challenges. While collaboration among\
-    \ clients can significantly enhance the learning process, not all collaborations\
-    \ are beneficial; some may even be detrimental. In this study, we present a novel\
-    \ algorithm that assigns adaptive weights to clients participating in FL training,\
-    \ pinpointing those with data distributions most advantageous for a specific learning\
-    \ objective. Empirical evaluations show that collaborations guided by our algorithm\
-    \ consistently surpass traditional federated learning approaches. This highlights\
-    \ the critical role of judicious client selection and sets the stage for more\
-    \ streamlined and effective FL implementations in the coming years.\n\t\t"
-  authors: "Nazarii Tupitsa, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D</strong>,\
-    \ Eduard Gorbunov"
-  title: Federated Learning Can Find Friends That Are Beneficial
-  type: tpaper
-  year: '2023'
 - abstract: "\nAdaptive optimization methods are widely recognized as among the most\
     \ popular approaches for training Deep Neural Networks (DNNs). Techniques such\
     \ as Adam, AdaGrad, and AdaHessian utilize a preconditioner that modifies the\
