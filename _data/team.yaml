@@ -156,6 +156,16 @@
   label: PhD Students [MBZUAI]
 - items:
   - col: {}
+    from: 2023/09
+    image: missing.jpeg
+    name: Maitha Abdelhakeem Yousif Almushtaghil Alnaqbi
+    to: present
+  - col: {}
+    from: 2023/09
+    image: missing.jpeg
+    name: Aisha Abduljabbar Ahmed Al-Musalami
+    to: present
+  - col: {}
     from: 2022/09
     image: missing.jpeg
     name: Baketah Alrashdi
