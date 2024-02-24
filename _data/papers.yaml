@@ -33,7 +33,7 @@
     \ achieving a 1.73% reduction in travel costs. It uniquely integrates external\
     \ information, demonstrating robustness in diverse environments, making it a valuable\
     \ benchmark for future SVRP studies and industry application.\n\t\t"
-  authors: "Zangir Iklassov, Ikboljon Sobirov, IRuben Solozabal, <strong>Martin Tak\xE1\
+  authors: "Zangir Iklassov, Ikboljon Sobirov, Ruben Solozabal, <strong>Martin Tak\xE1\
     \u010D</strong>"
   title: Reinforcement Learning for Solving Stochastic Vehicle Routing Problem with
     Time Windows
