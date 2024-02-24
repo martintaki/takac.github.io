@@ -1,3 +1,27 @@
+- abstract: Personalized Federated Learning (PFL) has recently seen tremendous progress,
+    allowing the design of novel machine learning applications to preserve the privacy
+    of the training data. Existing theoretical results in this field mainly focus
+    on distributed optimization for minimization problems. This paper is the first
+    to study PFL for saddle point problems (which cover a broader class of optimization
+    problems), allowing for a more rich class of applications requiring more than
+    just solving minimization problems. In this work, we consider a recently proposed
+    PFL setting with the mixing objective function, an approach combining the learning
+    of a global model together with locally distributed learners. Unlike most previous
+    work, which considered only the centralized setting, we work in a more general
+    and decentralized setup that allows us to design and analyze more practical and
+    federated ways to connect devices to the network. We proposed new algorithms to
+    address this problem and provide a theoretical analysis of the smooth (strongly-)convex-(strongly-)concave
+    saddle point problems in stochastic and deterministic cases. Numerical experiments
+    for bilinear problems and neural networks with adversarial noise demonstrate the
+    effectiveness of the proposed methods.
+  authors: "Ekaterina Borodich, Aleksandr Beznosikov, Abdurakhmon Sadiev, Vadim Sushko,\
+    \ Nikolay Savelyev, <strong>Martin Tak\xE1\u010D</strong>, Alexander Gasnikov"
+  journal: Computational Management Science
+  link: https://arxiv.org/abs/2106.07289
+  pdf: https://arxiv.org/pdf/2106.07289v2.pdf
+  title: Decentralized Personalized Federated Learning for Min-Max Problems
+  type: jpaper
+  year: '2024'
 - abstract: "\nThis paper introduces a reinforcement learning approach to optimize\
     \ the Stochastic Vehicle Routing Problem with Time Windows (SVRP), focusing on\
     \ reducing travel costs in goods delivery. We develop a novel SVRP formulation\
@@ -1104,30 +1128,6 @@
   pdf: https://arxiv.org/pdf/2111.13322.pdf
   title: Random-reshuffled SARAH does not need a full gradient computations
   type: cpaper
-  year: '2021'
-- abstract: Personalized Federated Learning (PFL) has recently seen tremendous progress,
-    allowing the design of novel machine learning applications to preserve the privacy
-    of the training data. Existing theoretical results in this field mainly focus
-    on distributed optimization for minimization problems. This paper is the first
-    to study PFL for saddle point problems (which cover a broader class of optimization
-    problems), allowing for a more rich class of applications requiring more than
-    just solving minimization problems. In this work, we consider a recently proposed
-    PFL setting with the mixing objective function, an approach combining the learning
-    of a global model together with locally distributed learners. Unlike most previous
-    work, which considered only the centralized setting, we work in a more general
-    and decentralized setup that allows us to design and analyze more practical and
-    federated ways to connect devices to the network. We proposed new algorithms to
-    address this problem and provide a theoretical analysis of the smooth (strongly-)convex-(strongly-)concave
-    saddle point problems in stochastic and deterministic cases. Numerical experiments
-    for bilinear problems and neural networks with adversarial noise demonstrate the
-    effectiveness of the proposed methods.
-  authors: "Ekaterina Borodich, Aleksandr Beznosikov, Abdurakhmon Sadiev, Vadim Sushko,\
-    \ Nikolay Savelyev, <strong>Martin Tak\xE1\u010D</strong>, Alexander Gasnikov"
-  journal: arxiv
-  link: https://arxiv.org/abs/2106.07289
-  pdf: https://arxiv.org/pdf/2106.07289v2.pdf
-  title: Decentralized Personalized Federated Min-Max Problems
-  type: tpaper
   year: '2021'
 - abstract: 'We present two sampled quasi-Newton methods for deep learning: sampled
     LBFGS
