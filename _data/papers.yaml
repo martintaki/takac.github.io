@@ -35,6 +35,8 @@
     \ benchmark for future SVRP studies and industry application.\n\t\t"
   authors: "Zangir Iklassov, Ikboljon Sobirov, Ruben Solozabal, <strong>Martin Tak\xE1\
     \u010D</strong>"
+  link: https://arxiv.org/abs/2402.09765
+  pdf: https://arxiv.org/pdf/2402.09765.pdf
   title: Reinforcement Learning for Solving Stochastic Vehicle Routing Problem with
     Time Windows
   type: tpaper
