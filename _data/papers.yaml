@@ -75,6 +75,8 @@
     \t\t"
   authors: "Sayantan Choudhury, Nazarii Tupitsa, Nicolas Loizou, Samuel Horv\xE1th,\
     \ <strong>Martin Tak\xE1\u010D</strong>, Eduard Gorbunov"
+  link: https://arxiv.org/abs/2403.02648
+  pdf: https://arxiv.org/pdf/2403.02648.pdf
   title: 'Remove that Square Root: a New Efficient Scale-Invariant Version of AdaGrad'
   type: tpaper
   year: '2024'
