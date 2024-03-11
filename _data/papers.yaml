@@ -1,3 +1,18 @@
+- abstract: "\n\t\tPolicy gradient is a widely utilized and foundational algorithm\
+    \ in the field of reinforcement learning (RL). Renowned for its convergence guarantees\
+    \ and stability compared to other RL algorithms, its practical application is\
+    \ often hindered by sensitivity to hyper-parameters, particularly the step-size.\
+    \ In this paper, we introduce the integration of the Polyak step-size in RL, which\
+    \ automatically adjusts the step-size without prior knowledge. To adapt this method\
+    \ to RL settings, we address several issues, including unknown f* in the Polyak\
+    \ step-size. Additionally, we showcase the performance of the Polyak step-size\
+    \ in RL through experiments, demonstrating faster convergence and the attainment\
+    \ of more stable policies.\n\t\t"
+  authors: "Yunxiang LI, Rui Yuan, Chen Fan,  Mark Schmidt, , Samuel Horv\xE1th, Robert\
+    \ M. Gower, <strong>Martin Tak\xE1\u010D</strong>"
+  title: Enhancing Policy Gradient with the Polyak Step-Size Adaption
+  type: tpaper
+  year: '2024'
 - abstract: "\n\t\tThe smart grid domain requires bolstering the capabilities of existing\
     \ energy management systems; Federated Learning (FL) aligns with this goal as\
     \ it demonstrates a remarkable ability to train models on heterogeneous datasets\
