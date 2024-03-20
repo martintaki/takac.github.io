@@ -181,6 +181,8 @@
     \ Maksim Velikanov, Alexander Fishkov, Samuel Horvath, <strong>Martin Tak\xE1\u010D\
     </strong>, Eric Moulines, Maxim Panov"
   journal: AISTATS 2024
+  link: https://arxiv.org/abs/2312.15799
+  pdf: https://arxiv.org/pdf/2312.15799
   title: Efficient Conformal Prediction under Data Heterogeneity
   type: cpaper
   year: '2024'
