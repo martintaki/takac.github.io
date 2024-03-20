@@ -315,6 +315,7 @@
   authors: "Alibek Kaliyev, Shuyu Qin, Yichen Guo, Seda Memik, Michael Mahoney, Amir\
     \ Gholami, Nhan Tran, <strong>Martin Tak\xE1\u010D</strong>, Joshua Agar"
   journal: AI for Accelerated Materials Design - NeurIPS 2023 Workshop
+  pdf: https://openreview.net/pdf?id=ITda7kqxSn
   title: Rapid Fitting of Band-Excitation Piezoresponse Force Microscopy Using Physics
     Constrained Unsupervised Neural Networks
   type: cpaper
