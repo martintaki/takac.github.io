@@ -1,3 +1,24 @@
+- abstract: 'This work considers non-convex finite sum minimization. There are a number
+    of algorithms for such problems, but existing methods often work poorly when the
+    problem is badly scaled and/or ill-conditioned, and a primary goal of this work
+    is to introduce methods that alleviate this issue. Thus, here we include a preconditioner
+    that is based upon Hutchinson''s approach to approximating the diagonal of the
+    Hessian, and couple it with several gradient based methods to give new `scaled''
+    algorithms: Scaled  SARAH and Scaled L-SVRG. Theoretical complexity guarantees
+    under smoothness assumptions are presented, and we prove linear convergence when
+    both smoothness and the PL-condition is assumed. Because our adaptively scaled
+    methods use approximate partial second order curvature information, they are better
+    able to mitigate the impact of badly scaled problems, and this improved practical
+    performance is demonstrated in the numerical experiments that are also presented
+    in this work.'
+  authors: "Abdurakhmon Sadiev, Aleksandr Beznosikov, Abdulla Jasem Almansoori, Dmitry\
+    \ Kamzolov, Rachael Tappenden, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: Journal of Optimization Theory and Applications
+  link: https://link.springer.com/article/10.1007/s10957-023-02365-3
+  pdf: https://arxiv.org/pdf/2206.00285.pdf
+  title: Stochastic Gradient Methods with Preconditioned Updates
+  type: jpaper
+  year: '2024'
 - abstract: "\n  In this study, we develop and release two Bidirectional Encoder Representations\
     \ (BERT) models that are trained primarily with roughly\n   ~144K peer-reviewed\
     \ publications within the magnetic materials domain, which we refer to as MagBERT\
@@ -20,7 +41,7 @@
   title: 'MagBERT: Magnetics Knowledge Aware Language Model Coupled with a Question
     Answering Pipeline for Curie Temperature Extraction Task'
   type: tpaper
-  year: '2023'
+  year: '2024'
 - abstract: "\n\t\tPolicy gradient is a widely utilized and foundational algorithm\
     \ in the field of reinforcement learning (RL). Renowned for its convergence guarantees\
     \ and stability compared to other RL algorithms, its practical application is\
@@ -1034,26 +1055,6 @@
   link: https://arxiv.org/abs/2206.08303
   pdf: https://arxiv.org/pdf/2206.08303
   title: On Scaled Methods for Saddle Point Problems
-  type: tpaper
-  year: '2022'
-- abstract: 'This work considers non-convex finite sum minimization. There are a number
-    of algorithms for such problems, but existing methods often work poorly when the
-    problem is badly scaled and/or ill-conditioned, and a primary goal of this work
-    is to introduce methods that alleviate this issue. Thus, here we include a preconditioner
-    that is based upon Hutchinson''s approach to approximating the diagonal of the
-    Hessian, and couple it with several gradient based methods to give new `scaled''
-    algorithms: Scaled  SARAH and Scaled L-SVRG. Theoretical complexity guarantees
-    under smoothness assumptions are presented, and we prove linear convergence when
-    both smoothness and the PL-condition is assumed. Because our adaptively scaled
-    methods use approximate partial second order curvature information, they are better
-    able to mitigate the impact of badly scaled problems, and this improved practical
-    performance is demonstrated in the numerical experiments that are also presented
-    in this work.'
-  authors: "Abdurakhmon Sadiev, Aleksandr Beznosikov, Abdulla Jasem Almansoori, Dmitry\
-    \ Kamzolov, Rachael Tappenden, <strong>Martin Tak\xE1\u010D</strong>"
-  link: https://arxiv.org/abs/2206.00285
-  pdf: https://arxiv.org/pdf/2206.00285.pdf
-  title: Stochastic Gradient Methods with Preconditioned Updates
   type: tpaper
   year: '2022'
 - abstract: Collaboration among multiple data-owning entities (e.g., hospitals) can
