@@ -37,7 +37,6 @@
     \ than the ones without pretraining.\n\t\t"
   authors: "Aigerim Zhumabayeva, Nikhil Ranjan, <strong>Martin Tak\xE1\u010D</strong>,\
     \ Stefano Sanvito, Huseyin Ucar"
-  journal: Journal of Chemical Information and Modeling
   title: 'MagBERT: Magnetics Knowledge Aware Language Model Coupled with a Question
     Answering Pipeline for Curie Temperature Extraction Task'
   type: tpaper
