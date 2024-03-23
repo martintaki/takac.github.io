@@ -1,3 +1,20 @@
+- abstract: "\nIn the paper, we propose new Quasi-Newton methods for federated learning\
+    \ by combining them with the error feedback framework, \nparticularly focusing\
+    \ on the EF21 mechanism which offers a deeper theoretical understanding and superior\
+    \ practical performance, \novercoming previous deficiencies such as reliance on\
+    \ strong assumptions and increased communication costs. \nQuasi-Newton methods\
+    \ are well-known for their practical performance. Leveraging the efficiency of\
+    \ Quasi-Newton methods,\n particularly the Limited-memory Broyden-Fletcher-Goldfarb-Shanno\
+    \ (L-BFGS) algorithm, our proposed EF21+LBFGS method achieves \n O(1/T) convergence\
+    \ rate in nonconvex regime and gets a speedup of linear convergence rate under\
+    \ \n  Polyak-Lojasiewicz  condition. Through theoretical analysis and empirical\
+    \ evaluations, we showcase the effectiveness of\n   our approach, achieving fast\
+    \ convergence rates and improved model performance compared with existing methods.\
+    \ \n\t\t"
+  authors: "Yanlin Wu, Dmitry Kamzolov, <strong>Martin Tak\xE1\u010D</strong>"
+  title: Quasi-Newton Methods for Federated Learning with Error Feedback
+  type: tpaper
+  year: '2024'
 - abstract: 'This work considers non-convex finite sum minimization. There are a number
     of algorithms for such problems, but existing methods often work poorly when the
     problem is badly scaled and/or ill-conditioned, and a primary goal of this work
