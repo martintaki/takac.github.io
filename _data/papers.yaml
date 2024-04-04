@@ -440,6 +440,8 @@
   authors: "Aleksandr Beznosikov, <strong>Martin Tak\xE1\u010D</strong>, Alexander\
     \ Gasnikov"
   journal: NeurIPS 2023
+  link: https://arxiv.org/abs/2302.07615
+  pdf: https://openreview.net/pdf?id=Rvk1wdwz1L
   title: 'Similarity, Compression and Local Steps: Three Pillars of Efficient Communications
     for Distributed Variational Inequalities'
   type: cpaper
