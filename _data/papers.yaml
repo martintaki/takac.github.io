@@ -1,3 +1,28 @@
+- abstract: "\nFederated learning has become a popular machine learning paradigm with\
+    \ many potential real-life applications, including recommendation systems, the\
+    \ Internet of Things (IoT), healthcare, and self-driving cars. Though most current\
+    \ applications focus on classification-based tasks, learning personalized generative\
+    \ models remains largely unexplored, and their benefits in the heterogeneous setting\
+    \ still need to be better understood.  This work proposes a novel architecture\
+    \ combining global client-agnostic and local client-specific generative models.\
+    \ We show that using standard techniques for training federated models, our proposed\
+    \ model achieves privacy and personalization by implicitly disentangling the globally-consistent\
+    \ representation (i.e. content) from the client-dependent variations (i.e. style).\
+    \ Using such decomposition, personalized models can generate locally unseen labels\
+    \ while preserving the given style of the client and can predict the labels for\
+    \ all clients with high accuracy by training a simple linear classifier on the\
+    \ global content features. Furthermore, disentanglement enables other essential\
+    \ applications, such as data anonymization, by sharing only the content. Extensive\
+    \ experimental evaluation corroborates our findings, and we also discuss a theoretical\
+    \ motivation for the proposed approach.\n\t\t"
+  authors: "Abdulla Jasem Almansoori, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  journal: Transactions on Machine Learning Research
+  link: https://openreview.net/forum?id=vsez76EAV8
+  pdf: https://openreview.net/pdf?id=vsez76EAV8
+  title: 'PaDPaF: Partial Disentanglement with Partially-Federated GANs'
+  type: jpaper
+  year: '2024'
 - abstract: "\nIn the paper, we propose new Quasi-Newton methods for federated learning\
     \ by combining them with the error feedback framework, \nparticularly focusing\
     \ on the EF21 mechanism which offers a deeper theoretical understanding and superior\
