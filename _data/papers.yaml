@@ -93,7 +93,7 @@
     \ step-size. Additionally, we showcase the performance of the Polyak step-size\
     \ in RL through experiments, demonstrating faster convergence and the attainment\
     \ of more stable policies.\n\t\t"
-  authors: "Yunxiang LI, Rui Yuan, Chen Fan,  Mark Schmidt, , Samuel Horv\xE1th, Robert\
+  authors: "Yunxiang LI, Rui Yuan, Chen Fan,  Mark Schmidt, Samuel Horv\xE1th, Robert\
     \ M. Gower, <strong>Martin Tak\xE1\u010D</strong>"
   title: Enhancing Policy Gradient with the Polyak Step-Size Adaption
   type: tpaper
@@ -114,7 +114,9 @@
   authors: "Nicolas Cuadrado, Yunxiang Li, Samuel Horv\xE1th, <strong>Martin Tak\xE1\
     \u010D</strong>"
   journal: Tackling Climate Change with Machine Learning at ICLR 2024
+  link: https://arxiv.org/abs/2403.18439
   ltype: Tackling Climate Change with Machine Learning at ICLR 2024
+  pdf: https://arxiv.org/pdf/2403.18439.pdf
   title: 'Generalized Policy Learning for Smart Grids: FL TRPO Approach'
   type: cpaper
   year: '2024'
