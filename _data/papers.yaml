@@ -93,8 +93,10 @@
     \ step-size. Additionally, we showcase the performance of the Polyak step-size\
     \ in RL through experiments, demonstrating faster convergence and the attainment\
     \ of more stable policies.\n\t\t"
-  authors: "Yunxiang LI, Rui Yuan, Chen Fan,  Mark Schmidt, Samuel Horv\xE1th, Robert\
+  authors: "Yunxiang LI, Rui Yuan, Chen Fan, Mark Schmidt, Samuel Horv\xE1th, Robert\
     \ M. Gower, <strong>Martin Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2404.07525
+  pdf: https://arxiv.org/pdf/2404.07525.pdf
   title: Enhancing Policy Gradient with the Polyak Step-Size Adaption
   type: tpaper
   year: '2024'
