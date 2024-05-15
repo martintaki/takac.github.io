@@ -163,6 +163,11 @@
   - col: {}
     from: 2023/09
     image: missing.jpeg
+    name: Farkhad Akimov
+    to: present
+  - col: {}
+    from: 2023/09
+    image: missing.jpeg
     name: Maitha Abdelhakeem Yousif Almushtaghil Alnaqbi
     to: present
   - col: {}
