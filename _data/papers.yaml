@@ -16,8 +16,8 @@
     \ the first convergence rate for this method."
   authors: "Konstantin Mishchenko, Eduard Gorbunov, <strong>Martin Tak\xE1\u010D</strong>,\
     \ Peter Richt\xE1rik"
+  journal: Optimization Methods and Software (GOMS)
   link: http://arxiv.org/abs/1901.09269
-  ltype: Optimization Methods and Software (GOMS)
   pdf: https://arxiv.org/pdf/1901.09269.pdf
   title: Distributed Learning with Compressed Gradient Differences
   type: jpaper
