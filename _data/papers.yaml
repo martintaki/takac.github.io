@@ -37,6 +37,8 @@
     \ the theory with experiments.\n\t\t"
   authors: "Artem Agafonov, Petr Ostroukhov, Konstantin Yakovlev, Eduard Gorbunov,\
     \ <strong>Martin Tak\xE1\u010D</strong>, Alexander Gasnikov, Dmitry Kamzolov"
+  link: https://arxiv.org/abs/2405.15990
+  pdf: https://arxiv.org/pdf/2405.15990
   title: 'Exploring Jacobian Inexactness in Second-Order Methods for Variational Inequalities:
     Lower Bounds, Optimal Algorithms and Quasi-Newton Approximations'
   type: tpaper
