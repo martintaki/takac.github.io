@@ -1,3 +1,17 @@
+- abstract: "\nThis paper investigates the global convergence of stepsized Newton\
+    \ methods for convex functions. \nWe propose several simple stepsize schedules\
+    \ with fast global convergence guarantees, up to O(1/k^3), nearly matching lower\
+    \ complexity bounds\n \u03A9(k\u22123.5) of second-order methods. For cases with\
+    \ multiple plausible smoothness parameterizations or an unknown smoothness constant,\
+    \ \n we introduce a stepsize backtracking procedure that ensures convergence as\
+    \ if the optimal smoothness parameters were known.\n\t\t"
+  authors: "Slavom\xEDr Hanzely, Farshed Abdukhakimov, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  link: https://arxiv.org/abs/2405.18926
+  pdf: https://arxiv.org/pdf/2405.18926
+  title: Damped Newton Method with Near-Optimal Global O(1/k^3) Convergence Rate
+  type: tpaper
+  year: '2024'
 - abstract: "\nLarge Language Models (LLMs) have become pivotal in addressing reasoning\
     \ tasks across diverse domains, including arithmetic, commonsense, and symbolic\
     \ reasoning. They utilize prompting techniques such as Exploration-of-Thought,\
