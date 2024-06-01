@@ -1,3 +1,21 @@
+- abstract: "\nWhile the literature has considered cytosine methylation agnostic to\
+    \ the DNA-binding activity for most transcription factors (TFs), recent experiments\
+    \ in vitro reveal a wider map of methylation effects on TFs binding sites. In\
+    \ this work, we learn the in vivo impact of cytosine methylation and use it to\
+    \ analyze its effect on TFs binding. We extract binding affinities de-novo of\
+    \ TF chromatin immunoprecipitation (ChIP-seq) and connect it to key factors affecting\
+    \ in vivo binding such as DNA accessibility and base-resolution cytosine methylation\
+    \ levels. The extensive experimental data available in the ENCODE project is used\
+    \ to build a cell-specific deep-learning model that enables this association.\
+    \ Our work offers a biophysical interpretation of in vivo binding and suggests\
+    \ that current deep learning models can benefit from in vivo methylation maps\
+    \ currently available.\n\t\t"
+  authors: "Ruben Solozabal, Guy Ilan, <strong>Martin Tak\xE1\u010D</strong>, Ariel\
+    \ Afek"
+  title: Deep learning model at base-resolution to analyze In Vivo Cytosine Methylation
+    on Transcription Factor-DNA Binding
+  type: tpaper
+  year: '2024'
 - abstract: "\nThis paper investigates the global convergence of stepsized Newton\
     \ methods for convex functions. \nWe propose several simple stepsize schedules\
     \ with fast global convergence guarantees, up to O(1/k^3), nearly matching lower\
