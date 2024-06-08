@@ -1,3 +1,23 @@
+- abstract: "\nStochastic Gradient Descent (SGD) is one of the many iterative optimization\
+    \ methods that are widely used in solving machine learning problems. These methods\
+    \ display valuable properties and attract researchers and industrial machine learning\
+    \ engineers with their simplicity. However, one of the weaknesses of this type\
+    \ of methods is the necessity to tune learning rate (step-size) for every loss\
+    \ function and dataset combination to solve an optimization problem and get an\
+    \ efficient performance in a given time budget. Stochastic Gradient Descent with\
+    \ Polyak Step-size (SPS) is a method that offers an update rule that alleviates\
+    \ the need of fine-tuning the learning rate of an optimizer. In this paper, we\
+    \ propose an extension of SPS that employs preconditioning techniques, such as\
+    \ Hutchinson's method, Adam, and AdaGrad, to improve its performance on badly\
+    \ scaled and/or ill-conditioned datasets.\n\t\t"
+  authors: "Farshed Abdukhakimov, Chulu Xiang, Dmitry Kamzolov, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  journal: Computational Mathematics and Mathematical Physics
+  link: https://link.springer.com/article/10.1134/S0965542524700052
+  pdf: https://arxiv.org/pdf/2310.02093.pdf
+  title: Stochastic Gradient Descent with Preconditioned Polyak Step-size
+  type: jpaper
+  year: '2024'
 - abstract: "\nWhile the literature has considered cytosine methylation agnostic to\
     \ the DNA-binding activity for most transcription factors (TFs), recent experiments\
     \ in vitro reveal a wider map of methylation effects on TFs binding sites. In\
@@ -553,25 +573,6 @@
   link: http://arxiv.org/abs/2305.16122
   pdf: https://arxiv.org/pdf/2305.16122.pdf
   title: Hybrid Methods in Polynomial Optimisation
-  type: tpaper
-  year: '2023'
-- abstract: "\nStochastic Gradient Descent (SGD) is one of the many iterative optimization\
-    \ methods that are widely used in solving machine learning problems. These methods\
-    \ display valuable properties and attract researchers and industrial machine learning\
-    \ engineers with their simplicity. However, one of the weaknesses of this type\
-    \ of methods is the necessity to tune learning rate (step-size) for every loss\
-    \ function and dataset combination to solve an optimization problem and get an\
-    \ efficient performance in a given time budget. Stochastic Gradient Descent with\
-    \ Polyak Step-size (SPS) is a method that offers an update rule that alleviates\
-    \ the need of fine-tuning the learning rate of an optimizer. In this paper, we\
-    \ propose an extension of SPS that employs preconditioning techniques, such as\
-    \ Hutchinson's method, Adam, and AdaGrad, to improve its performance on badly\
-    \ scaled and/or ill-conditioned datasets.\n\t\t"
-  authors: "Farshed Abdukhakimov, Chulu Xiang, Dmitry Kamzolov, <strong>Martin Tak\xE1\
-    \u010D</strong>"
-  link: http://arxiv.org/abs/2310.02093
-  pdf: https://arxiv.org/pdf/2310.02093.pdf
-  title: Stochastic Gradient Descent with Preconditioned Polyak Step-size
   type: tpaper
   year: '2023'
 - abstract: Variational inequalities are a broad and flexible class of problems that
