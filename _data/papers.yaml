@@ -1,3 +1,28 @@
+- abstract: "\nThe rapid development of machine learning and deep learning has introduced\
+    \ increasingly complex optimization challenges that must be addressed. Indeed,\
+    \ training modern, advanced models has become difficult to implement without leveraging\
+    \ multiple computing nodes in a distributed environment. Distributed optimization\
+    \ is also fundamental to emerging fields such as federated learning. Specifically,\
+    \ there is a need to organize the training process to minimize the time lost due\
+    \ to communication. A widely used and extensively researched technique to mitigate\
+    \ the communication bottleneck involves performing local training before communication.\
+    \ This approach is the focus of our paper. Concurrently, adaptive methods that\
+    \ incorporate scaling, notably led by Adam, have gained significant popularity\
+    \ in recent years. Therefore, this paper aims to merge the local training technique\
+    \ with the adaptive approach to develop efficient distributed learning methods.\
+    \ We consider the classical Local SGD method and enhance it with a scaling feature.\
+    \ A crucial aspect is that the scaling is described generically, allowing us to\
+    \ analyze various approaches, including Adam, RMSProp, and OASIS, in a unified\
+    \ manner. In addition to theoretical analysis, we validate the performance of\
+    \ our methods in practice by training a neural network.\n\t\t"
+  authors: "Savelii Chezhegov, Sergey Skorik, Nikolas Khachaturov, Danil Shalagin,\
+    \ Aram Avetisyan, Aleksandr Beznosikov, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Yaroslav Kholodov, Alexander Gasnikov"
+  link: https://arxiv.org/abs/2406.00846
+  pdf: https://arxiv.org/pdf/2406.00846
+  title: Local Methods with Adaptivity via Scaling
+  type: tpaper
+  year: '2024'
 - abstract: "\nStochastic Gradient Descent (SGD) is one of the many iterative optimization\
     \ methods that are widely used in solving machine learning problems. These methods\
     \ display valuable properties and attract researchers and industrial machine learning\
