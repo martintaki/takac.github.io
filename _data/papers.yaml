@@ -1,3 +1,26 @@
+- abstract: "\nVision-Language Models (VLMs) are becoming increasingly vulnerable\
+    \ to adversarial attacks as various novel attack strategies are being proposed\
+    \ against these models. While existing defenses excel in unimodal contexts, they\
+    \ currently fall short in safeguarding VLMs against adversarial threats. To mitigate\
+    \ this vulnerability, we propose a novel, yet elegantly simple approach for detecting\
+    \ adversarial samples in VLMs. Our method leverages Text-to-Image (T2I) models\
+    \ to generate images based on captions produced by target VLMs. Subsequently,\
+    \ we calculate the similarities of the embeddings of both input and generated\
+    \ images in the feature space to identify adversarial samples. Empirical evaluations\
+    \ conducted on different datasets validate the efficacy of our approach, outperforming\
+    \ baseline methods adapted from image classification domains. Furthermore, we\
+    \ extend our methodology to classification tasks, showcasing its adaptability\
+    \ and model-agnostic nature. Theoretical analyses and empirical findings also\
+    \ show the resilience of our approach against adaptive attacks, positioning it\
+    \ as an excellent defense mechanism for real-world deployment against adversarial\
+    \ threats.\n\t\t"
+  authors: "Samar Fares, Klea Ziu, Toluwani Aremu, Nikita Durasov, <strong>Martin\
+    \ Tak\xE1\u010D</strong>, Pascal Fua, Karthik Nandakumar, Ivan Laptev"
+  link: https://arxiv.org/abs/2406.09250
+  pdf: https://arxiv.org/pdf/2406.09250
+  title: 'MirrorCheck: Efficient Adversarial Defense for Vision-Language Models'
+  type: tpaper
+  year: '2024'
 - abstract: "\nMethods with adaptive stepsizes, such as AdaGrad and Adam, are essential\
     \ for training modern Deep Learning models, especially Large Language Models.\
     \ Typically, the noise in the stochastic gradients is heavy-tailed for the later\
