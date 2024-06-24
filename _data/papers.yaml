@@ -764,9 +764,9 @@
     \ <strong>Martin Tak\xE1\u010D</strong>"
   journal: Encyclopedia of Optimization (Panos M. Pardalos, Oleg A. Prokopyev) to
     appear
-  link: https://arxiv.org/abs/2208.13190
+  link: https://link.springer.com/referenceworkentry/10.1007/978-3-030-54621-2_858-1
   pdf: https://arxiv.org/pdf/2208.13190.pdf
-  title: Exploiting higher-order derivatives in convex optimization methods
+  title: Exploiting higher order derivatives in convex optimization methods
   type: opaper
   year: '2023'
 - abstract: "The problem of constrained Markov decision process is considered. An\
