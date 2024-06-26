@@ -125,6 +125,11 @@
 - items:
   - col: {}
     from: 2023/09
+    image: abduragim_shtanchaev.png
+    name: Abduragim Shtanchaev
+    to: present
+  - col: {}
+    from: 2023/09
     image: klea_ziu.jpg
     name: Klea Ziu
     to: present
