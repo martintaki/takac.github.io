@@ -13,7 +13,7 @@
     from: 2023/09
     image: Eva_Starykh.jpg
     name: Eva Starykh
-    to: present
+    to: 2024/08
   - col: {}
     from: 2022/010
     image: PetrOstroukhov.jpeg
@@ -123,6 +123,11 @@
     to: '2020'
   label: Postdoc [Lehigh]
 - items:
+  - col: {}
+    from: 2023/09
+    image: Eva_Starykh.jpg
+    name: Eva Starykh
+    to: 2024/08
   - col: {}
     from: 2023/09
     image: abduragim_shtanchaev.png
