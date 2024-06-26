@@ -124,6 +124,11 @@
   label: Postdoc [Lehigh]
 - items:
   - col: {}
+    from: 2024/08
+    image: Farshed_Abdukhakimov.png
+    name: Farshed Abdukhakimov
+    to: present
+  - col: {}
     from: 2023/09
     image: Eva_Starykh.jpg
     name: Eva Starykh
@@ -172,7 +177,7 @@
 - items:
   - col: {}
     from: 2023/09
-    image: missing.jpeg
+    image: Farkhad_Akimov.jpeg
     name: Farkhad Akimov
     to: present
   - col: {}
@@ -217,7 +222,7 @@
     to: 2022/12
   - col: {}
     from: 2021/08
-    image: missing.jpeg
+    image: Farshed_Abdukhakimov.png
     name: Farshed Abdukhakimov
     to: 2023/05
   - col: {}
