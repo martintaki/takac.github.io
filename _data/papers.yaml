@@ -21,7 +21,7 @@
   pdf: https://pubs.acs.org/doi/epdf/10.1021/acs.jpcc.4c01974
   title: 'MagBERT: Magnetics Knowledge Aware Language Model Coupled with a Question
     Answering Pipeline for Curie Temperature Extraction Task'
-  type: tpaper
+  type: jpaper
   year: '2024'
 - abstract: "\nVision-Language Models (VLMs) are becoming increasingly vulnerable\
     \ to adversarial attacks as various novel attack strategies are being proposed\
