@@ -1,3 +1,28 @@
+- abstract: "\n  In this study, we develop and release two Bidirectional Encoder Representations\
+    \ (BERT) models that are trained primarily with roughly\n   ~144K peer-reviewed\
+    \ publications within the magnetic materials domain, which we refer to as MagBERT\
+    \ and MagMatBERT, respectively. \n   These transformer models are then used in\
+    \ chemical named entity recognition (CNER) and question answering (QA) tasks in\
+    \ a\n    data extraction workflow. We demonstrate this approach by developing\
+    \ a magnetics dataset of well known magnetic property, i.e., Curie temperature\
+    \ \n    TC. We evaluate the efficacy of these models along with the ones that\
+    \ were not trained with magnetics corpus in CNER and QA tasks. \n    Our results\
+    \ indicate that an initial training using the magnetics corpus brings about an\
+    \ enhancement in these tasks. \n    Additionally, the quality of each dataset\
+    \ is assessed by comparing them with a manually developed ground truth TC dataset\
+    \ as well as by employing \n    a random forest (RF) model in its predictive ability\
+    \ of TC  as the target quantity. Our analyses demonstrate that models pretrained\
+    \ \n    with magnetic corpus, i.e., MagBERT and MagMatBERT are more efficient\
+    \ than the ones without pretraining.\n\t\t"
+  authors: "Aigerim Zhumabayeva, Nikhil Ranjan, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Stefano Sanvito, Huseyin Ucar"
+  journal: The Journal of Physical Chemistry C
+  link: https://pubs.acs.org/doi/full/10.1021/acs.jpcc.4c01974
+  pdf: https://pubs.acs.org/doi/epdf/10.1021/acs.jpcc.4c01974
+  title: 'MagBERT: Magnetics Knowledge Aware Language Model Coupled with a Question
+    Answering Pipeline for Curie Temperature Extraction Task'
+  type: tpaper
+  year: '2024'
 - abstract: "\nVision-Language Models (VLMs) are becoming increasingly vulnerable\
     \ to adversarial attacks as various novel attack strategies are being proposed\
     \ against these models. While existing defenses excel in unimodal contexts, they\
@@ -274,28 +299,6 @@
   pdf: https://arxiv.org/pdf/2206.00285.pdf
   title: Stochastic Gradient Methods with Preconditioned Updates
   type: jpaper
-  year: '2024'
-- abstract: "\n  In this study, we develop and release two Bidirectional Encoder Representations\
-    \ (BERT) models that are trained primarily with roughly\n   ~144K peer-reviewed\
-    \ publications within the magnetic materials domain, which we refer to as MagBERT\
-    \ and MagMatBERT, respectively. \n   These transformer models are then used in\
-    \ chemical named entity recognition (CNER) and question answering (QA) tasks in\
-    \ a\n    data extraction workflow. We demonstrate this approach by developing\
-    \ a magnetics dataset of well known magnetic property, i.e., Curie temperature\
-    \ \n    TC. We evaluate the efficacy of these models along with the ones that\
-    \ were not trained with magnetics corpus in CNER and QA tasks. \n    Our results\
-    \ indicate that an initial training using the magnetics corpus brings about an\
-    \ enhancement in these tasks. \n    Additionally, the quality of each dataset\
-    \ is assessed by comparing them with a manually developed ground truth TC dataset\
-    \ as well as by employing \n    a random forest (RF) model in its predictive ability\
-    \ of TC  as the target quantity. Our analyses demonstrate that models pretrained\
-    \ \n    with magnetic corpus, i.e., MagBERT and MagMatBERT are more efficient\
-    \ than the ones without pretraining.\n\t\t"
-  authors: "Aigerim Zhumabayeva, Nikhil Ranjan, <strong>Martin Tak\xE1\u010D</strong>,\
-    \ Stefano Sanvito, Huseyin Ucar"
-  title: 'MagBERT: Magnetics Knowledge Aware Language Model Coupled with a Question
-    Answering Pipeline for Curie Temperature Extraction Task'
-  type: tpaper
   year: '2024'
 - abstract: "\n\t\tPolicy gradient is a widely utilized and foundational algorithm\
     \ in the field of reinforcement learning (RL). Renowned for its convergence guarantees\
