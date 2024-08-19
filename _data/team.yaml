@@ -115,6 +115,11 @@
     image: Eduard_Gorbunov.jpg
     name: Eduard Gorbunov
     to: present
+  - col: {}
+    from: 2024/
+    image: grigoryKoroteev.jpeg
+    name: Grigory Koroteev
+    to: present
   label: Postdoc [MBZUAI]
 - items:
   - from: 2018/09
