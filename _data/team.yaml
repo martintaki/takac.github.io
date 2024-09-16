@@ -109,6 +109,11 @@
     from: 2021/10
     image: DmitryKamzolov.jpeg
     name: Dmitry Kamzolov
+    to: 2024/10
+  - col: {}
+    from: 2022/10
+    image: NazariiTupista.jpeg
+    name: Nazarii Tupista
     to: present
   - col: {}
     from: 2022/
