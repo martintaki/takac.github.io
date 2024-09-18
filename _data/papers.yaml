@@ -1,3 +1,21 @@
+- abstract: 'Methods with adaptive scaling of different features play a key role in
+    solving saddle point problems, primarily due to Adam''s popularity for solving
+    adversarial machine learning problems, including GANS training. This paper carries
+    out a theoretical analysis of the following scaling techniques for solving SPPs:
+    the well-known Adam and RmsProp scaling and the newer AdaHessian and OASIS based
+    on Hutchison approximation. We use the Extra Gradient and its improved version
+    with negative momentum as the basic method. Experimental studies on GANs show
+    good applicability not only for Adam, but also for other less popular methods.
+
+    '
+  authors: "Aleksandr Beznosikov, Aibek Alanov, Dmitry Kovalev, <strong>Martin Tak\xE1\
+    \u010D</strong>, Alexander Gasnikov"
+  journal: ICOMP 2024
+  link: https://arxiv.org/abs/2206.08303
+  pdf: https://arxiv.org/pdf/2206.08303
+  title: On Scaled Methods for Saddle Point Problems
+  type: cpaper
+  year: '2024'
 - abstract: "\n  In this study, we develop and release two Bidirectional Encoder Representations\
     \ (BERT) models that are trained primarily with roughly\n   ~144K peer-reviewed\
     \ publications within the magnetic materials domain, which we refer to as MagBERT\
@@ -1284,23 +1302,6 @@
   authors: "Yuzhen Han, Ruben Solozabal, Jing Dong, Xingyu Zhou, <strong>Martin Tak\xE1\
     \u010D</strong>, Bin Gu"
   title: Learning to Control under Time-Varying Environment
-  type: tpaper
-  year: '2022'
-- abstract: 'Methods with adaptive scaling of different features play a key role in
-    solving saddle point problems, primarily due to Adam''s popularity for solving
-    adversarial machine learning problems, including GANS training. This paper carries
-    out a theoretical analysis of the following scaling techniques for solving SPPs:
-    the well-known Adam and RmsProp scaling and the newer AdaHessian and OASIS based
-    on Hutchison approximation. We use the Extra Gradient and its improved version
-    with negative momentum as the basic method. Experimental studies on GANs show
-    good applicability not only for Adam, but also for other less popular methods.
-
-    '
-  authors: "Aleksandr Beznosikov, Aibek Alanov, Dmitry Kovalev, <strong>Martin Tak\xE1\
-    \u010D</strong>, Alexander Gasnikov"
-  link: https://arxiv.org/abs/2206.08303
-  pdf: https://arxiv.org/pdf/2206.08303
-  title: On Scaled Methods for Saddle Point Problems
   type: tpaper
   year: '2022'
 - abstract: Collaboration among multiple data-owning entities (e.g., hospitals) can
