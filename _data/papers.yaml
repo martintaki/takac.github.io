@@ -1,3 +1,70 @@
+- abstract: "\nVariational inequalities represent a broad class of problems, including\
+    \ minimization and min-max problems, commonly found in machine learning. Existing\
+    \ second-order and high-order methods for variational inequalities require precise\
+    \ computation of derivatives, often resulting in prohibitively high iteration\
+    \ costs. In this work, we study the impact of Jacobian inaccuracy on second-order\
+    \ methods. For the smooth and monotone case, we establish a lower bound with explicit\
+    \ dependence on the level of Jacobian inaccuracy and propose an optimal algorithm\
+    \ for this key setting. When derivatives are exact, our method converges at the\
+    \ same rate as exact optimal second-order methods. To reduce the cost of solving\
+    \ the auxiliary problem, which arises in all high-order methods with global convergence,\
+    \ we introduce several Quasi-Newton approximations. Our method with Quasi-Newton\
+    \ updates achieves a global sublinear convergence rate. We extend our approach\
+    \ with a tensor generalization for inexact high-order derivatives and support\
+    \ the theory with experiments.\n\t\t"
+  authors: "Artem Agafonov, Petr Ostroukhov, Konstantin Yakovlev, Eduard Gorbunov,\
+    \ <strong>Martin Tak\xE1\u010D</strong>, Alexander Gasnikov, Dmitry Kamzolov"
+  journal: NeurIPS 2024
+  link: https://arxiv.org/abs/2405.15990
+  pdf: https://arxiv.org/pdf/2405.15990
+  title: 'Exploring Jacobian Inexactness in Second-Order Methods for Variational Inequalities:
+    Lower Bounds, Optimal Algorithms and Quasi-Newton Approximations'
+  type: cpaper
+  year: '2024'
+- abstract: "\nLarge Language Models (LLMs) have become pivotal in addressing reasoning\
+    \ tasks across diverse domains, including arithmetic, commonsense, and symbolic\
+    \ reasoning. They utilize prompting techniques such as Exploration-of-Thought,\
+    \ Decomposition, and Refinement to effectively navigate and solve intricate tasks.\
+    \ Despite these advancements, the application of LLMs to Combinatorial Problems\
+    \ (CPs), known for their NP-hardness and critical roles in logistics and resource\
+    \ management remains underexplored. To address this gap, we introduce a novel\
+    \ prompting strategy: Self-Guiding Exploration (SGE), designed to enhance the\
+    \ performance of solving CPs. SGE operates autonomously, generating multiple thought\
+    \ trajectories for each CP task. It then breaks these trajectories down into actionable\
+    \ subtasks, executes them sequentially, and refines the results to ensure optimal\
+    \ outcomes. We present our research as the first to apply LLMs to a broad range\
+    \ of CPs and demonstrate that SGE outperforms existing prompting strategies by\
+    \ over 27.84% in CP optimization performance. Additionally, SGE achieves a 2.46%\
+    \ higher accuracy over the best existing results in other reasoning tasks (arithmetic,\
+    \ commonsense, and symbolic).\n\t\t"
+  authors: "Zangir Iklassov, Yali Du, Farkhad Akimov, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  journal: NeurIPS 2024
+  link: https://arxiv.org/abs/2405.17950
+  pdf: https://arxiv.org/pdf/2405.17950
+  title: Self-Guiding Exploration for Combinatorial Problems
+  type: cpaper
+  year: '2024'
+- abstract: "\nAdaptive methods are extremely popular in machine learning as they\
+    \ make learning rate tuning less expensive. This paper introduces a novel optimization\
+    \ algorithm named KATE, which presents a scale-invariant adaptation of the well-known\
+    \ AdaGrad algorithm. We prove the scale-invariance of KATE for the case of Generalized\
+    \ Linear Models. Moreover, for general smooth non-convex problems, we establish\
+    \ a convergence rate of \n for KATE, matching the best-known ones for AdaGrad\
+    \ and Adam. We also compare KATE to other state-of-the-art adaptive algorithms\
+    \ Adam and AdaGrad in numerical experiments with different problems, including\
+    \ complex machine learning tasks like image classification and text classification\
+    \ on real data. The results indicate that KATE consistently outperforms AdaGrad\
+    \ and matches/surpasses the performance of Adam in all considered scenarios.\n\
+    \t\t"
+  authors: "Sayantan Choudhury, Nazarii Tupitsa, Nicolas Loizou, Samuel Horv\xE1th,\
+    \ <strong>Martin Tak\xE1\u010D</strong>, Eduard Gorbunov"
+  journal: NeurIPS 2024
+  link: https://arxiv.org/abs/2403.02648
+  pdf: https://arxiv.org/pdf/2403.02648.pdf
+  title: 'Remove that Square Root: a New Efficient Scale-Invariant Version of AdaGrad'
+  type: cpaper
+  year: '2024'
 - abstract: 'Methods with adaptive scaling of different features play a key role in
     solving saddle point problems, primarily due to Adam''s popularity for solving
     adversarial machine learning problems, including GANS training. This paper carries
@@ -161,51 +228,6 @@
   link: https://arxiv.org/abs/2405.18926
   pdf: https://arxiv.org/pdf/2405.18926
   title: Damped Newton Method with Near-Optimal Global O(1/k^3) Convergence Rate
-  type: tpaper
-  year: '2024'
-- abstract: "\nLarge Language Models (LLMs) have become pivotal in addressing reasoning\
-    \ tasks across diverse domains, including arithmetic, commonsense, and symbolic\
-    \ reasoning. They utilize prompting techniques such as Exploration-of-Thought,\
-    \ Decomposition, and Refinement to effectively navigate and solve intricate tasks.\
-    \ Despite these advancements, the application of LLMs to Combinatorial Problems\
-    \ (CPs), known for their NP-hardness and critical roles in logistics and resource\
-    \ management remains underexplored. To address this gap, we introduce a novel\
-    \ prompting strategy: Self-Guiding Exploration (SGE), designed to enhance the\
-    \ performance of solving CPs. SGE operates autonomously, generating multiple thought\
-    \ trajectories for each CP task. It then breaks these trajectories down into actionable\
-    \ subtasks, executes them sequentially, and refines the results to ensure optimal\
-    \ outcomes. We present our research as the first to apply LLMs to a broad range\
-    \ of CPs and demonstrate that SGE outperforms existing prompting strategies by\
-    \ over 27.84% in CP optimization performance. Additionally, SGE achieves a 2.46%\
-    \ higher accuracy over the best existing results in other reasoning tasks (arithmetic,\
-    \ commonsense, and symbolic).\n\t\t"
-  authors: "Zangir Iklassov, Yali Du, Farkhad Akimov, <strong>Martin Tak\xE1\u010D\
-    </strong>"
-  link: https://arxiv.org/abs/2405.17950
-  pdf: https://arxiv.org/pdf/2405.17950
-  title: Self-Guiding Exploration for Combinatorial Problems
-  type: tpaper
-  year: '2024'
-- abstract: "\nVariational inequalities represent a broad class of problems, including\
-    \ minimization and min-max problems, commonly found in machine learning. Existing\
-    \ second-order and high-order methods for variational inequalities require precise\
-    \ computation of derivatives, often resulting in prohibitively high iteration\
-    \ costs. In this work, we study the impact of Jacobian inaccuracy on second-order\
-    \ methods. For the smooth and monotone case, we establish a lower bound with explicit\
-    \ dependence on the level of Jacobian inaccuracy and propose an optimal algorithm\
-    \ for this key setting. When derivatives are exact, our method converges at the\
-    \ same rate as exact optimal second-order methods. To reduce the cost of solving\
-    \ the auxiliary problem, which arises in all high-order methods with global convergence,\
-    \ we introduce several Quasi-Newton approximations. Our method with Quasi-Newton\
-    \ updates achieves a global sublinear convergence rate. We extend our approach\
-    \ with a tensor generalization for inexact high-order derivatives and support\
-    \ the theory with experiments.\n\t\t"
-  authors: "Artem Agafonov, Petr Ostroukhov, Konstantin Yakovlev, Eduard Gorbunov,\
-    \ <strong>Martin Tak\xE1\u010D</strong>, Alexander Gasnikov, Dmitry Kamzolov"
-  link: https://arxiv.org/abs/2405.15990
-  pdf: https://arxiv.org/pdf/2405.15990
-  title: 'Exploring Jacobian Inexactness in Second-Order Methods for Variational Inequalities:
-    Lower Bounds, Optimal Algorithms and Quasi-Newton Approximations'
   type: tpaper
   year: '2024'
 - abstract: "Training very large machine learning models requires a distributed computing\
@@ -398,25 +420,6 @@
   pdf: https://arxiv.org/pdf/2402.09765.pdf
   title: Reinforcement Learning for Solving Stochastic Vehicle Routing Problem with
     Time Windows
-  type: tpaper
-  year: '2024'
-- abstract: "\nAdaptive methods are extremely popular in machine learning as they\
-    \ make learning rate tuning less expensive. This paper introduces a novel optimization\
-    \ algorithm named KATE, which presents a scale-invariant adaptation of the well-known\
-    \ AdaGrad algorithm. We prove the scale-invariance of KATE for the case of Generalized\
-    \ Linear Models. Moreover, for general smooth non-convex problems, we establish\
-    \ a convergence rate of \n for KATE, matching the best-known ones for AdaGrad\
-    \ and Adam. We also compare KATE to other state-of-the-art adaptive algorithms\
-    \ Adam and AdaGrad in numerical experiments with different problems, including\
-    \ complex machine learning tasks like image classification and text classification\
-    \ on real data. The results indicate that KATE consistently outperforms AdaGrad\
-    \ and matches/surpasses the performance of Adam in all considered scenarios.\n\
-    \t\t"
-  authors: "Sayantan Choudhury, Nazarii Tupitsa, Nicolas Loizou, Samuel Horv\xE1th,\
-    \ <strong>Martin Tak\xE1\u010D</strong>, Eduard Gorbunov"
-  link: https://arxiv.org/abs/2403.02648
-  pdf: https://arxiv.org/pdf/2403.02648.pdf
-  title: 'Remove that Square Root: a New Efficient Scale-Invariant Version of AdaGrad'
   type: tpaper
   year: '2024'
 - abstract: "\nDistributed learning problems have gained significant popularity due\
