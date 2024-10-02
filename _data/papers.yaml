@@ -1,3 +1,24 @@
+- abstract: "\nDue to the non-smoothness of optimization problems in Machine Learning,\
+    \ generalized smoothness assumptions have been gaining a lot of attention in recent\
+    \ years. One of the most popular assumptions of this type is (L0,L1)-smoothness\
+    \ (Zhang et al., 2020). In this paper, we focus on the class of (strongly) convex\
+    \ (L0,L1)-smooth functions and derive new convergence guarantees for several existing\
+    \ methods. In particular, we derive improved convergence rates for Gradient Descent\
+    \ with (Smoothed) Gradient Clipping and for Gradient Descent with Polyak Stepsizes.\
+    \ In contrast to the existing results, our rates do not rely on the standard smoothness\
+    \ assumption and do not suffer from the exponential dependency from the initial\
+    \ distance to the solution. We also extend these results to the stochastic case\
+    \ under the over-parameterization assumption, propose a new accelerated method\
+    \ for convex (L0,L1)-smooth optimization, and derive new convergence rates for\
+    \ Adaptive Gradient Descent (Malitsky and Mishchenko, 2020).\n\t\t"
+  authors: "Eduard Gorbunov, Nazarii Tupitsa, Sayantan Choudhury, Alen Aliev, Peter\
+    \ Richt\xE1rik, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2409.14989
+  pdf: https://arxiv.org/pdf/2409.14989
+  title: 'Methods for Convex (L0,L1)-Smooth Optimization: Clipping, Acceleration,
+    and Adaptivity'
+  type: tpaper
+  year: '2024'
 - abstract: "\nVariational inequalities represent a broad class of problems, including\
     \ minimization and min-max problems, commonly found in machine learning. Existing\
     \ second-order and high-order methods for variational inequalities require precise\
