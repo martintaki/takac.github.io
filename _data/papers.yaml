@@ -1,3 +1,33 @@
+- abstract: "\nNon-iid data is prevalent in real-world federated learning problems.\
+    \ Data heterogeneity can come in different types in terms of distribution shifts.\
+    \ In this work, we are interested in the heterogeneity that comes from concept\
+    \ shifts, i.e., shifts in the prediction across clients. In particular, we consider\
+    \ multi-task learning, where we want the model to adapt to the task of the client.\
+    \ We propose a parameter-efficient framework to tackle this issue, where each\
+    \ client learns to mix between parameter-efficient adaptors according to its task.\
+    \ We use Low-Rank Adaptors (LoRAs) as the backbone and extend its concept to other\
+    \ types of layers. We call our framework Federated Low-Rank Adaptive Learning\
+    \ (FLoRAL). This framework is not an algorithm but rather a model parameterization\
+    \ for a multi-task learning objective, so it can work on top of any algorithm\
+    \ that optimizes this objective, which includes many algorithms from the literature.\
+    \ FLoRAL is memory-efficient, and clients are personalized with small states (e.g.,\
+    \ one number per adaptor) as the adaptors themselves are federated. Hence, personalization\
+    \ is--in this sense--federated as well. Even though clients can personalize more\
+    \ freely by training an adaptor locally, we show that collaborative and efficient\
+    \ training of adaptors is possible and performs better. We also show that FLoRAL\
+    \ can outperform an ensemble of full models with optimal cluster assignment, which\
+    \ demonstrates the benefits of federated personalization and the robustness of\
+    \ FLoRAL to overfitting. We show promising experimental results on synthetic datasets,\
+    \ real-world federated multi-task problems such as MNIST, CIFAR-10, and CIFAR-100.\
+    \ We also provide a theoretical analysis of local SGD on a relaxed objective and\
+    \ discuss the effects of aggregation mismatch on convergence.\n\t\t"
+  authors: "Abdulla Jasem Almansoori, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  link: https://arxiv.org/abs/2410.03497
+  pdf: https://arxiv.org/pdf/2410.03497
+  title: Collaborative and Efficient Personalization with Mixtures of Adaptors
+  type: tpaper
+  year: '2024'
 - abstract: "\nDue to the non-smoothness of optimization problems in Machine Learning,\
     \ generalized smoothness assumptions have been gaining a lot of attention in recent\
     \ years. One of the most popular assumptions of this type is (L0,L1)-smoothness\
