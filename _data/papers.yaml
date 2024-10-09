@@ -1,3 +1,25 @@
+- abstract: "\nStatistical data heterogeneity is a significant barrier to convergence\
+    \ in federated learning (FL). While prior work has advanced heterogeneous FL through\
+    \ better optimization objectives, these methods fall short when there is extreme\
+    \ data heterogeneity among collaborating participants. We hypothesize that convergence\
+    \ under extreme data heterogeneity is primarily hindered due to the aggregation\
+    \ of conflicting updates from the participants in the initial collaboration rounds.\
+    \ To overcome this problem, we propose a warmup phase where each participant learns\
+    \ a personalized mask and updates only a subnetwork of the full model. This personalized\
+    \ warmup allows the participants to focus initially on learning specific subnetworks\
+    \ tailored to the heterogeneity of their data. After the warmup phase, the participants\
+    \ revert to standard federated optimization, where all parameters are communicated.\
+    \ We empirically demonstrate that the proposed personalized warmup via subnetworks\
+    \ (FedPeWS) approach improves accuracy and convergence speed over standard federated\
+    \ optimization methods.\n\t\t"
+  authors: "Nurbek Tastan, Samuel Horvath, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Karthik Nandakumar"
+  link: https://arxiv.org/abs/2410.03042
+  pdf: https://arxiv.org/pdf/2410.03042
+  title: 'FedPeWS: Personalized Warmup via Subnetworks for Enhanced Heterogeneous
+    Federated Learning'
+  type: tpaper
+  year: '2024'
 - abstract: "\nSecond-order methods for convex optimization outperform first-order\
     \ methods in terms of theoretical iteration convergence, achieving rates up to\
     \ O(k\u22125) for highly-smooth functions. However, their practical performance\
