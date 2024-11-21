@@ -122,6 +122,13 @@
     to: present
   label: Postdoc [MBZUAI]
 - items:
+  - col: {}
+    from: 2022/10
+    image: NazariiTupista.jpeg
+    name: Nazarii Tupista
+    to: present
+  label: Research Scientist [MBZUAI]
+- items:
   - from: 2018/09
     image: AlbertBerahas.jpg
     name: Albert S. Berahas
