@@ -137,6 +137,16 @@
 - items:
   - col: {}
     from: 2024/08
+    image: missing.jpeg
+    name: Aidar Alimbayev
+    to: present
+  - col: {}
+    from: 2024/08
+    image: missing.jpeg
+    name: Abdelmajid Essofi
+    to: present
+  - col: {}
+    from: 2024/08
     image: Farshed_Abdukhakimov.png
     name: Farshed Abdukhakimov
     to: present
