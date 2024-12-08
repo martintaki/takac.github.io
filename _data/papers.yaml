@@ -966,8 +966,7 @@
     the rate 1/k3.5 of existing second-order methods.
   authors: "Dmitry Kamzolov, Alexander Gasnikov, Pavel Dvurechensky, Artem Agafonov,\
     \ <strong>Martin Tak\xE1\u010D</strong>"
-  journal: Encyclopedia of Optimization (Panos M. Pardalos, Oleg A. Prokopyev) to
-    appear
+  journal: Encyclopedia of Optimization (Panos M. Pardalos, Oleg A. Prokopyev)
   link: https://link.springer.com/referenceworkentry/10.1007/978-3-030-54621-2_858-1
   pdf: https://arxiv.org/pdf/2208.13190.pdf
   title: Exploiting higher order derivatives in convex optimization methods
