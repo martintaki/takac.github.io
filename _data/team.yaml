@@ -1,5 +1,10 @@
 - items:
   - col: {}
+    from: 2024/11
+    image: null
+    name: Aleksandr Lobanov
+    to: 2024/12
+  - col: {}
     from: 2023/04
     image: NikitaYudin.png
     name: Nikita Yudin
