@@ -74,8 +74,8 @@
     \u010D</strong>, Dmitry Kamzolov"
   link: https://arxiv.org/abs/2410.23862
   pdf: https://arxiv.org/pdf/2410.23862
-  title: "\u03C8 DAG: Projected Stochastic Approximation Iteration for DAG Structure\
-    \ Learning"
+  title: '$\psi$DAG: Projected Stochastic Approximation Iteration for DAG Structure
+    Learning'
   type: tpaper
   year: '2024'
 - abstract: "\nStatistical data heterogeneity is a significant barrier to convergence\
