@@ -198,6 +198,26 @@
   label: PhD Students [MBZUAI]
 - items:
   - col: {}
+    from: 2024/09
+    image: Semyon_Semenov.jpg
+    name: Semyon Semenov
+    to: present
+  - col: {}
+    from: 2024/09
+    image: VladislavRyspayev.JPG
+    name: Vladislav Ryspayev
+    to: present
+  - col: {}
+    from: 2024/09
+    image: Hazem_photo.jpg
+    name: Hazem  Lashen
+    to: present
+  - col: {}
+    from: 2024/09
+    image: ArmanBolatov.jpeg
+    name: Arman Bolatov
+    to: present
+  - col: {}
     from: 2023/09
     image: Farkhad_Akimov.jpeg
     name: Farkhad Akimov
