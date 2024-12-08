@@ -407,7 +407,7 @@
     </strong>"
   link: https://arxiv.org/abs/2405.18926
   pdf: https://arxiv.org/pdf/2405.18926
-  title: Damped Newton Method with Near-Optimal Global O(1/k^3) Convergence Rate
+  title: Damped Newton Method with Near-Optimal Global $O(1/k^3)$ Convergence Rate
   type: tpaper
   year: '2024'
 - abstract: "Training very large machine learning models requires a distributed computing\
