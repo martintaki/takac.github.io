@@ -1,3 +1,11 @@
+- authors: "Aleksandr Lobanov, Alexander Gasnikov, Eduard Gorbunov, <strong>Martin\
+    \ Tak\xE1\u010D</strong>"
+  link: https://arxiv.org/abs/2412.17050
+  pdf: https://arxiv.org/pdf/2412.17050
+  title: Linear Convergence Rate in Convex Setup is Possible! Gradient Descent Method
+    Variants under (L0,L1)-Smoothness
+  type: tpaper
+  year: '2024'
 - abstract: "\nNon-convex Machine Learning problems typically do not adhere to the\
     \ standard smoothness assumption. Based on empirical findings, Zhang et al. (2020b)\
     \ proposed a more realistic generalized (L0,L1)-smoothness assumption, though\
