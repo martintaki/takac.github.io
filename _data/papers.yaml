@@ -1,3 +1,29 @@
+- abstract: "\nThe success of Deep Neural Network (DNN) models significantly depends\
+    \ on the quality of provided annotations. In medical image segmentation, for example,\
+    \ having multiple expert annotations for each data point is common to minimize\
+    \ subjective annotation bias. Then, the goal of estimation is to filter out the\
+    \ label noise and recover the ground-truth masks, which are not explicitly given.\
+    \ This paper proposes a probabilistic model for noisy observations that allows\
+    \ us to build a confident classification and segmentation models. To accomplish\
+    \ it, we explicitly model label noise and introduce a new information-based regularization\
+    \ that pushes the network to recover the ground-truth labels. In addition, for\
+    \ segmentation task we adjust the loss function by prioritizing learning in high-confidence\
+    \ regions where all the annotators agree on labeling. We evaluate the proposed\
+    \ method on a series of classification tasks such as noisy versions of MNIST,\
+    \ CIFAR-10, Fashion-MNIST datasets as well as CIFAR-10N, which is real-world dataset\
+    \ with noisy human annotations. Additionally, for segmentation task, we consider\
+    \ several medical imaging datasets, such as, LIDC and RIGA that reflect real-world\
+    \ inter-variability among multiple annotators. Our experiments show that our algorithm\
+    \ outperforms state-of-the-art solutions for the considered classification and\
+    \ segmentation problems.\n\t\t"
+  authors: "Asma Ahmed Hashmi, Aigerim Zhumabayeva, Nikita Kotelevski, Artem Agafonov,\
+    \ Mohammad Yaqub, Maxim Panov, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: SIAM International Conference on Data Mining (SDM25)
+  link: https://arxiv.org/abs/2301.00524
+  pdf: https://arxiv.org/pdf/2301.00524
+  title: Learning Confident Classifiers in the Presence of Label Noise
+  type: cpaper
+  year: '2025'
 - authors: "Aleksandr Lobanov, Alexander Gasnikov, Eduard Gorbunov, <strong>Martin\
     \ Tak\xE1\u010D</strong>"
   link: https://arxiv.org/abs/2412.17050
@@ -1190,31 +1216,6 @@
   pdf: https://arxiv.org/pdf/2207.08171.pdf
   title: 'SP2: A Second Order Stochastic Polyak Method'
   type: cpaper
-  year: '2023'
-- abstract: "\nThe performance of the Deep Learning (DL) models depends on the quality\
-    \ of labels. \nIn some areas, the involvement of human annotators may lead to\
-    \ noise in the data. When these corrupted labels are blindly regarded as the ground\
-    \ truth (GT), \nDL models suffer from performance deficiency. This paper presents\
-    \ a method that aims to learn a confident model in the presence of noisy labels.\
-    \ \nThis is done in conjunction with estimating the uncertainty of multiple annotators.\n\
-    We robustly estimate the predictions given only the noisy labels by adding entropy\
-    \ or information-based regularizer to the classifier network.\n We conduct our\
-    \ experiments on a noisy version of MNIST, CIFAR-10, and FMNIST datasets. Our\
-    \ empirical results demonstrate the robustness of our method \n as it outperforms\
-    \ or performs comparably to other state-of-the-art (SOTA) methods. In addition,\
-    \ we evaluated the proposed method on the curated dataset, \n where the noise\
-    \ type and level of various annotators depend on the input image style. We show\
-    \ that our approach performs well and is adept at \n learning annotators' confusion.\
-    \ Moreover, we demonstrate how our model is more confident in predicting GT than\
-    \ other baselines. Finally, we assess our approach for \n segmentation problem\
-    \ and showcase its effectiveness with experiments.\n\t\t"
-  authors: "Asma Ahmed Hashmi, Artem Agafonov, Aigerim Zhumabayeva, Mohammad Yaqub,\
-    \ <strong>Martin Tak\xE1\u010D</strong>"
-  link: https://arxiv.org/abs/2301.00524
-  pdf: https://arxiv.org/pdf/2301.00524
-  title: 'In Quest of Ground Truth: Learning Confident Models and Estimating Uncertainty
-    in the Presence of Annotator Noise'
-  type: tpaper
   year: '2023'
 - abstract: "In this work, we develop a deep neural network model for the reaction\
     \ rate of oxidative coupling of methane from \n\t\tpublished high-throughput experimental\
