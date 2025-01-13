@@ -1,3 +1,26 @@
+- abstract: "\nLocalSGD and SCAFFOLD are widely used methods in distributed stochastic\
+    \ optimization, with numerous applications in machine learning, large-scale data\
+    \ processing, and federated learning. However, rigorously establishing their theoretical\
+    \ advantages over simpler methods, such as minibatch SGD (MbSGD), has proven challenging,\
+    \ as existing analyses often rely on strong assumptions, unrealistic premises,\
+    \ or overly restrictive scenarios.\nIn this work, we revisit the convergence properties\
+    \ of LocalSGD and SCAFFOLD under a variety of existing or weaker conditions, including\
+    \ gradient similarity, Hessian similarity, weak convexity, and Lipschitz continuity\
+    \ of the Hessian. Our analysis shows that (i) LocalSGD achieves faster convergence\
+    \ compared to MbSGD for weakly convex functions without requiring stronger gradient\
+    \ similarity assumptions; (ii) LocalSGD benefits significantly from higher-order\
+    \ similarity and smoothness; and (iii) SCAFFOLD demonstrates faster convergence\
+    \ than MbSGD for a broader class of non-quadratic functions. These theoretical\
+    \ insights provide a clearer understanding of the conditions under which LocalSGD\
+    \ and SCAFFOLD outperform MbSGD.\n\t\t"
+  authors: "Ruichen Luo, Sebastian U Stich, Samuel Horv\xE1th, <strong>Martin Tak\xE1\
+    \u010D</strong>"
+  journal: AISTATS'25
+  link: https://arxiv.org/abs/2501.04443
+  pdf: https://arxiv.org/pdf/2501.04443
+  title: 'Revisiting LocalSGD and SCAFFOLD: Improved Rates and Missing Analysis'
+  type: tpaper
+  year: '2025'
 - abstract: "\nThe success of Deep Neural Network (DNN) models significantly depends\
     \ on the quality of provided annotations. In medical image segmentation, for example,\
     \ having multiple expert annotations for each data point is common to minimize\
