@@ -1,3 +1,22 @@
+- abstract: "\nThis work addresses the challenge of optimal energy management in microgrids\
+    \ through a collaborative and privacy-preserving framework. We propose the FedTRPO\
+    \ methodology, which integrates Federated Learning (FL) and Trust Region Policy\
+    \ Optimization (TRPO) to manage distributed energy resources (DERs) efficiently.\
+    \ Using a customized version of the CityLearn environment and synthetically generated\
+    \ data, we simulate designed net-zero energy scenarios for microgrids composed\
+    \ of multiple buildings. Our approach emphasizes reducing energy costs and carbon\
+    \ emissions while ensuring privacy. Experimental results demonstrate that FedTRPO\
+    \ is comparable with state-of-the-art federated RL methodologies without hyperparameter\
+    \ tunning. The proposed framework highlights the feasibility of collaborative\
+    \ learning for achieving optimal control policies in energy systems, advancing\
+    \ the goals of sustainable and efficient smart grids.\n\t\t"
+  authors: "Nicolas M Cuadrado Avila, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  link: https://arxiv.org/abs/2412.20946
+  pdf: https://arxiv.org/pdf/2412.20946
+  title: 'Generalizing in Net-Zero Microgrids: A Study with Federated PPO and TRPO'
+  type: tpaper
+  year: '2024'
 - abstract: "\nLocalSGD and SCAFFOLD are widely used methods in distributed stochastic\
     \ optimization, with numerous applications in machine learning, large-scale data\
     \ processing, and federated learning. However, rigorously establishing their theoretical\
