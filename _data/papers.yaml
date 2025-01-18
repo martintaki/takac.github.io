@@ -1,3 +1,23 @@
+- abstract: 'Inspired by the recent work FedNL (Safaryan et al, FedNL: Making Newton-Type
+    Methods Applicable to Federated Learning), we propose a new communication efficient
+    second-order framework for Federated learning, namely FLECS. The proposed method
+    reduces the high-memory requirements of FedNL by the usage of an L-SR1 type update
+    for the Hessian approximation which is stored on the central server. A low dimensional
+    `sketch'' of the Hessian is all that is needed by each device to generate an update,
+    so that memory costs as well as number of Hessian-vector products for the agent
+    are low. Biased and unbiased compressions are utilized to make communication costs
+    also low. Convergence guarantees for FLECS are provided in both the strongly convex,
+    and nonconvex cases, and local linear convergence is also established under strong
+    convexity. Numerical experiments confirm the practical benefits of this new FLECS
+    algorithm.'
+  authors: "Artem Agafonov, Dmitry Kamzolov, Rachael Tappenden, Alexander Gasnikov,\
+    \ <strong>Martin Tak\xE1\u010D</strong>"
+  journal: Optimization Methods and Software (GOMS)
+  link: https://arxiv.org/abs/2206.02009
+  pdf: https://arxiv.org/pdf/2206.02009.pdf
+  title: 'FLECS: A Federated Learning Second-Order Framework via Compression and Sketching'
+  type: jpaper
+  year: '2025'
 - abstract: "\nLocalSGD and SCAFFOLD are widely used methods in distributed stochastic\
     \ optimization, with numerous applications in machine learning, large-scale data\
     \ processing, and federated learning. However, rigorously establishing their theoretical\
@@ -1513,25 +1533,6 @@
   authors: "Alexander Rogozin, Farshed Abdukhakimov, Dmitry Kamzolov, <strong>Martin\
     \ Tak\xE1\u010D</strong>, Francesco Orabona"
   title: On Sharpness in Deep Linear Networks
-  type: tpaper
-  year: '2022'
-- abstract: 'Inspired by the recent work FedNL (Safaryan et al, FedNL: Making Newton-Type
-    Methods Applicable to Federated Learning), we propose a new communication efficient
-    second-order framework for Federated learning, namely FLECS. The proposed method
-    reduces the high-memory requirements of FedNL by the usage of an L-SR1 type update
-    for the Hessian approximation which is stored on the central server. A low dimensional
-    `sketch'' of the Hessian is all that is needed by each device to generate an update,
-    so that memory costs as well as number of Hessian-vector products for the agent
-    are low. Biased and unbiased compressions are utilized to make communication costs
-    also low. Convergence guarantees for FLECS are provided in both the strongly convex,
-    and nonconvex cases, and local linear convergence is also established under strong
-    convexity. Numerical experiments confirm the practical benefits of this new FLECS
-    algorithm.'
-  authors: "Artem Agafonov, Dmitry Kamzolov, Rachael Tappenden, Alexander Gasnikov,\
-    \ <strong>Martin Tak\xE1\u010D</strong>"
-  link: https://arxiv.org/abs/2206.02009
-  pdf: https://arxiv.org/pdf/2206.02009.pdf
-  title: 'FLECS: A Federated Learning Second-Order Framework via Compression and Sketching'
   type: tpaper
   year: '2022'
 - abstract: 'This paper investigates the problem of regret minimization in linear
