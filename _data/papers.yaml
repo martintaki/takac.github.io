@@ -15,8 +15,7 @@
   journal: Optimization Methods and Software (GOMS)
   link: https://arxiv.org/abs/2206.02009
   pdf: https://arxiv.org/pdf/2206.02009.pdf
-  title: 'FLECS: TEST A Federated Learning Second-Order Framework via Compression
-    and Sketching'
+  title: 'FLECS: A Federated Learning Second-Order Framework via Compression and Sketching'
   type: jpaper
   year: '2025'
 - abstract: "\nLocalSGD and SCAFFOLD are widely used methods in distributed stochastic\
