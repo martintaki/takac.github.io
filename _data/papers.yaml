@@ -1,3 +1,30 @@
+- abstract: "\nWe introduce the concept of the self-referencing causal cycle (abbreviated\
+    \ RECALL) - a mechanism that enables large language models (LLMs) to bypass the\
+    \ limitations of unidirectional causality, which underlies a phenomenon known\
+    \ as the reversal curse. When an LLM is prompted with sequential data, it often\
+    \ fails to recall preceding context. For example, when we ask an LLM to recall\
+    \ the line preceding \"O say does that star-spangled banner yet wave\" in the\
+    \ U.S. National Anthem, it often fails to correctly return \"Gave proof through\
+    \ the night that our flag was still there\" - this is due to the reversal curse.\
+    \ It occurs because language models such as ChatGPT and Llama generate text based\
+    \ on preceding tokens, requiring facts to be learned and reproduced in a consistent\
+    \ token order. While the reversal curse is often viewed as a limitation, we offer\
+    \ evidence of an alternative view: it is not always an obstacle in practice. We\
+    \ find that RECALL is driven by what we designate as cycle tokens - sequences\
+    \ that connect different parts of the training data, enabling recall of preceding\
+    \ tokens from succeeding ones. Through rigorous probabilistic formalization and\
+    \ controlled experiments, we demonstrate how the cycles they induce influence\
+    \ a model's ability to reproduce information. To facilitate reproducibility, we\
+    \ provide our code and experimental details at this https URL.\n\t\t"
+  authors: "Munachiso Nwadike, Zangir Iklassov, Toluwani Aremu, Tatsuya Hiraoka, Velibor\
+    \ Bojkovic, Benjamin Heinzerling, Hilal Alqaubeh, <strong>Martin Tak\xE1\u010D\
+    </strong>, Kentaro Inui"
+  link: https://arxiv.org/abs/2501.13491
+  pdf: https://arxiv.org/pdf/2501.13491
+  title: 'RECALL: Library-Like Behavior In Language Models is Enhanced by Self-Referencing
+    Causal Cycles'
+  type: tpaper
+  year: '2024'
 - abstract: 'Inspired by the recent work FedNL (Safaryan et al, FedNL: Making Newton-Type
     Methods Applicable to Federated Learning), we propose a new communication efficient
     second-order framework for Federated learning, namely FLECS. The proposed method
