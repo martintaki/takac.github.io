@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - abstract: "\nMachine learning (ML) is increasingly vital for smart-grid research,\
     \ yet restricted access to realistic, diverse data - often due to privacy concerns\
     \ - slows progress and fuels doubts within the energy sector about adopting ML-based\
@@ -24,6 +25,61 @@
   pdf: https://arxiv.org/pdf/2502.03034
   title: Knowledge Distillation from Large Language Models for Household Energy Modeling
   type: tpaper
+=======
+- abstract: "\nNon-iid data is prevalent in real-world federated learning problems.\
+    \ Data heterogeneity can come in different types in terms of distribution shifts.\
+    \ In this work, we are interested in the heterogeneity that comes from concept\
+    \ shifts, i.e., shifts in the prediction across clients. In particular, we consider\
+    \ multi-task learning, where we want the model to adapt to the task of the client.\
+    \ We propose a parameter-efficient framework to tackle this issue, where each\
+    \ client learns to mix between parameter-efficient adaptors according to its task.\
+    \ We use Low-Rank Adaptors (LoRAs) as the backbone and extend its concept to other\
+    \ types of layers. We call our framework Federated Low-Rank Adaptive Learning\
+    \ (FLoRAL). This framework is not an algorithm but rather a model parameterization\
+    \ for a multi-task learning objective, so it can work on top of any algorithm\
+    \ that optimizes this objective, which includes many algorithms from the literature.\
+    \ FLoRAL is memory-efficient, and clients are personalized with small states (e.g.,\
+    \ one number per adaptor) as the adaptors themselves are federated. Hence, personalization\
+    \ is--in this sense--federated as well. Even though clients can personalize more\
+    \ freely by training an adaptor locally, we show that collaborative and efficient\
+    \ training of adaptors is possible and performs better. We also show that FLoRAL\
+    \ can outperform an ensemble of full models with optimal cluster assignment, which\
+    \ demonstrates the benefits of federated personalization and the robustness of\
+    \ FLoRAL to overfitting. We show promising experimental results on synthetic datasets,\
+    \ real-world federated multi-task problems such as MNIST, CIFAR-10, and CIFAR-100.\
+    \ We also provide a theoretical analysis of local SGD on a relaxed objective and\
+    \ discuss the effects of aggregation mismatch on convergence.\n\t\t"
+  authors: "Abdulla Jasem Almansoori, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  journal: Conference on Parsimony and Learning (CPAL 2025)
+  link: https://arxiv.org/abs/2410.03497
+  pdf: https://arxiv.org/pdf/2410.03497
+  title: Collaborative and Efficient Personalization with Mixtures of Adaptors
+  type: cpaper
+  year: '2025'
+- abstract: "\nStatistical data heterogeneity is a significant barrier to convergence\
+    \ in federated learning (FL). While prior work has advanced heterogeneous FL through\
+    \ better optimization objectives, these methods fall short when there is extreme\
+    \ data heterogeneity among collaborating participants. We hypothesize that convergence\
+    \ under extreme data heterogeneity is primarily hindered due to the aggregation\
+    \ of conflicting updates from the participants in the initial collaboration rounds.\
+    \ To overcome this problem, we propose a warmup phase where each participant learns\
+    \ a personalized mask and updates only a subnetwork of the full model. This personalized\
+    \ warmup allows the participants to focus initially on learning specific subnetworks\
+    \ tailored to the heterogeneity of their data. After the warmup phase, the participants\
+    \ revert to standard federated optimization, where all parameters are communicated.\
+    \ We empirically demonstrate that the proposed personalized warmup via subnetworks\
+    \ (FedPeWS) approach improves accuracy and convergence speed over standard federated\
+    \ optimization methods.\n\t\t"
+  authors: "Nurbek Tastan, Samuel Horvath, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Karthik Nandakumar"
+  journal: Conference on Parsimony and Learning (CPAL 2025)
+  link: https://arxiv.org/abs/2410.03042
+  pdf: https://arxiv.org/pdf/2410.03042
+  title: 'FedPeWS: Personalized Warmup via Subnetworks for Enhanced Heterogeneous
+    Federated Learning'
+  type: cpaper
+>>>>>>> refs/remotes/origin/gh-pages
   year: '2025'
 - abstract: "\nWe introduce the concept of the self-referencing causal cycle (abbreviated\
     \ RECALL) - a mechanism that enables large language models (LLMs) to bypass the\
@@ -249,28 +305,6 @@
     Learning'
   type: tpaper
   year: '2024'
-- abstract: "\nStatistical data heterogeneity is a significant barrier to convergence\
-    \ in federated learning (FL). While prior work has advanced heterogeneous FL through\
-    \ better optimization objectives, these methods fall short when there is extreme\
-    \ data heterogeneity among collaborating participants. We hypothesize that convergence\
-    \ under extreme data heterogeneity is primarily hindered due to the aggregation\
-    \ of conflicting updates from the participants in the initial collaboration rounds.\
-    \ To overcome this problem, we propose a warmup phase where each participant learns\
-    \ a personalized mask and updates only a subnetwork of the full model. This personalized\
-    \ warmup allows the participants to focus initially on learning specific subnetworks\
-    \ tailored to the heterogeneity of their data. After the warmup phase, the participants\
-    \ revert to standard federated optimization, where all parameters are communicated.\
-    \ We empirically demonstrate that the proposed personalized warmup via subnetworks\
-    \ (FedPeWS) approach improves accuracy and convergence speed over standard federated\
-    \ optimization methods.\n\t\t"
-  authors: "Nurbek Tastan, Samuel Horvath, <strong>Martin Tak\xE1\u010D</strong>,\
-    \ Karthik Nandakumar"
-  link: https://arxiv.org/abs/2410.03042
-  pdf: https://arxiv.org/pdf/2410.03042
-  title: 'FedPeWS: Personalized Warmup via Subnetworks for Enhanced Heterogeneous
-    Federated Learning'
-  type: tpaper
-  year: '2024'
 - abstract: "\nSecond-order methods for convex optimization outperform first-order\
     \ methods in terms of theoretical iteration convergence, achieving rates up to\
     \ O(k\u22125) for highly-smooth functions. However, their practical performance\
@@ -296,36 +330,6 @@
   link: https://arxiv.org/abs/2410.04083
   pdf: https://arxiv.org/pdf/2410.04083
   title: 'OPTAMI: Global Superlinear Convergence of High-order Methods'
-  type: tpaper
-  year: '2024'
-- abstract: "\nNon-iid data is prevalent in real-world federated learning problems.\
-    \ Data heterogeneity can come in different types in terms of distribution shifts.\
-    \ In this work, we are interested in the heterogeneity that comes from concept\
-    \ shifts, i.e., shifts in the prediction across clients. In particular, we consider\
-    \ multi-task learning, where we want the model to adapt to the task of the client.\
-    \ We propose a parameter-efficient framework to tackle this issue, where each\
-    \ client learns to mix between parameter-efficient adaptors according to its task.\
-    \ We use Low-Rank Adaptors (LoRAs) as the backbone and extend its concept to other\
-    \ types of layers. We call our framework Federated Low-Rank Adaptive Learning\
-    \ (FLoRAL). This framework is not an algorithm but rather a model parameterization\
-    \ for a multi-task learning objective, so it can work on top of any algorithm\
-    \ that optimizes this objective, which includes many algorithms from the literature.\
-    \ FLoRAL is memory-efficient, and clients are personalized with small states (e.g.,\
-    \ one number per adaptor) as the adaptors themselves are federated. Hence, personalization\
-    \ is--in this sense--federated as well. Even though clients can personalize more\
-    \ freely by training an adaptor locally, we show that collaborative and efficient\
-    \ training of adaptors is possible and performs better. We also show that FLoRAL\
-    \ can outperform an ensemble of full models with optimal cluster assignment, which\
-    \ demonstrates the benefits of federated personalization and the robustness of\
-    \ FLoRAL to overfitting. We show promising experimental results on synthetic datasets,\
-    \ real-world federated multi-task problems such as MNIST, CIFAR-10, and CIFAR-100.\
-    \ We also provide a theoretical analysis of local SGD on a relaxed objective and\
-    \ discuss the effects of aggregation mismatch on convergence.\n\t\t"
-  authors: "Abdulla Jasem Almansoori, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D\
-    </strong>"
-  link: https://arxiv.org/abs/2410.03497
-  pdf: https://arxiv.org/pdf/2410.03497
-  title: Collaborative and Efficient Personalization with Mixtures of Adaptors
   type: tpaper
   year: '2024'
 - abstract: "\nDue to the non-smoothness of optimization problems in Machine Learning,\
@@ -1545,6 +1549,40 @@
     Constraints
   type: cpaper
   year: '2022'
+- abstract: "Problem definition: The beer game is widely used in supply chain management\
+    \ classes to demonstrate the bullwhip effect and the importance of supply chain\
+    \ coordination. The game is a decentralized, multiagent, cooperative problem that\
+    \ can be modeled as a serial supply chain network in which agents choose order\
+    \ quantities while cooperatively attempting to minimize the network\u2019s total\
+    \ cost, although each agent only observes local information. Academic/practical\
+    \ relevance: Under some conditions, a base-stock replenishment policy is optimal.\
+    \ However, in a decentralized supply chain in which some agents act irrationally,\
+    \ there is no known optimal policy for an agent wishing to act optimally. Methodology:\
+    \ We propose a deep reinforcement learning (RL) algorithm to play the beer game.\
+    \ Our algorithm makes no assumptions about costs or other settings. As with any\
+    \ deep RL algorithm, training is computationally intensive, but once trained,\
+    \ the algorithm executes in real time. We propose a transfer-learning approach\
+    \ so that training performed for one agent can be adapted quickly for other agents\
+    \ and settings. Results: When playing with teammates who follow a base-stock policy,\
+    \ our algorithm obtains near-optimal order quantities. More important, it performs\
+    \ significantly better than a base-stock policy when other agents use a more realistic\
+    \ model of human ordering behavior. We observe similar results using a real-world\
+    \ data set. Sensitivity analysis shows that a trained model is robust to changes\
+    \ in the cost coefficients. Finally, applying transfer learning reduces the training\
+    \ time by one order of magnitude. Managerial implications: This paper shows how\
+    \ artificial intelligence can be applied to inventory optimization. Our approach\
+    \ can be extended to other supply chain optimization problems, especially those\
+    \ in which supply chain partners act in irrational or unpredictable ways. Our\
+    \ RL agent has been integrated into a new online beer game, which has been played\
+    \ more than 17,000 times by more than 4,000 people."
+  authors: "Afshin OroojlooyJadid, MohammadReza Nazari, Lawrence Snyder, <strong>Martin\
+    \ Tak\xE1\u010D</strong>"
+  journal: Manufacturing and Service Operations Management
+  link: https://pubsonline.informs.org/doi/abs/10.1287/msom.2020.0939
+  title: 'A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory
+    Optimization'
+  type: jpaper
+  year: '2022'
 - abstract: This paper considers the problem of decentralized, personalized federated
     learning. For centralized personalized federated learning, a penalty that measures
     the deviation from the local model and its average, is often added to the objective
@@ -1862,40 +1900,6 @@
   pdf: http://proceedings.mlr.press/v130/jahani21a/jahani21a.pdf
   title: 'SONIA: A Symmetric Blockwise Truncated Optimization Algorithm'
   type: cpaper
-  year: '2021'
-- abstract: "Problem definition: The beer game is widely used in supply chain management\
-    \ classes to demonstrate the bullwhip effect and the importance of supply chain\
-    \ coordination. The game is a decentralized, multiagent, cooperative problem that\
-    \ can be modeled as a serial supply chain network in which agents choose order\
-    \ quantities while cooperatively attempting to minimize the network\u2019s total\
-    \ cost, although each agent only observes local information. Academic/practical\
-    \ relevance: Under some conditions, a base-stock replenishment policy is optimal.\
-    \ However, in a decentralized supply chain in which some agents act irrationally,\
-    \ there is no known optimal policy for an agent wishing to act optimally. Methodology:\
-    \ We propose a deep reinforcement learning (RL) algorithm to play the beer game.\
-    \ Our algorithm makes no assumptions about costs or other settings. As with any\
-    \ deep RL algorithm, training is computationally intensive, but once trained,\
-    \ the algorithm executes in real time. We propose a transfer-learning approach\
-    \ so that training performed for one agent can be adapted quickly for other agents\
-    \ and settings. Results: When playing with teammates who follow a base-stock policy,\
-    \ our algorithm obtains near-optimal order quantities. More important, it performs\
-    \ significantly better than a base-stock policy when other agents use a more realistic\
-    \ model of human ordering behavior. We observe similar results using a real-world\
-    \ data set. Sensitivity analysis shows that a trained model is robust to changes\
-    \ in the cost coefficients. Finally, applying transfer learning reduces the training\
-    \ time by one order of magnitude. Managerial implications: This paper shows how\
-    \ artificial intelligence can be applied to inventory optimization. Our approach\
-    \ can be extended to other supply chain optimization problems, especially those\
-    \ in which supply chain partners act in irrational or unpredictable ways. Our\
-    \ RL agent has been integrated into a new online beer game, which has been played\
-    \ more than 17,000 times by more than 4,000 people."
-  authors: "Afshin OroojlooyJadid, MohammadReza Nazari, Lawrence Snyder, <strong>Martin\
-    \ Tak\xE1\u010D</strong>"
-  journal: Manufacturing and Service Operations Management (accepted)
-  link: https://pubsonline.informs.org/doi/abs/10.1287/msom.2020.0939
-  title: 'A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory
-    Optimization'
-  type: jpaper
   year: '2021'
 - abstract: "Clustering and classification critically rely on distance metrics that\
     \ provide meaningful comparisons between data points. To this end, learning optimal\
