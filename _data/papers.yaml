@@ -1,3 +1,30 @@
+- abstract: "\nMachine learning (ML) is increasingly vital for smart-grid research,\
+    \ yet restricted access to realistic, diverse data - often due to privacy concerns\
+    \ - slows progress and fuels doubts within the energy sector about adopting ML-based\
+    \ strategies. We propose integrating Large Language Models (LLMs) in energy modeling\
+    \ to generate realistic, culturally sensitive, and behavior-specific data for\
+    \ household energy usage across diverse geographies. In this study, we employ\
+    \ and compare five different LLMs to systematically produce family structures,\
+    \ weather patterns, and daily consumption profiles for households in six distinct\
+    \ countries. A four-stage methodology synthesizes contextual daily data, including\
+    \ culturally nuanced activities, realistic weather ranges, HVAC operations, and\
+    \ distinct `energy signatures' that capture unique consumption footprints. Additionally,\
+    \ we explore an alternative strategy where external weather datasets can be directly\
+    \ integrated, bypassing intermediate weather modeling stages while ensuring physically\
+    \ consistent data inputs. The resulting dataset provides insights into how cultural,\
+    \ climatic, and behavioral factors converge to shape carbon emissions, offering\
+    \ a cost-effective avenue for scenario-based energy optimization. This approach\
+    \ underscores how prompt engineering, combined with knowledge distillation, can\
+    \ advance sustainable energy research and climate mitigation efforts. Source code\
+    \ is available at https://github.com/Singularity-AI-Lab/LLM-Energy-Knowledge-Distillation.\n\
+    \t\t"
+  authors: "Mohannad Takrouri, Nicolas M Cuadrado Avila, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  link: https://arxiv.org/abs/2502.03034
+  pdf: https://arxiv.org/pdf/2502.03034
+  title: Knowledge Distillation from Large Language Models for Household Energy Modeling
+  type: tpaper
+  year: '2025'
 - abstract: "\nWe introduce the concept of the self-referencing causal cycle (abbreviated\
     \ RECALL) - a mechanism that enables large language models (LLMs) to bypass the\
     \ limitations of unidirectional causality, which underlies a phenomenon known\
