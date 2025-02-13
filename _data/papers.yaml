@@ -1,3 +1,149 @@
+- abstract: "\nSecond-order methods for convex optimization outperform first-order\
+    \ methods in terms of theoretical iteration convergence, achieving rates up to\
+    \ O(k\u22125) for highly-smooth functions. However, their practical performance\
+    \ and applications are limited due to their multi-level structure and implementation\
+    \ complexity. In this paper, we present new results on high-order optimization\
+    \ methods, supported by their practical performance. First, we show that the basic\
+    \ high-order methods, such as the Cubic Regularized Newton Method, exhibit global\
+    \ superlinear convergence for \u03BC-strongly star-convex functions, a class that\
+    \ includes \u03BC-strongly convex functions and some non-convex functions. Theoretical\
+    \ convergence results are both inspired and supported by the practical performance\
+    \ of these methods. Secondly, we propose a practical version of the Nesterov Accelerated\
+    \ Tensor method, called NATA. It significantly outperforms the classical variant\
+    \ and other high-order acceleration techniques in practice. The convergence of\
+    \ NATA is also supported by theoretical results. Finally, we introduce an open-source\
+    \ computational library for high-order methods, called OPTAMI. This library includes\
+    \ various methods, acceleration techniques, and subproblem solvers, all implemented\
+    \ as PyTorch optimizers, thereby facilitating the practical application of high-order\
+    \ methods to a wide range of optimization problems. We hope this library will\
+    \ simplify research and practical comparison of methods beyond first-order.\n\t\
+    \t"
+  authors: "Dmitry Kamzolov, Dmitry Pasechnyuk, Artem Agafonov, Alexander Gasnikov,\
+    \ <strong>Martin Tak\xE1\u010D</strong>"
+  journal: ICLR 2025
+  link: https://arxiv.org/abs/2410.04083
+  pdf: https://arxiv.org/pdf/2410.04083
+  title: 'OPTAMI: Global Superlinear Convergence of High-order Methods'
+  type: cpaper
+  year: '2025'
+- abstract: "\nDue to the non-smoothness of optimization problems in Machine Learning,\
+    \ generalized smoothness assumptions have been gaining a lot of attention in recent\
+    \ years. One of the most popular assumptions of this type is (L0,L1)-smoothness\
+    \ (Zhang et al., 2020). In this paper, we focus on the class of (strongly) convex\
+    \ (L0,L1)-smooth functions and derive new convergence guarantees for several existing\
+    \ methods. In particular, we derive improved convergence rates for Gradient Descent\
+    \ with (Smoothed) Gradient Clipping and for Gradient Descent with Polyak Stepsizes.\
+    \ In contrast to the existing results, our rates do not rely on the standard smoothness\
+    \ assumption and do not suffer from the exponential dependency from the initial\
+    \ distance to the solution. We also extend these results to the stochastic case\
+    \ under the over-parameterization assumption, propose a new accelerated method\
+    \ for convex (L0,L1)-smooth optimization, and derive new convergence rates for\
+    \ Adaptive Gradient Descent (Malitsky and Mishchenko, 2020).\n\t\t"
+  authors: "Eduard Gorbunov, Nazarii Tupitsa, Sayantan Choudhury, Alen Aliev, Peter\
+    \ Richt\xE1rik, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D</strong>"
+  journal: ICLR 2025
+  link: https://arxiv.org/abs/2409.14989
+  pdf: https://arxiv.org/pdf/2409.14989
+  title: 'Methods for Convex (L0,L1)-Smooth Optimization: Clipping, Acceleration,
+    and Adaptivity'
+  type: cpaper
+  year: '2025'
+- abstract: "\nNon-convex Machine Learning problems typically do not adhere to the\
+    \ standard smoothness assumption. Based on empirical findings, Zhang et al. (2020b)\
+    \ proposed a more realistic generalized (L0,L1)-smoothness assumption, though\
+    \ it remains largely unexplored. Many existing algorithms designed for standard\
+    \ smooth problems need to be revised. However, in the context of Federated Learning,\
+    \ only a few works address this problem but rely on additional limiting assumptions.\
+    \ In this paper, we address this gap in the literature: we propose and analyze\
+    \ new methods with local steps, partial participation of clients, and Random Reshuffling\
+    \ without extra restrictive assumptions beyond generalized smoothness. The proposed\
+    \ methods are based on the proper interplay between clients' and server's stepsizes\
+    \ and gradient clipping. Furthermore, we perform the first analysis of these methods\
+    \ under the Polyak-\u0141 ojasiewicz condition. Our theory is consistent with\
+    \ the known results for standard smooth problems, and our experimental results\
+    \ support the theoretical insights.\n\t\t"
+  authors: "Yury Demidovich, Petr Ostroukhov, Grigory Malinovsky, Samuel Horv\xE1\
+    th, <strong>Martin Tak\xE1\u010D</strong>, Peter Richt\xE1rik, Eduard Gorbunov"
+  journal: ICLR 2025
+  link: https://arxiv.org/abs/2412.02781
+  pdf: https://arxiv.org/pdf/2412.02781
+  title: Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex
+    Federated Optimization
+  type: cpaper
+  year: '2025'
+- abstract: "\nThere are various measures of predictive uncertainty in the literature,\
+    \ but their relationships to each other remain unclear. This paper uses a decomposition\
+    \ of statistical pointwise risk into components associated with different sources\
+    \ of predictive uncertainty: namely, aleatoric uncertainty (inherent data variability)\
+    \ and epistemic uncertainty (model-related uncertainty). Together with Bayesian\
+    \ methods applied as approximations, we build a framework that allows one to generate\
+    \ different predictive uncertainty measures.\n\nWe validate measures, derived\
+    \ from our framework on image datasets by evaluating its performance in detecting\
+    \ out-of-distribution and misclassified instances using the AUROC metric. The\
+    \ experimental results confirm that the measures derived from our framework are\
+    \ useful for the considered downstream tasks.\n\t\t"
+  authors: "Nikita Kotelevskii, Vladimir Kondratyev, <strong>Martin Tak\xE1\u010D\
+    </strong>, Eric Moulines, Maxim Panov"
+  journal: ICLR 2025
+  pdf: https://openreview.net/pdf?id=cWfpt2t37q
+  title: 'From Risk to Uncertainty: Generating Predictive Uncertainty Measures via
+    Bayesian Estimation'
+  type: cpaper
+  year: '2025'
+- abstract: "\nStatistical data heterogeneity is a significant barrier to convergence\
+    \ in federated learning (FL). While prior work has advanced heterogeneous FL through\
+    \ better optimization objectives, these methods fall short when there is extreme\
+    \ data heterogeneity among collaborating participants. We hypothesize that convergence\
+    \ under extreme data heterogeneity is primarily hindered due to the aggregation\
+    \ of conflicting updates from the participants in the initial collaboration rounds.\
+    \ To overcome this problem, we propose a warmup phase where each participant learns\
+    \ a personalized mask and updates only a subnetwork of the full model. This personalized\
+    \ warmup allows the participants to focus initially on learning specific subnetworks\
+    \ tailored to the heterogeneity of their data. After the warmup phase, the participants\
+    \ revert to standard federated optimization, where all parameters are communicated.\
+    \ We empirically demonstrate that the proposed personalized warmup via subnetworks\
+    \ (FedPeWS) approach improves accuracy and convergence speed over standard federated\
+    \ optimization methods.\n\t\t"
+  authors: "Nurbek Tastan, Samuel Horvath, <strong>Martin Tak\xE1\u010D</strong>,\
+    \ Karthik Nandakumar"
+  journal: Conference on Parsimony and Learning (CPAL)
+  link: https://arxiv.org/abs/2410.03042
+  pdf: https://arxiv.org/pdf/2410.03042
+  title: 'FedPeWS: Personalized Warmup via Subnetworks for Enhanced Heterogeneous
+    Federated Learning'
+  type: cpaper
+  year: '2025'
+- abstract: "\nNon-iid data is prevalent in real-world federated learning problems.\
+    \ Data heterogeneity can come in different types in terms of distribution shifts.\
+    \ In this work, we are interested in the heterogeneity that comes from concept\
+    \ shifts, i.e., shifts in the prediction across clients. In particular, we consider\
+    \ multi-task learning, where we want the model to adapt to the task of the client.\
+    \ We propose a parameter-efficient framework to tackle this issue, where each\
+    \ client learns to mix between parameter-efficient adaptors according to its task.\
+    \ We use Low-Rank Adaptors (LoRAs) as the backbone and extend its concept to other\
+    \ types of layers. We call our framework Federated Low-Rank Adaptive Learning\
+    \ (FLoRAL). This framework is not an algorithm but rather a model parameterization\
+    \ for a multi-task learning objective, so it can work on top of any algorithm\
+    \ that optimizes this objective, which includes many algorithms from the literature.\
+    \ FLoRAL is memory-efficient, and clients are personalized with small states (e.g.,\
+    \ one number per adaptor) as the adaptors themselves are federated. Hence, personalization\
+    \ is--in this sense--federated as well. Even though clients can personalize more\
+    \ freely by training an adaptor locally, we show that collaborative and efficient\
+    \ training of adaptors is possible and performs better. We also show that FLoRAL\
+    \ can outperform an ensemble of full models with optimal cluster assignment, which\
+    \ demonstrates the benefits of federated personalization and the robustness of\
+    \ FLoRAL to overfitting. We show promising experimental results on synthetic datasets,\
+    \ real-world federated multi-task problems such as MNIST, CIFAR-10, and CIFAR-100.\
+    \ We also provide a theoretical analysis of local SGD on a relaxed objective and\
+    \ discuss the effects of aggregation mismatch on convergence.\n\t\t"
+  authors: "Abdulla Jasem Almansoori, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D\
+    </strong>"
+  journal: Conference on Parsimony and Learning (CPAL)
+  link: https://arxiv.org/abs/2410.03497
+  pdf: https://arxiv.org/pdf/2410.03497
+  title: Collaborative and Efficient Personalization with Mixtures of Adaptors
+  type: cpaper
+  year: '2025'
 - abstract: "\nMachine learning (ML) is increasingly vital for smart-grid research,\
     \ yet restricted access to realistic, diverse data - often due to privacy concerns\
     \ - slows progress and fuels doubts within the energy sector about adopting ML-based\
@@ -148,28 +294,6 @@
     Variants under (L0,L1)-Smoothness
   type: tpaper
   year: '2024'
-- abstract: "\nNon-convex Machine Learning problems typically do not adhere to the\
-    \ standard smoothness assumption. Based on empirical findings, Zhang et al. (2020b)\
-    \ proposed a more realistic generalized (L0,L1)-smoothness assumption, though\
-    \ it remains largely unexplored. Many existing algorithms designed for standard\
-    \ smooth problems need to be revised. However, in the context of Federated Learning,\
-    \ only a few works address this problem but rely on additional limiting assumptions.\
-    \ In this paper, we address this gap in the literature: we propose and analyze\
-    \ new methods with local steps, partial participation of clients, and Random Reshuffling\
-    \ without extra restrictive assumptions beyond generalized smoothness. The proposed\
-    \ methods are based on the proper interplay between clients' and server's stepsizes\
-    \ and gradient clipping. Furthermore, we perform the first analysis of these methods\
-    \ under the Polyak-\u0141 ojasiewicz condition. Our theory is consistent with\
-    \ the known results for standard smooth problems, and our experimental results\
-    \ support the theoretical insights.\n\t\t"
-  authors: "Yury Demidovich, Petr Ostroukhov, Grigory Malinovsky, Samuel Horv\xE1\
-    th, <strong>Martin Tak\xE1\u010D</strong>, Peter Richt\xE1rik, Eduard Gorbunov"
-  link: https://arxiv.org/abs/2412.02781
-  pdf: https://arxiv.org/pdf/2412.02781
-  title: Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex
-    Federated Optimization
-  type: tpaper
-  year: '2024'
 - abstract: "\nHyperbolic representation learning is well known for its ability to\
     \ capture hierarchical information. However, the distance between samples from\
     \ different levels of hierarchical classes can be required large. We reveal that\
@@ -248,106 +372,6 @@
   pdf: https://arxiv.org/pdf/2410.23862
   title: '$\psi$DAG: Projected Stochastic Approximation Iteration for DAG Structure
     Learning'
-  type: tpaper
-  year: '2024'
-- abstract: "\nStatistical data heterogeneity is a significant barrier to convergence\
-    \ in federated learning (FL). While prior work has advanced heterogeneous FL through\
-    \ better optimization objectives, these methods fall short when there is extreme\
-    \ data heterogeneity among collaborating participants. We hypothesize that convergence\
-    \ under extreme data heterogeneity is primarily hindered due to the aggregation\
-    \ of conflicting updates from the participants in the initial collaboration rounds.\
-    \ To overcome this problem, we propose a warmup phase where each participant learns\
-    \ a personalized mask and updates only a subnetwork of the full model. This personalized\
-    \ warmup allows the participants to focus initially on learning specific subnetworks\
-    \ tailored to the heterogeneity of their data. After the warmup phase, the participants\
-    \ revert to standard federated optimization, where all parameters are communicated.\
-    \ We empirically demonstrate that the proposed personalized warmup via subnetworks\
-    \ (FedPeWS) approach improves accuracy and convergence speed over standard federated\
-    \ optimization methods.\n\t\t"
-  authors: "Nurbek Tastan, Samuel Horvath, <strong>Martin Tak\xE1\u010D</strong>,\
-    \ Karthik Nandakumar"
-  link: https://arxiv.org/abs/2410.03042
-  pdf: https://arxiv.org/pdf/2410.03042
-  title: 'FedPeWS: Personalized Warmup via Subnetworks for Enhanced Heterogeneous
-    Federated Learning'
-  type: tpaper
-  year: '2024'
-- abstract: "\nSecond-order methods for convex optimization outperform first-order\
-    \ methods in terms of theoretical iteration convergence, achieving rates up to\
-    \ O(k\u22125) for highly-smooth functions. However, their practical performance\
-    \ and applications are limited due to their multi-level structure and implementation\
-    \ complexity. In this paper, we present new results on high-order optimization\
-    \ methods, supported by their practical performance. First, we show that the basic\
-    \ high-order methods, such as the Cubic Regularized Newton Method, exhibit global\
-    \ superlinear convergence for \u03BC-strongly star-convex functions, a class that\
-    \ includes \u03BC-strongly convex functions and some non-convex functions. Theoretical\
-    \ convergence results are both inspired and supported by the practical performance\
-    \ of these methods. Secondly, we propose a practical version of the Nesterov Accelerated\
-    \ Tensor method, called NATA. It significantly outperforms the classical variant\
-    \ and other high-order acceleration techniques in practice. The convergence of\
-    \ NATA is also supported by theoretical results. Finally, we introduce an open-source\
-    \ computational library for high-order methods, called OPTAMI. This library includes\
-    \ various methods, acceleration techniques, and subproblem solvers, all implemented\
-    \ as PyTorch optimizers, thereby facilitating the practical application of high-order\
-    \ methods to a wide range of optimization problems. We hope this library will\
-    \ simplify research and practical comparison of methods beyond first-order.\n\t\
-    \t"
-  authors: "Dmitry Kamzolov, Dmitry Pasechnyuk, Artem Agafonov, Alexander Gasnikov,\
-    \ <strong>Martin Tak\xE1\u010D</strong>"
-  link: https://arxiv.org/abs/2410.04083
-  pdf: https://arxiv.org/pdf/2410.04083
-  title: 'OPTAMI: Global Superlinear Convergence of High-order Methods'
-  type: tpaper
-  year: '2024'
-- abstract: "\nNon-iid data is prevalent in real-world federated learning problems.\
-    \ Data heterogeneity can come in different types in terms of distribution shifts.\
-    \ In this work, we are interested in the heterogeneity that comes from concept\
-    \ shifts, i.e., shifts in the prediction across clients. In particular, we consider\
-    \ multi-task learning, where we want the model to adapt to the task of the client.\
-    \ We propose a parameter-efficient framework to tackle this issue, where each\
-    \ client learns to mix between parameter-efficient adaptors according to its task.\
-    \ We use Low-Rank Adaptors (LoRAs) as the backbone and extend its concept to other\
-    \ types of layers. We call our framework Federated Low-Rank Adaptive Learning\
-    \ (FLoRAL). This framework is not an algorithm but rather a model parameterization\
-    \ for a multi-task learning objective, so it can work on top of any algorithm\
-    \ that optimizes this objective, which includes many algorithms from the literature.\
-    \ FLoRAL is memory-efficient, and clients are personalized with small states (e.g.,\
-    \ one number per adaptor) as the adaptors themselves are federated. Hence, personalization\
-    \ is--in this sense--federated as well. Even though clients can personalize more\
-    \ freely by training an adaptor locally, we show that collaborative and efficient\
-    \ training of adaptors is possible and performs better. We also show that FLoRAL\
-    \ can outperform an ensemble of full models with optimal cluster assignment, which\
-    \ demonstrates the benefits of federated personalization and the robustness of\
-    \ FLoRAL to overfitting. We show promising experimental results on synthetic datasets,\
-    \ real-world federated multi-task problems such as MNIST, CIFAR-10, and CIFAR-100.\
-    \ We also provide a theoretical analysis of local SGD on a relaxed objective and\
-    \ discuss the effects of aggregation mismatch on convergence.\n\t\t"
-  authors: "Abdulla Jasem Almansoori, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D\
-    </strong>"
-  link: https://arxiv.org/abs/2410.03497
-  pdf: https://arxiv.org/pdf/2410.03497
-  title: Collaborative and Efficient Personalization with Mixtures of Adaptors
-  type: tpaper
-  year: '2024'
-- abstract: "\nDue to the non-smoothness of optimization problems in Machine Learning,\
-    \ generalized smoothness assumptions have been gaining a lot of attention in recent\
-    \ years. One of the most popular assumptions of this type is (L0,L1)-smoothness\
-    \ (Zhang et al., 2020). In this paper, we focus on the class of (strongly) convex\
-    \ (L0,L1)-smooth functions and derive new convergence guarantees for several existing\
-    \ methods. In particular, we derive improved convergence rates for Gradient Descent\
-    \ with (Smoothed) Gradient Clipping and for Gradient Descent with Polyak Stepsizes.\
-    \ In contrast to the existing results, our rates do not rely on the standard smoothness\
-    \ assumption and do not suffer from the exponential dependency from the initial\
-    \ distance to the solution. We also extend these results to the stochastic case\
-    \ under the over-parameterization assumption, propose a new accelerated method\
-    \ for convex (L0,L1)-smooth optimization, and derive new convergence rates for\
-    \ Adaptive Gradient Descent (Malitsky and Mishchenko, 2020).\n\t\t"
-  authors: "Eduard Gorbunov, Nazarii Tupitsa, Sayantan Choudhury, Alen Aliev, Peter\
-    \ Richt\xE1rik, Samuel Horv\xE1th, <strong>Martin Tak\xE1\u010D</strong>"
-  link: https://arxiv.org/abs/2409.14989
-  pdf: https://arxiv.org/pdf/2409.14989
-  title: 'Methods for Convex (L0,L1)-Smooth Optimization: Clipping, Acceleration,
-    and Adaptivity'
   type: tpaper
   year: '2024'
 - abstract: "\nVariational inequalities represent a broad class of problems, including\
