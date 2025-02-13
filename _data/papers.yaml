@@ -89,10 +89,11 @@
     \ and SCAFFOLD outperform MbSGD.\n\t\t"
   authors: "Ruichen Luo, Sebastian U Stich, Samuel Horv\xE1th, <strong>Martin Tak\xE1\
     \u010D</strong>"
+  journal: AISTATS 2025
   link: https://arxiv.org/abs/2501.04443
   pdf: https://arxiv.org/pdf/2501.04443
   title: 'Revisiting LocalSGD and SCAFFOLD: Improved Rates and Missing Analysis'
-  type: tpaper
+  type: cpaper
   year: '2025'
 - abstract: "\nThe success of Deep Neural Network (DNN) models significantly depends\
     \ on the quality of provided annotations. In medical image segmentation, for example,\
