@@ -125,6 +125,16 @@
     image: grigoryKoroteev.jpeg
     name: Grigory Koroteev
     to: present
+  - col: {}
+    from: 2025
+    image: Zangir_Iklassov.jpg
+    name: Zangir Iklassov
+    to: present
+  - col: {}
+    from: 2025
+    image: AripAsadulaev.jpeg
+    name: Arip Asadulaev
+    to: present
   label: Postdoc [MBZUAI]
 - items:
   - col: {}
@@ -194,7 +204,7 @@
     from: 2021
     image: Zangir_Iklassov.jpg
     name: Zangir Iklassov
-    to: present
+    to: 2024
   - col: {}
     from: 2022
     image: Artem_Agafonov.jpg
